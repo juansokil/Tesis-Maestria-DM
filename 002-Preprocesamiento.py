@@ -6,7 +6,8 @@ Created on Fri Apr 20 21:19:06 2018
 """
 import pandas as pd
 
-base_genero = pd.read_csv("../base_completa/base.csv", sep='\t', encoding='latin1')
+
+base_genero = pd.read_csv("./base_completa/base.csv", sep='\t', encoding='latin1')
 base_genero = base_genero.set_index('id')
 
 #pasa a minuscula
@@ -33,9 +34,13 @@ base_genero['Resumen_ok'].str.len()
 base_genero=base_genero.head(n=100)
 
 
-#### Postagger
+
 from nltk import word_tokenize, pos_tag
 cantidad = len(base_genero['Resumen_ok'])
+cantidad
+
+#### Postagger
+
 
 ###Tageo cada abstract
 pos = []
@@ -92,8 +97,6 @@ etiquetador['tag'] = etiquetador['tag'].str.replace('VB','v')
 
 
 
-
-
 #####Corre el postagger solo para los 4 tipos de palabras
 palabras_tag_completo = []
 for i in range(len(etiquetador)):
@@ -101,7 +104,62 @@ for i in range(len(etiquetador)):
         print(wordnet_lemmatizer.lemmatize(etiquetador['palabra'][i], etiquetador['tag'][i]))
         palabras_tag=wordnet_lemmatizer.lemmatize(etiquetador['palabra'][i], etiquetador['tag'][i])
         palabras_tag_completo.append(palabras_tag)
+    else:
+        palabras_tag_completo.append(etiquetador['palabra'][i])
         #palabras_tag.append(wordnet_lemmatizer.lemmatize(etiquetador['palabra'][i], etiquetador['tag'][i])
 
 
 
+
+
+###GENERA UN DATA FRAME CON TODAS LAS PALABRAS Y TAGS (ME GUSTA MAS ESTA VERSION)
+df1 = pd.DataFrame(etiquetador)
+df2 = pd.DataFrame(palabras_tag_completo)
+etiquetados = pd.concat([df1,df2],  axis=1)
+etiquetados.columns = ['nro', 'palabra', 'tag', 'palabra_corregida']
+
+
+etiquetados['control']= etiquetados['palabra']==etiquetados['palabra_corregida']
+
+
+
+
+
+
+
+####TOKENS VOLVER A JUNTARLO
+tokens = []
+for i in range(cantidad):
+    tokens.append(word_tokenize(base_genero['Resumen_ok'][i]))
+
+import re
+def untokenize(words):
+    """
+    Untokenizing a text undoes the tokenizing operation, restoring
+    punctuation and spaces to the places that people expect them to be.
+    Ideally, `untokenize(tokenize(text))` should be identical to `text`,
+    except for line breaks.
+    """
+    text = ' '.join(words)
+    step1 = text.replace("`` ", '"').replace(" ''", '"').replace('. . .',  '...')
+    step2 = step1.replace(" ( ", " (").replace(" ) ", ") ")
+    step3 = re.sub(r' ([.,:;?!%]+)([ \'"`])', r"\1\2", step2)
+    step4 = re.sub(r' ([.,:;?!%]+)$', r"\1", step3)
+    step5 = step4.replace(" '", "'").replace(" n't", "n't").replace(
+         "can not", "cannot")
+    step6 = step5.replace(" ` ", " '")
+    return step6.strip()
+
+for i in range(cantidad):
+    untokenize(tokens[i])
+
+
+tokens[23]
+##chequea
+untokenize(tokens[23])
+
+
+
+
+
+ 
