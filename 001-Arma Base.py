@@ -4,10 +4,10 @@ import csv
 import os
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 
-path = ('C:/Users/Juan/Dropbox/POSGRADOS/Uba/99-Tesis/SCRIPTS/bases_genero')
+
+path = ('C:/Users/Juan/Dropbox/POSGRADOS/Uba/99-Tesis/SCRIPTS/scripts/bases_genero/')
 files = os.listdir(path)
 files
 os.getcwd()

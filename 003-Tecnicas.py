@@ -10,12 +10,15 @@ import numpy as np
 import nltk
 import sklearn
 
-base_genero = pd.read_csv("../base_completa/base_genero.csv", sep='\t')
+
+base_genero = pd.read_csv("../base_completa/base.csv", sep='\t', encoding='latin1')
+base_genero = base_genero.set_index('id')
+
+base_genero=base_genero.head(n=500)
 
 #https://medium.com/mlreview/topic-modeling-with-scikit-learn-e80d33668730
 
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
-
 from __future__ import print_function
 from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -44,6 +47,11 @@ bagofwords.shape
 tf_feature_names = tf_vectorizer.get_feature_names()
 vocab = tf_vectorizer.get_feature_names()
 len(vocab)
+
+#### lo arma para el dic
+####vocab_completo = ' '.join(vocab)
+
+
 
 
 ###NON MATRIX FACTORIZATION
@@ -110,6 +118,9 @@ similarity.shape
 ####TENGO QUE CONVERTIR EL VOCABULARIO A UNA SERIE LA LISTA PARA PODER INCLUIRLO EN EL CORPORA YA QUE POR EL MOMENTO UTILIZA LA SERIE PALABRAS
 
 
+
+
+
 #Lda - Identificar topicos 
 
 no_topics = 20
@@ -118,15 +129,25 @@ lda = LatentDirichletAllocation(n_topics=no_topics, max_iter=5, learning_method=
 
 
 
+#vocabulario= vocab.tolist()
+#vocab = pd.Series( (v for v in vocab) )
+
+
 
 import gensim
 from gensim import corpora, models
-dictionary=corpora.Dictionary(palabras)
+
+texts = [[word for word in document.lower().split()] for document in base_genero['Resumen']]
+dictionary = corpora.Dictionary(texts)
+
 #dictionary.save('dictionary.dict')
 print(dictionary)
 
-corpus =[dictionary.doc2bow(doc) for doc in palabras]
-ldamodel = gensim.models.ldamodel.LdaModel (corpus, num_topics=20, id2word=dictionary, passes=50)
+corpus = [dictionary.doc2bow(text) for text in texts]
+
+
+
+ldamodel = gensim.models.ldamodel.LdaModel (corpus, id2word=dictionary, num_topics=20,  passes=50)
 print(ldamodel.print_topics(num_topics=20, num_words=10))
 
 
@@ -134,11 +155,13 @@ print(ldamodel.print_topics(num_topics=20, num_words=10))
 for i in ldamodel.print_topics(): 
     for j in i: print (j)
     
-ldamodel.save('topic.model')
-from gensim.models import LdaModel
-loading = LdaModel.load('topic.model')
+#ldamodel.save('topic.model')
+#from gensim.models import LdaModel
+#loading = LdaModel.load('topic.model')
 
-print(loading.print_topics(num_topics=2, num_words=4))
+
+
+
 
 
 

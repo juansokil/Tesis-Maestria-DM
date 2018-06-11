@@ -6,8 +6,7 @@ Created on Fri Apr 20 21:19:06 2018
 """
 import pandas as pd
 
-
-base_genero = pd.read_csv("./base_completa/base.csv", sep='\t', encoding='latin1')
+base_genero = pd.read_csv("../base_completa/base.csv", sep='\t', encoding='latin1')
 base_genero = base_genero.set_index('id')
 
 #pasa a minuscula
@@ -15,29 +14,20 @@ base_genero['Resumen'] = base_genero['Resumen'].str.lower()
 #Largo de cada abstract
 base_genero['Resumen'].str.len()
 
-
 base_genero['Resumen_ok'] = base_genero.Titulo.astype(str).str.cat(base_genero.Resumen.astype(str), sep=' ')
 base_genero['Resumen_ok'] = base_genero['Resumen_ok'].str.lower()  
 
 
 
-#Eliminar stopwords
-from nltk.corpus import stopwords
-base_genero['Resumen_ok'] = base_genero.Titulo.astype(str).str.cat(base_genero.Resumen.astype(str), sep=' ')
-#Elimina stopwords
-stop = stopwords.words('english')
-base_genero['Resumen_ok'] = base_genero['Resumen_ok'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop)]))
-#Elimina numeros
-base_genero['Resumen_ok'] = base_genero['Resumen_ok'].str.replace('\d+', '')
-base_genero['Resumen_ok'].str.len()
 
 base_genero=base_genero.head(n=100)
 
 
 
-from nltk import word_tokenize, pos_tag
+from nltk import word_tokenize, pos_tag, sent_tokenize
 cantidad = len(base_genero['Resumen_ok'])
 cantidad
+
 
 #### Postagger
 
@@ -117,20 +107,34 @@ df1 = pd.DataFrame(etiquetador)
 df2 = pd.DataFrame(palabras_tag_completo)
 etiquetados = pd.concat([df1,df2],  axis=1)
 etiquetados.columns = ['nro', 'palabra', 'tag', 'palabra_corregida']
-
-
 etiquetados['control']= etiquetados['palabra']==etiquetados['palabra_corregida']
 
 
 
 
+etiquetadosfinal = etiquetados[['nro', 'palabra_corregida']]
+
+
+lista1 = list(etiquetadosfinal['nro'].values.flatten())
+lista2 = list(etiquetadosfinal['palabra_corregida'].values.flatten())
+
+listatotal = [lista1,lista2]
+
+
+pandas_df = pd.DataFrame(listatotal)
+pandas_df=pandas_df.T
+
+pandas_df.columns = ['nro', 'palabra']
 
 
 
-####TOKENS VOLVER A JUNTARLO
-tokens = []
-for i in range(cantidad):
-    tokens.append(word_tokenize(base_genero['Resumen_ok'][i]))
+#####  ESTO FUNCIONA SOLO QUE LOS JUNTAS TODOS, TENDRIA QUE HACER UNO PARA CADA CASO
+####LLEGUE HASTA ACA, TENGO UN DATA FRAME CON TODAS LAS PALABRAS
+
+
+ 
+ejemplo = pandas_df['palabra'].tolist()
+
 
 import re
 def untokenize(words):
@@ -150,16 +154,25 @@ def untokenize(words):
     step6 = step5.replace(" ` ", " '")
     return step6.strip()
 
-for i in range(cantidad):
-    untokenize(tokens[i])
 
 
-tokens[23]
-##chequea
-untokenize(tokens[23])
-
-
+untokenize(ejemplo)
 
 
 
  
+
+
+
+####Hace clean de la base
+
+#Eliminar stopwords
+from nltk.corpus import stopwords
+base_genero['Resumen_ok'] = base_genero.Titulo.astype(str).str.cat(base_genero.Resumen.astype(str), sep=' ')
+#Elimina stopwords
+stop = stopwords.words('english')
+base_genero['Resumen_ok'] = base_genero['Resumen_ok'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop)]))
+#Elimina numeros
+base_genero['Resumen_ok'] = base_genero['Resumen_ok'].str.replace('\d+', '')
+base_genero['Resumen_ok'].str.len()
+
