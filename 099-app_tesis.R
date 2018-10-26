@@ -6,6 +6,8 @@ library(ggplot2)
 library(stringr)
 library(dplyr)
 library(here)
+library(maptools)
+library(maps)
 
 #setwd("C:/Users/observatorio/Documents/Scripts-Tesis2")
 
@@ -39,9 +41,11 @@ tsne6$year <- 2008
 base_topic <- rbind(tsne, tsne2, tsne3, tsne4, tsne5, tsne6)
 
 
+world <- map_data("world") 
+
 
 ####RELEVANCE#####
-base_topic$prob <- base_topic$loglift*0.4+base_topic$logprob*0.6
+base_topic$prob <- (base_topic$loglift*0.4+base_topic$logprob*0.6)*-1
 base_topic2 <- base_topic %>%
   select (Category,  Term, year, prob)
 
@@ -67,7 +71,7 @@ tabsetPanel(type = "tabs",
             tabPanel("Plot", plotOutput(outputId = "distPlot", width  = "500px",height = "500px")),
             tabPanel("Evolucion palabras", plotOutput(outputId = "distPlot2", width  = "500px",height = "500px")),
             tabPanel("Palabras Temporal", plotOutput(outputId = "distPlot3", width  = "700px",height = "900px")),
-            tabPanel("Analisis Regional")
+            tabPanel("Analisis Regional", plotOutput(outputId = "distPlot4", width  = "800px",height = "500px"))
 )
 )))
 
@@ -124,6 +128,14 @@ server <- function(input, output, session) {
       coord_flip()  +
       theme(axis.title.y = element_blank(),legend.position="none") 
   })
+  
+  
+  output$distPlot4 <- renderPlot({
+  ggplot(data = world) +
+    geom_polygon(aes(x = long, y = lat,  group = group))  + 
+    theme_bw() 
+  })
+  
   
 }
 

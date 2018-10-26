@@ -5,9 +5,9 @@ account: juanpablosokil
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 536955
-bundleId: 1665134
+bundleId: 1665228
 url: https://juanpablosokil.shinyapps.io/app_tesis/
-when: 1540575604.73083
+when: 1540578363.78751
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: 001-Arma Base.py|002-Preprocesamiento.py|003-Tecnicas.py|005-Arma Grafo.py|bases_genero/scopus001.csv|bases_genero/scopus002.csv|resultados/vis.html
