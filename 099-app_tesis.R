@@ -1,3 +1,4 @@
+
 ### LIBRERIAS###
 library(shiny)
 library(data.table)
@@ -6,18 +7,27 @@ library(stringr)
 library(dplyr)
 library(here)
 
+#setwd("C:/Users/observatorio/Documents/Scripts-Tesis2")
+
+####Conector Shiny###
+
+rsconnect::setAccountInfo(name='juanpablosokil', 
+                          token='7499F5689D7DC0540DB1D96DCC05DB0F', 
+                          secret='YanlwsVRMkrfX3dy3tAXnHttmNZh1lcXZME/IISR')
+
+
 ####### BASES ######
-
-
-base <- fread(here('/Scripts-Tesis/App_Tesis/base/base.txt'), sep='\t', encoding='Latin-1')
+#base <- fread('./base_app/base.txt', sep='\t', encoding='Latin-1')
+base <- fread(here('/base_app/base.txt'), sep='\t', encoding='Latin-1')
 base$topico <- str_sub(base$term, -1)
 
-tsne <- fread(here('/Scripts-Tesis/App_Tesis/base/datos_tsne_DTM1.csv'), sep='\t')
-tsne2 <- fread(here('/Scripts-Tesis/App_Tesis/base/datos_tsne_DTM2.csv'), sep='\t')
-tsne3 <- fread(here('/Scripts-Tesis/App_Tesis/base/datos_tsne_DTM3.csv'), sep='\t')
-tsne4 <- fread(here('/Scripts-Tesis/App_Tesis/base/datos_tsne_DTM4.csv'), sep='\t')
-tsne5 <- fread(here('/Scripts-Tesis/App_Tesis/base/datos_tsne_DTM5.csv'), sep='\t')
-tsne6 <- fread(here('/Scripts-Tesis/App_Tesis/base/datos_tsne_DTM6.csv'), sep='\t')
+tsne <- fread(here('/base_app/datos_tsne_DTM1.csv'), sep='\t')
+tsne2 <- fread(here('/base_app/datos_tsne_DTM2.csv'), sep='\t')
+tsne3 <- fread(here('/base_app/datos_tsne_DTM3.csv'), sep='\t')
+tsne4 <- fread(here('/base_app/datos_tsne_DTM4.csv'), sep='\t')
+tsne5 <- fread(here('/base_app/datos_tsne_DTM5.csv'), sep='\t')
+tsne6 <- fread(here('/base_app/datos_tsne_DTM6.csv'), sep='\t')
+
 
 tsne$year <- 2003
 tsne2$year <- 2004
@@ -50,13 +60,16 @@ ui <- fluidPage(
   titlePanel("Aplicacion ejemplo"),
   sidebarLayout(sidebarPanel(checkboxGroupInput("topico", "topico:", choices=unique(base$term)),
                              sliderInput("year", "year:", min=2003, max=2008, value=2003, animate =TRUE)),
-  mainPanel( fluidRow(
-    column(2,
-           plotOutput(outputId = "distPlot", width  = "300px",height = "200px"),  
-           plotOutput(outputId = "distPlot2", width  = "300px",height = "200px")),
-    fluidRow(plotOutput(outputId = "distPlot3", width  = "500px",height = "200px"))
-  ))))
+  
 
+mainPanel(
+tabsetPanel(type = "tabs",
+            tabPanel("Plot", plotOutput(outputId = "distPlot", width  = "500px",height = "500px")),
+            tabPanel("Evolucion palabras", plotOutput(outputId = "distPlot2", width  = "500px",height = "500px")),
+            tabPanel("Palabras Temporal", plotOutput(outputId = "distPlot3", width  = "700px",height = "900px")),
+            tabPanel("Analisis Regional")
+)
+)))
 
 server <- function(input, output, session) {
   base2 <- reactive({
@@ -69,8 +82,8 @@ server <- function(input, output, session) {
   
   output$distPlot <- renderPlot({
     ggplot(base2(), aes(year, prob, color=term)) + 
-      geom_point(size=2) +
-      geom_line(size=3) +
+      geom_point(size=5) +
+      geom_line(size=2, linetype = "dashed", alpha=0.5) +
       scale_y_continuous(limits = c(0, 2)) +
       theme(axis.title.y = element_blank(), legend.position="none") 
   })
