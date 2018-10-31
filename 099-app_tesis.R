@@ -12,9 +12,11 @@ library(maps)
 library(readr)
 library(tidyr)
 library(plotly)
-#install.packages("directlabels")
 library(directlabels)
 library(ggrepel)
+library(shinyWidgets)
+library(treemap)
+
 #setwd("C:/Users/observatorio/Documents/Scripts-Tesis2")
 
 ####Conector Shiny###
@@ -98,7 +100,7 @@ base_topic_total2 <- base_topic_total2 %>%
 
 base_topic_total2 <- base_topic_total2 %>%
   group_by(term) %>%
-  top_n(15, Relevance) %>%
+  top_n(10, Relevance) %>%
   ungroup() %>%
   arrange(term, desc(-Relevance))
 
@@ -110,30 +112,23 @@ world <- map_data("world")
 
 ######################################################################
 
-
-primeros=c('T1'='topico01','T2'='topico02','T3'='topico03','T4'='topico04','T5'='topico05','T6'='topico06','T7'='topico07','T8'='topico08','T9'='topico09','T10'='topico10','T11'='topico11','T12'='topico12','T13'='topico13','T14'='topico14','T15'='topico15','T16'='topico16','T17'='topico17','T18'='topico18','T19'='topico19','T20'='topico20','T21'='topico21','T22'='topico22','T23'='topico23','T24'='topico24','T25'='topico25','T26'='topico26','T27'='topico27','T28'='topico28','T29'='topico29','T30'='topico30','T31'='topico31','T32'='topico32','T33'='topico33','T34'='topico34')
-segundos=c('T35'='topico35','T36'='topico36','T37'='topico37','T38'='topico38','T39'='topico39','T40'='topico40','T41'='topico41','T42'='topico42','T43'='topico43','T44'='topico44','T45'='topico45','T46'='topico46','T47'='topico47','T48'='topico48','T49'='topico49','T50'='topico50','T51'='topico51','T52'='topico52','T53'='topico53','T54'='topico54','T55'='topico55','T56'='topico56','T57'='topico57','T58'='topico58','T59'='topico59','T60'='topico60','T61'='topico61','T62'='topico62','T63'='topico63','T64'='topico64','T65'='topico65','T66'='topico66','T67'='topico67','T68'='topico68')
-terceros=c('T69'='topico69','T70'='topico70','T71'='topico71','T72'='topico72','T73'='topico73','T74'='topico74','T75'='topico75','T76'='topico76','T77'='topico77','T78'='topico78','T79'='topico79','T80'='topico80','T81'='topico81','T82'='topico82','T83'='topico83','T84'='topico84','T85'='topico85','T86'='topico86','T87'='topico87','T88'='topico88','T89'='topico89','T90'='topico90','T91'='topico91','T92'='topico92','T93'='topico93','T94'='topico94','T95'='topico95','T96'='topico96','T97'='topico97','T98'='topico98','T99'='topico99','T100'='topico100')
-
-
-
+global_periodos_disponibles <- c('T1'='topico01','T2'='topico02','T3'='topico03','T4'='topico04','T5'='topico05','T6'='topico06','T7'='topico07','T8'='topico08','T9'='topico09','T10'='topico10','T11'='topico11','T12'='topico12','T13'='topico13','T14'='topico14','T15'='topico15','T16'='topico16','T17'='topico17','T18'='topico18','T19'='topico19','T20'='topico20','T21'='topico21','T22'='topico22','T23'='topico23','T24'='topico24','T25'='topico25','T26'='topico26','T27'='topico27','T28'='topico28','T29'='topico29','T30'='topico30','T31'='topico31','T32'='topico32','T33'='topico33','T34'='topico34',
+                                 'T35'='topico35','T36'='topico36','T37'='topico37','T38'='topico38','T39'='topico39','T40'='topico40','T41'='topico41','T42'='topico42','T43'='topico43','T44'='topico44','T45'='topico45','T46'='topico46','T47'='topico47','T48'='topico48','T49'='topico49','T50'='topico50','T51'='topico51','T52'='topico52','T53'='topico53','T54'='topico54','T55'='topico55','T56'='topico56','T57'='topico57','T58'='topico58','T59'='topico59','T60'='topico60','T61'='topico61','T62'='topico62','T63'='topico63','T64'='topico64','T65'='topico65','T66'='topico66','T67'='topico67','T68'='topico68',
+                                 'T69'='topico69','T70'='topico70','T71'='topico71','T72'='topico72','T73'='topico73','T74'='topico74','T75'='topico75','T76'='topico76','T77'='topico77','T78'='topico78','T79'='topico79','T80'='topico80','T81'='topico81','T82'='topico82','T83'='topico83','T84'='topico84','T85'='topico85','T86'='topico86','T87'='topico87','T88'='topico88','T89'='topico89','T90'='topico90','T91'='topico91','T92'='topico92','T93'='topico93','T94'='topico94','T95'='topico95','T96'='topico96','T97'='topico97','T98'='topico98','T99'='topico99','T100'='topico100')
 
 ###############APLICACION SHINY##################
 
-
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-  titlePanel("Explorador de Topicos - Estudios sobre Genero"),
-  sidebarLayout(sidebarPanel(fluidRow(
-    column(4,checkboxGroupInput("topico1", "", choices=primeros)),
-    column(4,checkboxGroupInput("topico2", "", choices=segundos)),
-    column(4,checkboxGroupInput("topico3", "", choices=terceros))), width = 3),
+  titlePanel("Explorador sobre produccion cientifica sobre Genero"),
+  sidebarLayout(sidebarPanel(
+    pickerInput(inputId = "topico", label = "Seleccione los topicos",  choices = global_periodos_disponibles, options = list('actions-box' = TRUE, size = 8,'selected-text-format' = "count > 3",'deselect-all-text' = "Ninguno", 'select-all-text' = "Todos",'none-selected-text' = "Sin Seleccion",'count-selected-text' = "{0} seleccionados."), multiple = TRUE),
+    sliderInput("year", "Evolucion anual de las palabras:", min=2003, max=2017, value=2003, animate =TRUE)),
     mainPanel(
       tabsetPanel(type = "tabs",
-                  tabPanel("Caracterizacion Topico",
+                  tabPanel("Treemap", plotOutput(outputId = "treemap", height= "800px")),
+                  tabPanel("Evolucion Topico",
                            fluidRow(plotOutput(outputId = "distPlot",height = "400px"))
-                           #,fluidRow(sliderInput("year", "Evolucion anual de las palabras:", min=2003, max=2017, value=2003, animate =TRUE))
-                           ,fluidRow(plotOutput(outputId = "distPlot3", height = "500px"))
                   ),
                   tabPanel("Evolucion Terminos", plotOutput(outputId = "distPlot2", height= "800px")),
                   tabPanel("Analisis Regional", plotOutput(outputId = "distPlot4", width  = "600px",height = "600px"))
@@ -145,7 +140,7 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
   base2 <- reactive({
-    a <- base %>% filter(term %in% input$topico1 | term %in% input$topico2 | term %in% input$topico3)
+    a <- base %>% filter(term %in% input$topico)
     a <- data.frame(a)
     a$year <- as.integer(a$year)
     return(a)
@@ -163,29 +158,10 @@ server <- function(input, output, session) {
       theme(legend.title=element_blank(), axis.title.y = element_blank(), legend.position="bottom") 
   })
   
-  
-  
-  base4 <- reactive({
-    a <- base_topic_total2 %>% filter((term %in% input$topico1 | term %in% input$topico2 | term %in% input$topico3)) %>% arrange(desc(importancia)) 
-    a <- data.frame(a)
-    return(a)
-  })
-  
-  
-  
-  
-  output$distPlot3 <- renderPlot({
-    ggplot(base4(), aes(x=word, y=importancia, color=term, fill=term)) + 
-      geom_bar(stat='identity') +
-      scale_y_continuous(limits = c(0, 3)) +
-      coord_flip()  +
-      theme(axis.title.y = element_blank(),legend.position="none") 
-  })
-  
-  
+
   
   base3 <- reactive({
-    a <- base_topic2 %>% filter(term %in% input$topico1 | term %in% input$topico2 | term %in% input$topico3)  %>% arrange(desc(importancia)) 
+    a <- base_topic2 %>% filter(term %in% input$topico)
     a <- data.frame(a)
     return(a)
     
@@ -213,6 +189,36 @@ server <- function(input, output, session) {
   })
   
   
+  
+  output$treemap <- renderPlot({
+    progress <- Progress$new(session, min=1, max=15)
+    on.exit(progress$close())
+    
+    progress$set(message = 'Espere por favor',
+                 detail = 'La carga Inicial de datos puede tardar mas de 1 minuto')
+    
+    for (i in 1:1000) {
+      progress$set(value = i)
+      Sys.sleep(0.5)
+    }
+    
+    
+    treemap(base_topic_total2, #Your data frame object
+            index=c("term","word"),  #A list of your categorical variables
+            vSize = "importancia",  #This is your quantitative variable
+            type="index", #Type sets the organization and color scheme of your treemap
+            palette = "Reds",  #Select your color palette from the RColorBrewer presets or make your own.
+            title="Topicos", #Customize your title
+            fontsize.title = 10 #Change the font size of the title
+    )
+  })
+  
+  
+  
+  
+  
+
+   
 }
 
 # Run the application 
