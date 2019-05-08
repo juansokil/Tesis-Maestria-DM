@@ -198,7 +198,7 @@ server <- function(input, output, session) {
                  detail = 'La carga Inicial de datos puede tardar mas de 1 minuto')
     
     for (i in 1:1000) {
-      progress$set(value = i)
+      progress$set(value = 100)
       Sys.sleep(0.5)
     }
     
