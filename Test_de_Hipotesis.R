@@ -87,3 +87,49 @@ kruskal.test(indice_gathered_1_head_gathered$especializacion~indice_gathered_1_h
 ###Post hoc que nos permite ver la diferencia entre que grupos# - SIRVE PARA KRUSKAL TEST##
 dt <- dunn.test(indice_gathered_1_head_gathered$especializacion, indice_gathered_1_head_gathered$continente)
 dunnTest <- as.data.frame(dt)
+
+
+
+
+
+
+
+##############CORRELACIONES#######################
+####Selecciono las variables que me sirven####
+indices_gdp <- indices2 %>% arrange(desc(gdp_capita))
+indices_gdp <- head(indices_gdp,90)
+
+indices_gdp %>% 
+  select (country, ISO2, ISO3, continente, subcontinente, especializacion, gdp_capita) %>% 
+filter(continente %in% c('Americas','Asia','Europe','Africa')) %>% 
+  group_by(continente) %>% 
+  summarise(COR=cor(especializacion, gdp_capita), P_VALUE=cor.test(especializacion, gdp_capita)$p.value, count=n()) 
+
+indices_gdp %>% 
+  select (country, ISO2, ISO3, continente, subcontinente, especializacion, gdp_capita) %>% 
+  filter(subcontinente %in% c('Eastern Africa','Eastern Europe','South America','Channel Islands',
+                              'Southern Europe','Western Europe','Western Asia','South-eastern Asia'
+                              ,'Southern Asia','Northern Africa')) %>%  
+  group_by(subcontinente) %>% 
+  summarise(COR=cor(especializacion, gdp_capita), P_VALUE=cor.test(especializacion, gdp_capita)$p.value, count=n()) 
+
+
+
+
+
+
+
+#############################REGRESIONES#########################
+
+totales <- read_delim("C:/Users/Juan/Dropbox/POSGRADOS/Uba/99-Tesis/scripts/scripts/graficos/totales.csv", ";", escape_double = FALSE, trim_ws = TRUE)
+lm.genero <- lm(`Estudios de G<e9>nero` ~ year, data=totales)
+sm <- summary(lm.genero)
+anova(lm.genero)
+# Function for Root Mean Squared Error
+RMSE <- function(error) { sqrt(mean(error^2)) }
+RMSE(sm$residuals)
+# Function for Mean Absolute Error
+mae <- function(error) { mean(abs(error)) }
+mae(sm$residuals)
+
+
