@@ -63,15 +63,45 @@ mapParams <-mapCountryData(mapped_data, nameColumnToPlot="especializacion_pct", 
 do.call( addMapLegend, c(mapParams, legendWidth=0.5, legendMar = 3))
 
 
+
 ####Selecciono las variables que me sirven####
-indice_gdi <- indices2 %>% select (country, ISO2, ISO3, continente, subcontinente, especializacion, Global_Index)
+indice_gdi <- indices2 %>% select (country, ISO2, ISO3, continente, continente_en, subcontinente, subcontinente_en, especializacion, Global_Index)
 
 ###Transformo la base
 indice_gathered_1 <- indice_gdi %>%
-  gather(key = Global_index, value = measurement, -c(country, ISO2, ISO3, continente, subcontinente, especializacion) )
+  gather(key = Global_index, value = measurement, -c(country, ISO2, ISO3, continente, continente_en, subcontinente, subcontinente_en, especializacion) )
 
 indice_gathered_1_head <- indice_gathered_1 %>% arrange(desc(especializacion))
 indice_gathered_1_head <- head(indice_gathered_1_head,92)
+
+
+###ESPECIALIZACION ORDENADA POR PAIS###
+indice_gathered_1_head %>% 
+  arrange(desc(measurement)) %>%
+  mutate(code = tolower(ISO2)) %>%
+  #filter(!is.na(measurement)) %>%
+  ggplot(aes(x = reorder(country, -especializacion), y=especializacion)) +
+  geom_bar(stat='identity', aes(fill=continente)) +
+  #geom_text(aes(label = country)) +
+  geom_flag(aes(country = code),size = 10 ) +
+  #scale_size(range = c(2, 12)) +
+  coord_flip() 
+
+###BOXPLOT ESPECIALIZACION###
+indice_gathered_1_head %>%
+  filter(continente_en %in%  c('Africa', 'Americas', 'Asia', 'Europe')) %>%
+  ggplot(aes(x=continente, y=especializacion,  label=ISO2, fill=subcontinente)) +
+  geom_point(size=3) +
+  geom_boxplot(fill = "#4271AE", colour = "#1F3552", alpha = 0.7, outlier.colour = "red", outlier.shape = 20) +
+  coord_cartesian(ylim = c(0.00, 0.04))  +
+  geom_label_repel(size=2) +
+  # geom_jitter() +
+  #geom_point() +
+  #geom_jitter() +
+  # facet_wrap(~continente, scales = "free", ncol=3) +
+  theme(legend.title=element_blank(), axis.title.y = element_blank(), legend.position="bottom") 
+
+
 
 
 ####TEST DE HIPOTESIS####
