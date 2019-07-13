@@ -195,14 +195,6 @@ indices_gdp %>%
 
 
 
-
-
-
-
-
-
-
-
 #########################ANALISIS EXPLORATORIO DE GLOBAL GENDER GAP########################
 
 
@@ -291,28 +283,139 @@ reestructurada$subcontinente <- factor(reestructurada$subcontinente,
 
 
 
-reestructurada_gathered <- 
-  reestructurada %>%
-  gather(key = index, value = measurement, -c(continente, subcontinente))  
+
+mapped_data <- joinCountryData2Map(indices2, joinCode = "ISO2", nameJoinColumn = "ISO2")
+mapped_data
+par(mai=c(0,0,0.2,0),xaxs="i",yaxs="i")
+mapParams <-mapCountryData(mapped_data, nameColumnToPlot="Global_Index", colourPalette="topo", 
+                           mapTitle = "", 
+                           missingCountryCol="white", oceanCol="lightblue", addLegend=FALSE
+                           #, mapRegion='eurasia'
+)
+do.call( addMapLegend, c(mapParams, legendWidth=0.5, legendMar = 3))
 
 
-reestructurada_gathered$index <- factor(reestructurada_gathered$index, 
+
+global_gender_gap <- indices2 %>%
+  select (country, ISO2, ISO3, continente_en, continente, subcontinente_en, subcontinente, Global_Index, Economic_participation_and_opportunity, Educational_attainment, Health_and_survival, Political_Empowerment)
+
+
+global_gender_gap %>% group_by(continente) %>% summarize (Global_Index=mean(Global_Index, na.rm=TRUE),
+                                                          Economic_participation_and_opportunity=mean(Economic_participation_and_opportunity, na.rm=TRUE),
+                                                          Educational_attainment=mean(Educational_attainment, na.rm=TRUE),
+                                                          Health_and_survival=mean(Health_and_survival, na.rm=TRUE),
+                                                          Political_Empowerment=mean(Political_Empowerment, na.rm=TRUE))
+
+
+global_gender_gap_totales <- global_gender_gap %>% summarize (Global_Index=mean(Global_Index, na.rm=TRUE),
+                                                              Economic_participation_and_opportunity=mean(Economic_participation_and_opportunity, na.rm=TRUE),
+                                                              Educational_attainment=mean(Educational_attainment, na.rm=TRUE),
+                                                              Health_and_survival=mean(Health_and_survival, na.rm=TRUE),
+                                                              Political_Empowerment=mean(Political_Empowerment, na.rm=TRUE))
+
+
+
+global_gender_gap_gathered <- 
+  global_gender_gap %>%
+  gather(key = index, value = measurement, -c(country, ISO2, ISO3, continente, continente_en, subcontinente, subcontinente_en))   %>% 
+  mutate(code = tolower(ISO2))
+
+
+
+global_gender_gap_gathered$index <- factor(global_gender_gap_gathered$index, 
                                            levels = c("Political_Empowerment",
                                                       "Health_and_survival",
                                                       "Educational_attainment", 
                                                       "Economic_participation_and_opportunity", 
                                                       "Global_Index"))
 
+global_gender_gap_gathered <- global_gender_gap_gathered %>% mutate(indices = case_when (index =="Political_Empowerment" ~ 'Empoderamiento Político',
+                            index =="Health_and_survival" ~ 'Salud y Supervivencia',
+                            index =="Educational_attainment" ~ 'Logros Educativos',
+                            index =="Economic_participation_and_opportunity" ~ 'Participación Economica y Oportunidades',
+                            index =="Global_Index" ~ 'Global Gender Gap'))
+
+
+
+global_gender_gap_gathered$indices <- factor(global_gender_gap_gathered$indices, 
+                                           levels = c("Empoderamiento Político",
+                                                      "Salud y Supervivencia",
+                                                      "Logros Educativos", 
+                                                      "Participación Economica y Oportunidades", 
+                                                      "Global Gender Gap"))
+
+
+global_gender_gap_gathered %>%
+  filter(continente_en %in%  c('Africa', 'Americas', 'Asia', 'Europe','Oceania')) %>%
+  ggplot(aes(x=indices, y=measurement,  label=ISO2, color=continente)) +
+  geom_point(size=8, shape=108) +
+  coord_flip() +
+  theme(legend.position = "right")
+
+
+reestructurada = global_gender_gap %>% arrange(continente) %>% group_by(continente, continente_en, subcontinente, subcontinente_en) %>% filter (!is.na(subcontinente)) %>%
+                                               summarize (Global_Index=mean(Global_Index, na.rm=TRUE),
+                                                          Economic_participation_and_opportunity=mean(Economic_participation_and_opportunity, na.rm=TRUE),
+                                                          Educational_attainment=mean(Educational_attainment, na.rm=TRUE),
+                                                          Health_and_survival=mean(Health_and_survival, na.rm=TRUE),
+                                                          Political_Empowerment=mean(Political_Empowerment, na.rm=TRUE)) 
+  
+reestructurada$subcontinente_en <- factor(reestructurada$subcontinente_en, 
+                                           levels = c('Eastern Africa',
+                                                      'Middle Africa',
+                                                      'Northern Africa',
+                                                      'Southern Africa',
+                                                      'Western Africa',
+                                                      'Caribbean',
+                                                      'Central America',
+                                                      'Northern America',
+                                                      'South America',
+                                                      'Central Asia',
+                                                      'Eastern Asia',
+                                                      'South-eastern Asia',
+                                                      'Southern Asia',
+                                                      'Western Asia',
+                                                      'Channel Islands',
+                                                      'Eastern Europe',
+                                                      'Southern Europe',
+                                                      'Western Europe',
+                                                      'Australia and New Zealand',
+                                                      'Melanesia'))
+
+
+
+
+reestructurada_gathered <- 
+  reestructurada %>%
+  gather(key = index, value = measurement, -c(continente, continente_en, subcontinente, subcontinente_en))  
+
+
+reestructurada_gathered <- reestructurada_gathered %>% mutate(indices = case_when (index =="Political_Empowerment" ~ 'Empoderamiento Político',
+                                                                                         index =="Health_and_survival" ~ 'Salud y Supervivencia',
+                                                                                         index =="Educational_attainment" ~ 'Logros Educativos',
+                                                                                         index =="Economic_participation_and_opportunity" ~ 'Participación Economica y Oportunidades',
+                                                                                         index =="Global_Index" ~ 'Global Gender Gap'))
+
+
+
+reestructurada_gathered$indices <- factor(reestructurada_gathered$indices, 
+                                             levels = c("Empoderamiento Político",
+                                                        "Salud y Supervivencia",
+                                                        "Logros Educativos", 
+                                                        "Participación Economica y Oportunidades", 
+                                                        "Global Gender Gap"))
+
+
+
 reestructurada_gathered %>%
-  filter(continente %in%  c('Africa', 'Americas', 'Asia', 'Europe','Oceania')) %>%
-  filter(subcontinente %in% c('Caribbean', 'Central America', 'Central Asia', 'Channel Islands', 'Eastern Africa', 'Eastern Asia', 'Eastern Europe', 'Northern Africa', 'Northern America', 'South-eastern Asia', 'South America', 'Southern Africa', 'Southern Asia', 'Southern Europe', 'Western Africa', 'Western Asia', 'Western Europe')) %>%
+  filter(continente_en %in%  c('Africa', 'Americas', 'Asia', 'Europe','Oceania')) %>%
+  filter(subcontinente_en %in% c('Caribbean', 'Central America', 'Central Asia', 'Channel Islands', 'Eastern Africa', 'Eastern Asia', 'Eastern Europe', 'Northern Africa', 'Northern America', 'South-eastern Asia', 'South America', 'Southern Africa', 'Southern Asia', 'Southern Europe', 'Western Africa', 'Western Asia', 'Western Europe')) %>%
   #filter(!index %in%  c('Global_Index')) %>%
-  ggplot(aes(x=index, y=measurement, color=subcontinente)) +
+  ggplot(aes(x=indices, y=measurement, color=subcontinente)) +
   #geom_point(size=4, shape =22)  +
   geom_jitter(size=6)  +
   geom_boxplot(fill = "#4271AE", colour = "#1F3552", alpha = 0.7) +
   coord_flip()
-
 
 
 
