@@ -49,7 +49,7 @@ countrycode <-  as.data.frame(countrycode::codelist) %>%
   print(n = Inf)
 
 
-#########################ANALISIS EXPLORATORIO DE ESPECIALIZACIÓN########################
+#########################ANALISIS EXPLORATORIO DE ESPECIALIZACIÃ“N########################
 
 ######MAPAS#####
 mapped_data <- joinCountryData2Map(indices2, joinCode = "ISO2", nameJoinColumn = "ISO2")
@@ -227,3 +227,64 @@ global_gender_gap_gathered %>%
   geom_point(size=12, shape=108) +
   coord_flip() +
   theme(legend.position = "right")
+
+
+
+reestructurada = global_gender_gap %>% arrange(continente) %>% group_by(continente, subcontinente) %>% filter (!is.na(subcontinente)) %>%summarize (Global_Index=mean(Global_Index, na.rm=TRUE),
+                                                          Economic_participation_and_opportunity=mean(Economic_participation_and_opportunity, na.rm=TRUE),
+                                                          Educational_attainment=mean(Educational_attainment, na.rm=TRUE),
+                                                          Health_and_survival=mean(Health_and_survival, na.rm=TRUE),
+                                                          Political_Empowerment=mean(Political_Empowerment, na.rm=TRUE)) 
+  
+reestructurada$subcontinente <- factor(reestructurada$subcontinente, 
+                                           levels = c('Eastern Africa',
+                                                      'Middle Africa',
+                                                      'Northern Africa',
+                                                      'Southern Africa',
+                                                      'Western Africa',
+                                                      'Caribbean',
+                                                      'Central America',
+                                                      'Northern America',
+                                                      'South America',
+                                                      'Central Asia',
+                                                      'Eastern Asia',
+                                                      'South-eastern Asia',
+                                                      'Southern Asia',
+                                                      'Western Asia',
+                                                      'Channel Islands',
+                                                      'Eastern Europe',
+                                                      'Southern Europe',
+                                                      'Western Europe',
+                                                      'Australia and New Zealand',
+                                                      'Melanesia'))
+
+
+
+
+reestructurada_gathered <- 
+  reestructurada %>%
+  gather(key = index, value = measurement, -c(continente, subcontinente))  
+
+
+reestructurada_gathered$index <- factor(reestructurada_gathered$index, 
+                                           levels = c("Political_Empowerment",
+                                                      "Health_and_survival",
+                                                      "Educational_attainment", 
+                                                      "Economic_participation_and_opportunity", 
+                                                      "Global_Index"))
+
+reestructurada_gathered %>%
+  filter(continente %in%  c('Africa', 'Americas', 'Asia', 'Europe','Oceania')) %>%
+  #filter(!index %in%  c('Global_Index')) %>%
+  ggplot(aes(x=index, y=measurement, color=subcontinente)) +
+  #geom_point(size=4, shape =22)  +
+  geom_jitter(size=6)  +
+  geom_boxplot(fill = "#4271AE", colour = "#1F3552", alpha = 0.7) +
+  coord_flip()
+
+
+
+
+#########################RELACION ENTRE AMBOS INDICES########################
+
+
