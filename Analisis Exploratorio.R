@@ -16,7 +16,7 @@ library(devtools)
 library(ggflags) # Para geom_flags
 #install.packages("countrycode")
 library(countrycode)  # Para obtener codigos de paises
-
+library(ggrepel)
 
 
 
@@ -275,6 +275,7 @@ reestructurada_gathered$index <- factor(reestructurada_gathered$index,
 
 reestructurada_gathered %>%
   filter(continente %in%  c('Africa', 'Americas', 'Asia', 'Europe','Oceania')) %>%
+  filter(subcontinente %in% c('Caribbean', 'Central America', 'Central Asia', 'Channel Islands', 'Eastern Africa', 'Eastern Asia', 'Eastern Europe', 'Northern Africa', 'Northern America', 'South-eastern Asia', 'South America', 'Southern Africa', 'Southern Asia', 'Southern Europe', 'Western Africa', 'Western Asia', 'Western Europe')) %>%
   #filter(!index %in%  c('Global_Index')) %>%
   ggplot(aes(x=index, y=measurement, color=subcontinente)) +
   #geom_point(size=4, shape =22)  +
@@ -286,5 +287,104 @@ reestructurada_gathered %>%
 
 
 #########################RELACION ENTRE AMBOS INDICES########################
+
+
+indices2 %>%
+  filter(continente %in%  c('Africa', 'Americas', 'Asia', 'Europe','Oceania')) %>%
+  ggplot(aes(especializacion_pct, Global_Index, label=ISO2, color=continente)) + 
+  geom_point(size=5) +
+#  geom_smooth(method = "loess", size=1, alpha=0.7, se=TRUE, formula = y ~ x, span=0.8) +
+  #geom_text(size=4)+
+  #geom_label_repel(size=2) +
+  #facet_wrap(~ continente, ncol=2) +
+  theme(legend.title=element_blank(), axis.title.y = element_blank(), legend.position="bottom")  
+
+
+
+###CORRELACIONES#### - ARMADO DE BASE
+comparar <- indices2 %>%
+  select (country, ISO2, ISO3, continente, subcontinente, especializacion_pct, Global_Index, 
+          Economic_participation_and_opportunity, 
+          Educational_attainment, 
+          Health_and_survival, 
+          Political_Empowerment)
+
+##### CORRELACION TOTAL ####
+comparar %>% 
+ # filter(continente %in% c('Americas','Asia','Europe','Africa')) %>% 
+#  group_by(continente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Global_Index)) %>% 
+  summarise(COR=cor(especializacion_pct, Global_Index), P_VALUE=cor.test(especializacion_pct, Global_Index)$p.value, count=n()) 
+
+
+
+####CORRELACION POR CONTINENTE####
+comparar %>% 
+   filter(continente %in% c('Americas','Asia','Europe','Africa')) %>% 
+    group_by(continente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Global_Index)) %>% 
+  summarise(COR=cor(especializacion_pct, Global_Index), P_VALUE=cor.test(especializacion_pct, Global_Index)$p.value, count=n()) 
+
+comparar %>% 
+  filter(continente %in% c('Americas','Asia','Europe','Africa')) %>% 
+  group_by(continente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Economic_participation_and_opportunity)) %>% 
+  summarise(COR=cor(especializacion_pct, Economic_participation_and_opportunity), P_VALUE=cor.test(especializacion_pct, Economic_participation_and_opportunity)$p.value, count=n()) 
+
+comparar %>% 
+  filter(continente %in% c('Americas','Asia','Europe','Africa')) %>% 
+  group_by(continente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Educational_attainment)) %>% 
+  summarise(COR=cor(especializacion_pct, Educational_attainment), P_VALUE=cor.test(especializacion_pct, Educational_attainment)$p.value, count=n()) 
+
+comparar %>% 
+  filter(continente %in% c('Americas','Asia','Europe','Africa')) %>% 
+  group_by(continente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Health_and_survival)) %>% 
+  summarise(COR=cor(especializacion_pct, Health_and_survival), P_VALUE=cor.test(especializacion_pct, Health_and_survival)$p.value, count=n()) 
+
+comparar %>% 
+  filter(continente %in% c('Americas','Asia','Europe','Africa')) %>% 
+  group_by(continente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Political_Empowerment)) %>% 
+  summarise(COR=cor(especializacion_pct, Political_Empowerment), P_VALUE=cor.test(especializacion_pct, Political_Empowerment)$p.value, count=n()) 
+
+
+
+####CORRELACION POR SUBCONTINENTE####
+comparar %>% 
+  filter(subcontinente %in% c('Channel Islands','Eastern Africa','Eastern Asia','Eastern Europe','Northern Africa','South-eastern Asia','South America','Southern Asia','Southern Europe','Western Asia','Western Europe')) %>% 
+  group_by(subcontinente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Global_Index)) %>% 
+  #summarise(count=n()) 
+  summarise(COR=cor(especializacion_pct, Global_Index), P_VALUE=cor.test(especializacion_pct, Global_Index)$p.value, count=n()) 
+
+comparar %>% 
+  filter(subcontinente %in% c('Channel Islands','Eastern Africa','Eastern Asia','Eastern Europe','Northern Africa','South-eastern Asia','South America','Southern Asia','Southern Europe','Western Asia','Western Europe')) %>% 
+  group_by(subcontinente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Economic_participation_and_opportunity)) %>% 
+  #summarise(count=n()) 
+  summarise(COR=cor(especializacion_pct, Economic_participation_and_opportunity), P_VALUE=cor.test(especializacion_pct, Economic_participation_and_opportunity)$p.value, count=n()) 
+
+comparar %>% 
+  filter(subcontinente %in% c('Channel Islands','Eastern Africa','Eastern Asia','Eastern Europe','Northern Africa','South-eastern Asia','South America','Southern Asia','Southern Europe','Western Asia','Western Europe')) %>% 
+  group_by(subcontinente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Educational_attainment)) %>% 
+  #summarise(count=n()) 
+  summarise(COR=cor(especializacion_pct, Educational_attainment), P_VALUE=cor.test(especializacion_pct, Educational_attainment)$p.value, count=n()) 
+
+comparar %>% 
+  filter(subcontinente %in% c('Channel Islands','Eastern Africa','Eastern Asia','Eastern Europe','Northern Africa','South-eastern Asia','South America','Southern Asia','Southern Europe','Western Asia','Western Europe')) %>% 
+  group_by(subcontinente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Health_and_survival)) %>% 
+  #summarise(count=n()) 
+  summarise(COR=cor(especializacion_pct, Health_and_survival), P_VALUE=cor.test(especializacion_pct, Health_and_survival)$p.value, count=n()) 
+
+comparar %>% 
+  filter(subcontinente %in% c('Channel Islands','Eastern Africa','Eastern Asia','Eastern Europe','Northern Africa','South-eastern Asia','South America','Southern Asia','Southern Europe','Western Asia','Western Europe')) %>% 
+  group_by(subcontinente) %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Political_Empowerment)) %>% 
+  #summarise(count=n()) 
+  summarise(COR=cor(especializacion_pct, Political_Empowerment), P_VALUE=cor.test(especializacion_pct, Political_Empowerment)$p.value, count=n()) 
 
 
