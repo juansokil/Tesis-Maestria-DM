@@ -5,9 +5,38 @@ library(tidyr)
 library(HH)
 library(ggplot2)
 library(dunn.test)
+library(rworldmap)
+library(scales)
+#install.packages("devtools")
+library(devtools)
+#devtools::install_github("rensa/ggflags") # Instalar por primera vez
+library(ggflags) # Para geom_flags
+#install.packages("countrycode")
+library(countrycode)  # Para obtener codigos de paises
+
+countrycode <-  as.data.frame(countrycode::codelist) %>% 
+  as.tibble() %>% 
+  select(pais = country.name.en, code = ecb )  %>% 
+  filter(!is.na(code)) %>% 
+  print(n = Inf)
+
+
+
 
 indices2 <- read_delim("https://raw.githubusercontent.com/juansokil/Scripts-Tesis/master/resultados/total_indices.txt", "\t", escape_double = FALSE, trim_ws = TRUE)
 indices2$especializacion_pct = indices2$especializacion*100
+
+##OPCION##
+mapped_data <- joinCountryData2Map(indices2, joinCode = "ISO2", nameJoinColumn = "ISO2")
+mapped_data
+par(mai=c(0,0,0.2,0),xaxs="i",yaxs="i")
+mapParams <-mapCountryData(mapped_data, nameColumnToPlot="especializacion_pct", colourPalette="topo", 
+               mapTitle = "", 
+               missingCountryCol="white", oceanCol="lightblue", addLegend=FALSE
+               #, mapRegion='eurasia'
+               )
+do.call( addMapLegend, c(mapParams, legendWidth=0.5, legendMar = 3))
+
 
 ####Selecciono las variables que me sirven####
 indice_gdi <- indices2 %>% select (country, ISO2, ISO3, continente, subcontinente, especializacion, Global_Index)
@@ -131,5 +160,88 @@ RMSE(sm$residuals)
 # Function for Mean Absolute Error
 mae <- function(error) { mean(abs(error)) }
 mae(sm$residuals)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#########TRABAJO CON GLOBAL GENDER GAP########
+
+
+
+
+mapped_data <- joinCountryData2Map(indices2, joinCode = "ISO2", nameJoinColumn = "ISO2")
+mapped_data
+par(mai=c(0,0,0.2,0),xaxs="i",yaxs="i")
+mapParams <-mapCountryData(mapped_data, nameColumnToPlot="Global_Index", colourPalette="topo", 
+                           mapTitle = "", 
+                           missingCountryCol="white", oceanCol="lightblue", addLegend=FALSE
+                           #, mapRegion='eurasia'
+)
+do.call( addMapLegend, c(mapParams, legendWidth=0.5, legendMar = 3))
+
+
+
+global_gender_gap <- indices2 %>%
+  select (country, ISO2, ISO3, continente, subcontinente, Global_Index, Economic_participation_and_opportunity, Educational_attainment, Health_and_survival, Political_Empowerment)
+
+
+
+
+global_gender_gap %>% group_by(continente) %>% summarize (Global_Index=mean(Global_Index, na.rm=TRUE),
+                                                             Economic_participation_and_opportunity=mean(Economic_participation_and_opportunity, na.rm=TRUE),
+                                                          Educational_attainment=mean(Educational_attainment, na.rm=TRUE),
+                                                          Health_and_survival=mean(Health_and_survival, na.rm=TRUE),
+                                                          Political_Empowerment=mean(Political_Empowerment, na.rm=TRUE))
+
+
+global_gender_gap_totales <- global_gender_gap %>% summarize (Global_Index=mean(Global_Index, na.rm=TRUE),
+                                                          Economic_participation_and_opportunity=mean(Economic_participation_and_opportunity, na.rm=TRUE),
+                                                          Educational_attainment=mean(Educational_attainment, na.rm=TRUE),
+                                                          Health_and_survival=mean(Health_and_survival, na.rm=TRUE),
+                                                          Political_Empowerment=mean(Political_Empowerment, na.rm=TRUE))
+
+
+
+global_gender_gap_gathered <- 
+  global_gender_gap %>%
+  gather(key = index, value = measurement, -c(country, ISO2, ISO3, continente, subcontinente))   %>% 
+  mutate(code = tolower(ISO2))
+
+
+
+global_gender_gap_gathered$index <- factor(global_gender_gap_gathered$index, 
+                                           levels = c("Political_Empowerment",
+                                                      "Health_and_survival",
+                                                      "Educational_attainment", 
+                                                      "Economic_participation_and_opportunity", 
+                                                      "Global_Index"))
+
+global_gender_gap_gathered %>%
+  filter(continente %in%  c('Africa', 'Americas', 'Asia', 'Europe','Oceania')) %>%
+  ggplot(aes(x=index, y=measurement,  label=ISO2, color=continente)) +
+  geom_point(size=24, shape=108) +
+  coord_flip() +
+  theme(legend.position = "right")
+
 
 
