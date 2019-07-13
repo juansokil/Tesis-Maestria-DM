@@ -141,16 +141,17 @@ hov(especializacion ~ continente, data = indice_gathered_1_head_gathered)
 hovPlot(especializacion ~ continente, data = indice_gathered_1_head_gathered)
 
 ###Una vez realizadas las pruebas, se ve que test se puede aplicar###
-
+indice_gathered_1_head_gathered <- indice_gathered_1_head_gathered %>%
+filter(subcontinente_en %in% c('Channel Islands', 'Eastern Africa', 'Eastern Asia', 'Eastern Europe', 'Northern Africa', 'South-eastern Asia', 'South America', 'Southern Asia', 'Southern Europe',  'Western Asia', 'Western Europe')) 
 
 ###ANOVA en el caso que supere ambas pruebas
-model1<- aov(indice_gathered_1_head_gathered$especializacion~indice_gathered_1_head_gathered$continente)
+model1<- aov(indice_gathered_1_head_gathered$especializacion~indice_gathered_1_head_gathered$subcontinente)
 summary(model1)
 plot(model1)
 
 ###Post hoc que nos permite ver la diferencia entre que grupos# - SIRVE PARA ANOVA##
 
-tuk<-TukeyHSD(model1, conf.level = 0.99)
+tuk<-TukeyHSD(model1, conf.level = 0.95)
 psig=as.numeric(apply(tuk$`indice_gathered_1_head_gathered$subcontinente`[,2:3],1,prod)>=0)+1
 op=par(mar=c(4.2,9,3.8,2))
 plot(tuk,col=psig,yaxt="n")
@@ -162,37 +163,13 @@ par(op)
 
 
 
-
 ###Sino supera la homocedasticidad y la normalidad se pueden aplicar cualquiera de estas dos pruebas###
 oneway.test(indice_gathered_1_head_gathered$especializacion~indice_gathered_1_head_gathered$continente)
 kruskal.test(indice_gathered_1_head_gathered$especializacion~indice_gathered_1_head_gathered$continente)
 
-
 ###Post hoc que nos permite ver la diferencia entre que grupos# - SIRVE PARA KRUSKAL TEST##
 dt <- dunn.test(indice_gathered_1_head_gathered$especializacion, indice_gathered_1_head_gathered$continente)
 dunnTest <- as.data.frame(dt)
-
-
-
-##############CORRELACIONES#######################
-####Selecciono las variables que me sirven####
-indices_gdp <- indices2 %>% arrange(desc(gdp_capita))
-indices_gdp <- head(indices_gdp,90)
-
-indices_gdp %>% 
-  select (country, ISO2, ISO3, continente, subcontinente, especializacion, gdp_capita) %>% 
-  filter(continente %in% c('Americas','Asia','Europe','Africa')) %>% 
-  group_by(continente) %>% 
-  summarise(COR=cor(especializacion, gdp_capita), P_VALUE=cor.test(especializacion, gdp_capita)$p.value, count=n()) 
-
-indices_gdp %>% 
-  select (country, ISO2, ISO3, continente, subcontinente, especializacion, gdp_capita) %>% 
-  filter(subcontinente %in% c('Eastern Africa','Eastern Europe','South America','Channel Islands',
-                              'Southern Europe','Western Europe','Western Asia','South-eastern Asia'
-                              ,'Southern Asia','Northern Africa')) %>%  
-  group_by(subcontinente) %>% 
-  summarise(COR=cor(especializacion, gdp_capita), P_VALUE=cor.test(especializacion, gdp_capita)$p.value, count=n()) 
-
 
 
 #########################ANALISIS EXPLORATORIO DE GLOBAL GENDER GAP########################
