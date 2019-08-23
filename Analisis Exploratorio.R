@@ -17,7 +17,45 @@ library(ggflags) # Para geom_flags
 #install.packages("countrycode")
 library(countrycode)  # Para obtener codigos de paises
 library(ggrepel)
+library(RColorBrewer)
+library(GGally)
+library(broom)
+library(MASS)
+library(ggpubr)
 
+
+
+manualcolors<-c('Africa Austral'='forestgreen', 
+                'Africa Central'= 'red2', 
+                'Africa del Norte' ='orange',
+                'Africa Occidental'= 'cornflowerblue', 
+                'Africa Oriental' = 'gainsboro',
+                'America Central' = 'darkolivegreen4',
+                'America del Norte' = 'indianred1',
+                'America del Sur' = 'tan4', 
+                'Asia Central' = 'darkblue',
+                'Asia del Sur' = 'mediumorchid1',
+                'Asia Occidental' = 'seagreen',
+                'Asia Oriental' = 'yellowgreen', 
+                'Australia y Nueva Zelanda' = 'lightsalmon',
+                'Caribe' = 'tan3',
+                'Europa del Norte' = "tan1",
+                'Europa del Sur' = 'darkgray', 
+                'Europa Occidental' = 'wheat4',
+                'Europa Oriental' = 'chartreuse',  
+                'Melanesia' = 'seagreen1',
+                'Micronesia' = 'black',
+                'Polinesia' = 'navy',
+                'Sudeste Asiatico' = 'moccasin'
+                )
+                
+
+
+continentcolors<-c('Africa'='gray11', 
+                'America' = 'red2',
+                'Asia' = 'yellow3',
+                'Oceania' ='forestgreen',
+                'Europa' = "cornflowerblue")
 
 
 
@@ -47,6 +85,35 @@ countrycode <-  as.data.frame(countrycode::codelist) %>%
   select(pais = country.name.en, code = ecb )  %>% 
   filter(!is.na(code)) %>% 
   print(n = Inf)
+
+
+#########################MAPA GENERAL########################
+
+
+mapped_data <- joinCountryData2Map(indices2, joinCode = "ISO3", nameJoinColumn = "ISO3")
+#mymap <- fortify(mapped_data)
+
+par(mai=c(0,0,0.2,0),xaxs="i",yaxs="i")
+mapParams <-mapCountryData(mapped_data, nameColumnToPlot="continente", colourPalette=continentcolors, 
+                           mapTitle = "",  catMethod = "categorical",
+                           missingCountryCol="white", oceanCol="lightblue", addLegend=TRUE)
+do.call( addMapLegend, c(mapParams, legendWidth=0.5, legendMar = 3))
+
+
+mapped_data <- joinCountryData2Map(indices2, joinCode = "ISO3", nameJoinColumn = "ISO3")
+mapped_data2 <- subset (mapped_data, !is.na(subcontinente))
+
+
+#mymap <- fortify(mapped_data)
+dev.off()
+par(mai=c(0,0,0.2,0),xaxs="i",yaxs="i")
+mapParams <-mapCountryData(mapped_data2, nameColumnToPlot="subcontinente", colourPalette=manualcolors, 
+                           mapTitle = "",  catMethod = "categorical",
+                           missingCountryCol="white", oceanCol="lightblue", addLegend=TRUE)
+do.call( addMapLegend, c(mapParams, legendWidth=0.5, legendMar = 3))
+
+
+
 
 
 #########################ANALISIS EXPLORATORIO DE ESPECIALIZACIÓN########################
