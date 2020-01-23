@@ -1,0 +1,913 @@
+"","subcontinente","topic","value"
+"1","Africa Austral","Topic80",-0.250113212200458
+"2","Africa Austral","Topic38",0.31531162903401
+"3","Africa Austral","Topic36",0.640951858983759
+"4","Africa Austral","Topic18",0.30723365948894
+"5","Africa Austral","Topic87",-0.336432604123356
+"6","Africa Austral","Topic04",1.88240141201049
+"7","Africa Austral","Topic37",-0.663227908243345
+"8","Africa Austral","Topic16",0.0787115238943218
+"9","Africa Austral","Topic99",-0.259140304358245
+"10","Africa Austral","Topic60",-0.0629642623141261
+"11","Africa Austral","Topic78",-0.262968088943565
+"12","Africa Austral","Topic97",-0.444272493911871
+"13","Africa Austral","Topic95",-0.0751844830653736
+"14","Africa Austral","Topic59",-0.574306443780002
+"15","Africa Austral","Topic34",0.0388942321431342
+"16","Africa Austral","Topic94",-0.502471896896536
+"17","Africa Austral","Topic30",-0.295897042517046
+"18","Africa Austral","Topic81",-0.238582765832334
+"19","Africa Austral","Topic33",-0.382346156474128
+"20","Africa Austral","Topic58",-0.174439571610888
+"21","Africa Austral","Topic22",-0.633144729736097
+"22","Africa Austral","Topic10",-0.300369905014937
+"23","Africa Austral","Topic57",0.186685855201871
+"24","Africa Austral","Topic11",0.401470841197988
+"25","Africa Austral","Topic09",0.376040621768437
+"26","Africa Austral","Topic54",-0.266744574202836
+"27","Africa Austral","Topic91",-0.445196604562837
+"28","Africa Austral","Topic90",-0.86454200054418
+"29","Africa Austral","Topic23",0.190078542867775
+"30","Africa Austral","Topic17",-0.602392550427824
+"31","Africa Austral","Topic55",1.56778360306118
+"32","Africa Austral","Topic62",1.19645262746139
+"33","Africa Austral","Topic74",-0.221438967655841
+"34","Africa Austral","Topic32",-0.814550029720189
+"35","Africa Austral","Topic07",1.05423786949146
+"36","Africa Austral","Topic92",-0.709395005156559
+"37","Africa Austral","Topic73",-0.892591605040811
+"38","Africa Austral","Topic19",1.19616374558929
+"39","Africa Austral","Topic41",-0.751911141495702
+"40","Africa Austral","Topic06",0.252458294862569
+"41","Africa Austral","Topic63",-0.598811660513843
+"42","Africa Austral","Topic08",-0.268627466593084
+"43","Africa Austral","Topic12",-0.721051749771843
+"44","Africa Austral","Topic03",0.112840077533885
+"45","Africa Austral","Topic52",1.39799430379572
+"46","Africa Austral","Topic43",-0.685558055195277
+"47","Africa Austral","Topic21",0.171230302708265
+"48","Africa Austral","Topic96",0.0966662890083251
+"49","Africa Central","Topic80",0.875347091223257
+"50","Africa Central","Topic38",-1.00460930897007
+"51","Africa Central","Topic36",-1.47524432237449
+"52","Africa Central","Topic18",-1.32625867862079
+"53","Africa Central","Topic87",-0.308787641788019
+"54","Africa Central","Topic04",-1.40022595413152
+"55","Africa Central","Topic37",-0.109372593481149
+"56","Africa Central","Topic16",-0.897709312312153
+"57","Africa Central","Topic99",0.144039199911202
+"58","Africa Central","Topic60",-1.39905615455727
+"59","Africa Central","Topic78",-1.67842755428388
+"60","Africa Central","Topic97",-0.789920194098573
+"61","Africa Central","Topic95",-0.909960568415494
+"62","Africa Central","Topic59",-0.364068387246749
+"63","Africa Central","Topic34",0.0632240722632072
+"64","Africa Central","Topic94",-0.463010900193473
+"65","Africa Central","Topic30",-0.182587099014524
+"66","Africa Central","Topic81",-0.712206625391466
+"67","Africa Central","Topic33",-1.31115822015903
+"68","Africa Central","Topic58",-0.449326492722023
+"69","Africa Central","Topic22",2.89648312745303
+"70","Africa Central","Topic10",-0.545177325663723
+"71","Africa Central","Topic57",1.51869701417422
+"72","Africa Central","Topic11",-0.781608809009534
+"73","Africa Central","Topic09",-0.132276068175935
+"74","Africa Central","Topic54",1.1393008833643
+"75","Africa Central","Topic91",0.0699793820420443
+"76","Africa Central","Topic90",-0.821992727314108
+"77","Africa Central","Topic23",-0.843389985667971
+"78","Africa Central","Topic17",0.297134590420868
+"79","Africa Central","Topic55",-0.748950742354218
+"80","Africa Central","Topic62",5.97465720513426
+"81","Africa Central","Topic74",-0.470393335295905
+"82","Africa Central","Topic32",1.03393459775965
+"83","Africa Central","Topic07",-1.29327473637796
+"84","Africa Central","Topic92",0.788022498183431
+"85","Africa Central","Topic73",0.146904620678427
+"86","Africa Central","Topic19",-1.74298676113084
+"87","Africa Central","Topic41",-0.163376195289317
+"88","Africa Central","Topic06",2.57206496880299
+"89","Africa Central","Topic63",2.95550928037028
+"90","Africa Central","Topic08",-0.144716786019396
+"91","Africa Central","Topic12",-1.09238880203819
+"92","Africa Central","Topic03",-0.772931211765551
+"93","Africa Central","Topic52",-0.987765233650745
+"94","Africa Central","Topic43",3.58390140879786
+"95","Africa Central","Topic21",-0.765864541591426
+"96","Africa Central","Topic96",-0.873499366332348
+"97","Africa del Norte","Topic80",-0.0725070574715882
+"98","Africa del Norte","Topic38",-0.128549148838898
+"99","Africa del Norte","Topic36",0.586220827213595
+"100","Africa del Norte","Topic18",-0.487060406864569
+"101","Africa del Norte","Topic87",-1.01386067616843
+"102","Africa del Norte","Topic04",0.210151696109027
+"103","Africa del Norte","Topic37",-0.944548238118515
+"104","Africa del Norte","Topic16",0.825217503189611
+"105","Africa del Norte","Topic99",0.603129384822142
+"106","Africa del Norte","Topic60",0.876099321343332
+"107","Africa del Norte","Topic78",0.176309497467184
+"108","Africa del Norte","Topic97",0.662617629564668
+"109","Africa del Norte","Topic95",-0.430541506410957
+"110","Africa del Norte","Topic59",-0.776966305039585
+"111","Africa del Norte","Topic34",0.116054536121642
+"112","Africa del Norte","Topic94",-0.437653294430633
+"113","Africa del Norte","Topic30",1.23369088831763
+"114","Africa del Norte","Topic81",-0.516800037358793
+"115","Africa del Norte","Topic33",0.169668677045454
+"116","Africa del Norte","Topic58",0.105275742356979
+"117","Africa del Norte","Topic22",2.05688513404118
+"118","Africa del Norte","Topic10",0.437915860776428
+"119","Africa del Norte","Topic57",1.14867101129347
+"120","Africa del Norte","Topic11",-0.457113532586135
+"121","Africa del Norte","Topic09",-1.01294367131601
+"122","Africa del Norte","Topic54",-1.28334045406434
+"123","Africa del Norte","Topic91",-0.419004087972583
+"124","Africa del Norte","Topic90",0.635369774428941
+"125","Africa del Norte","Topic23",0.111089849898921
+"126","Africa del Norte","Topic17",-0.545336658920466
+"127","Africa del Norte","Topic55",-0.718235632428412
+"128","Africa del Norte","Topic62",-0.878622959394723
+"129","Africa del Norte","Topic74",0.611644340609294
+"130","Africa del Norte","Topic32",-0.282759158507524
+"131","Africa del Norte","Topic07",-0.141640960642567
+"132","Africa del Norte","Topic92",-1.03797590594393
+"133","Africa del Norte","Topic73",-1.00350858294007
+"134","Africa del Norte","Topic19",0.327990058053904
+"135","Africa del Norte","Topic41",0.255868031456132
+"136","Africa del Norte","Topic06",-0.518886423843236
+"137","Africa del Norte","Topic63",-0.117664164687077
+"138","Africa del Norte","Topic08",-0.613150072675512
+"139","Africa del Norte","Topic12",-0.512178190413547
+"140","Africa del Norte","Topic03",1.77154603324561
+"141","Africa del Norte","Topic52",-0.195732404910968
+"142","Africa del Norte","Topic43",0.129405426578113
+"143","Africa del Norte","Topic21",-0.506039260548198
+"144","Africa del Norte","Topic96",0.234225081794975
+"145","Africa Occidental","Topic80",0.728028749524708
+"146","Africa Occidental","Topic38",0.647103903672564
+"147","Africa Occidental","Topic36",-0.782033293599474
+"148","Africa Occidental","Topic18",0.357380257132285
+"149","Africa Occidental","Topic87",-0.498754833187381
+"150","Africa Occidental","Topic04",1.02321972868714
+"151","Africa Occidental","Topic37",-0.687926500659922
+"152","Africa Occidental","Topic16",-0.480841299695087
+"153","Africa Occidental","Topic99",-0.354504854659126
+"154","Africa Occidental","Topic60",-0.204788118198192
+"155","Africa Occidental","Topic78",0.456351391868983
+"156","Africa Occidental","Topic97",-0.0789699336562323
+"157","Africa Occidental","Topic95",0.000848278046237834
+"158","Africa Occidental","Topic59",-0.521960551010729
+"159","Africa Occidental","Topic34",-0.068554128150706
+"160","Africa Occidental","Topic94",0.224009413453648
+"161","Africa Occidental","Topic30",0.359742760704443
+"162","Africa Occidental","Topic81",-0.423068421961006
+"163","Africa Occidental","Topic33",0.0702803950731666
+"164","Africa Occidental","Topic58",0.480998973919002
+"165","Africa Occidental","Topic22",-0.0848182045195644
+"166","Africa Occidental","Topic10",-0.579345262252874
+"167","Africa Occidental","Topic57",0.678907035047392
+"168","Africa Occidental","Topic11",0.632159770991835
+"169","Africa Occidental","Topic09",-0.303545993826532
+"170","Africa Occidental","Topic54",0.436973383758687
+"171","Africa Occidental","Topic91",-0.338726987577822
+"172","Africa Occidental","Topic90",-0.112851611492692
+"173","Africa Occidental","Topic23",0.0345083267515336
+"174","Africa Occidental","Topic17",-0.0286839923244288
+"175","Africa Occidental","Topic55",-0.971995857998045
+"176","Africa Occidental","Topic62",-0.00342873097620083
+"177","Africa Occidental","Topic74",-0.00326026454645299
+"178","Africa Occidental","Topic32",-0.296091525687461
+"179","Africa Occidental","Topic07",1.9465085530772
+"180","Africa Occidental","Topic92",1.37617917835061
+"181","Africa Occidental","Topic73",-0.743147338083449
+"182","Africa Occidental","Topic19",0.840044088635941
+"183","Africa Occidental","Topic41",-0.2944836865258
+"184","Africa Occidental","Topic06",-0.34682724770554
+"185","Africa Occidental","Topic63",0.433752684755794
+"186","Africa Occidental","Topic08",-0.0668395449043201
+"187","Africa Occidental","Topic12",0.00881039906940418
+"188","Africa Occidental","Topic03",0.392655010509118
+"189","Africa Occidental","Topic52",-0.454308991737748
+"190","Africa Occidental","Topic43",-0.393913807456511
+"191","Africa Occidental","Topic21",-0.876114692796988
+"192","Africa Occidental","Topic96",-1.08792545107014
+"193","Africa Oriental","Topic80",-0.0131452441993176
+"194","Africa Oriental","Topic38",-0.239008695322712
+"195","Africa Oriental","Topic36",0.0719212889087604
+"196","Africa Oriental","Topic18",0.0402187027909058
+"197","Africa Oriental","Topic87",0.195800620668389
+"198","Africa Oriental","Topic04",0.579793044986175
+"199","Africa Oriental","Topic37",-0.622104289045015
+"200","Africa Oriental","Topic16",1.03420598960606
+"201","Africa Oriental","Topic99",-0.407627635825695
+"202","Africa Oriental","Topic60",0.150389611565599
+"203","Africa Oriental","Topic78",-0.380789868408671
+"204","Africa Oriental","Topic97",-0.390315283600589
+"205","Africa Oriental","Topic95",-0.115311018281335
+"206","Africa Oriental","Topic59",-0.0275147104905767
+"207","Africa Oriental","Topic34",0.401303006187858
+"208","Africa Oriental","Topic94",-0.581096441042212
+"209","Africa Oriental","Topic30",0.594782122610959
+"210","Africa Oriental","Topic81",-0.1519993147016
+"211","Africa Oriental","Topic33",0.770492730068398
+"212","Africa Oriental","Topic58",2.30303590736932
+"213","Africa Oriental","Topic22",-0.398814412902442
+"214","Africa Oriental","Topic10",-0.159919973242561
+"215","Africa Oriental","Topic57",0.0945320545977959
+"216","Africa Oriental","Topic11",0.316799254618145
+"217","Africa Oriental","Topic09",-0.054257952034691
+"218","Africa Oriental","Topic54",0.843342928331205
+"219","Africa Oriental","Topic91",0.00418295045073891
+"220","Africa Oriental","Topic90",-0.916031410035211
+"221","Africa Oriental","Topic23",0.304738360167291
+"222","Africa Oriental","Topic17",-0.289627936065958
+"223","Africa Oriental","Topic55",-0.99413647158611
+"224","Africa Oriental","Topic62",1.39807684143086
+"225","Africa Oriental","Topic74",0.584801283077374
+"226","Africa Oriental","Topic32",-0.338675713600445
+"227","Africa Oriental","Topic07",-0.0412751463558986
+"228","Africa Oriental","Topic92",0.186589111722376
+"229","Africa Oriental","Topic73",-0.595565514219819
+"230","Africa Oriental","Topic19",-0.122141051682984
+"231","Africa Oriental","Topic41",-0.281128375310859
+"232","Africa Oriental","Topic06",0.547112065671665
+"233","Africa Oriental","Topic63",-0.477240981140541
+"234","Africa Oriental","Topic08",-0.410679423569023
+"235","Africa Oriental","Topic12",-0.0771558756572248
+"236","Africa Oriental","Topic03",0.310954169080557
+"237","Africa Oriental","Topic52",-0.649710594423379
+"238","Africa Oriental","Topic43",-0.344377639475372
+"239","Africa Oriental","Topic21",-0.35692929721092
+"240","Africa Oriental","Topic96",-0.345319977594241
+"241","America Central","Topic80",-0.318899005117605
+"242","America Central","Topic38",-0.474379266285966
+"243","America Central","Topic36",-0.959352972362614
+"244","America Central","Topic18",0.0760340826050417
+"245","America Central","Topic87",1.34411393393068
+"246","America Central","Topic04",-0.915471781481252
+"247","America Central","Topic37",1.96837130181319
+"248","America Central","Topic16",0.763900949776349
+"249","America Central","Topic99",0.0701922972764842
+"250","America Central","Topic60",-0.551968687549125
+"251","America Central","Topic78",-1.16362724760614
+"252","America Central","Topic97",-0.270935532789941
+"253","America Central","Topic95",0.886269507426032
+"254","America Central","Topic59",-0.2809003055065
+"255","America Central","Topic34",2.10272933034932
+"256","America Central","Topic94",-0.0134174239243313
+"257","America Central","Topic30",0.314356760825854
+"258","America Central","Topic81",-0.112777050805206
+"259","America Central","Topic33",-0.80868324024748
+"260","America Central","Topic58",0.356594267052692
+"261","America Central","Topic22",-0.407910708247646
+"262","America Central","Topic10",-0.432293064002001
+"263","America Central","Topic57",0.502825695745515
+"264","America Central","Topic11",-0.0282903390244809
+"265","America Central","Topic09",0.971976931142512
+"266","America Central","Topic54",1.42806937436013
+"267","America Central","Topic91",-0.00697242531966505
+"268","America Central","Topic90",-0.578267520033853
+"269","America Central","Topic23",0.0976424844287574
+"270","America Central","Topic17",0.808214351328051
+"271","America Central","Topic55",0.50988063841908
+"272","America Central","Topic62",0.312174704967197
+"273","America Central","Topic74",-0.178881419738844
+"274","America Central","Topic32",1.35967590127928
+"275","America Central","Topic07",-0.807925170398643
+"276","America Central","Topic92",-0.12298081244466
+"277","America Central","Topic73",0.346691110740289
+"278","America Central","Topic19",-0.323223350993012
+"279","America Central","Topic41",0.765627238891449
+"280","America Central","Topic06",-0.452280234806011
+"281","America Central","Topic63",-0.0721045581742808
+"282","America Central","Topic08",-0.0310236278318434
+"283","America Central","Topic12",-0.109353252642217
+"284","America Central","Topic03",-0.487630272052964
+"285","America Central","Topic52",-0.777559731070463
+"286","America Central","Topic43",-0.240396044590285
+"287","America Central","Topic21",-0.83831115112894
+"288","America Central","Topic96",-0.933549363820262
+"289","America del Norte","Topic80",-0.261981664912573
+"290","America del Norte","Topic38",-0.0945696283628393
+"291","America del Norte","Topic36",0.475908124879776
+"292","America del Norte","Topic18",0.601536560640138
+"293","America del Norte","Topic87",0.333311776853855
+"294","America del Norte","Topic04",0.0492061557121321
+"295","America del Norte","Topic37",0.0106400273219417
+"296","America del Norte","Topic16",0.626503568143565
+"297","America del Norte","Topic99",0.210378951465575
+"298","America del Norte","Topic60",0.330402949667949
+"299","America del Norte","Topic78",-0.155401575094317
+"300","America del Norte","Topic97",0.320260270879015
+"301","America del Norte","Topic95",-0.00402333867550776
+"302","America del Norte","Topic59",0.0802528668980104
+"303","America del Norte","Topic34",-0.324677735341712
+"304","America del Norte","Topic94",0.438038906155744
+"305","America del Norte","Topic30",0.298937584682398
+"306","America del Norte","Topic81",0.299934213190768
+"307","America del Norte","Topic33",-0.184684511283413
+"308","America del Norte","Topic58",-0.0820297691483572
+"309","America del Norte","Topic22",-0.214678365439424
+"310","America del Norte","Topic10",-0.411636984540827
+"311","America del Norte","Topic57",-0.271623373902155
+"312","America del Norte","Topic11",-0.125863464646934
+"313","America del Norte","Topic09",0.356139646748537
+"314","America del Norte","Topic54",-0.458687097403728
+"315","America del Norte","Topic91",0.082815440374678
+"316","America del Norte","Topic90",0.10665049183405
+"317","America del Norte","Topic23",-0.0857628868327875
+"318","America del Norte","Topic17",0.000915756669027268
+"319","America del Norte","Topic55",1.33244870278952
+"320","America del Norte","Topic62",0.467256412902253
+"321","America del Norte","Topic74",-0.231823868176922
+"322","America del Norte","Topic32",0.975174780851344
+"323","America del Norte","Topic07",0.546565563686619
+"324","America del Norte","Topic92",0.0488545723281918
+"325","America del Norte","Topic73",0.0915445671958972
+"326","America del Norte","Topic19",1.05453117576069
+"327","America del Norte","Topic41",-0.471343765357715
+"328","America del Norte","Topic06",0.195597869527472
+"329","America del Norte","Topic63",-0.503860182646314
+"330","America del Norte","Topic08",-0.312476381224087
+"331","America del Norte","Topic12",-0.307468947717548
+"332","America del Norte","Topic03",-0.249169728440667
+"333","America del Norte","Topic52",-0.082029620393803
+"334","America del Norte","Topic43",-0.647824627450471
+"335","America del Norte","Topic21",0.72547629947957
+"336","America del Norte","Topic96",0.756921126527201
+"337","America del Sur","Topic80",1.0069667865302
+"338","America del Sur","Topic38",0.268886328278923
+"339","America del Sur","Topic36",0.499139063451473
+"340","America del Sur","Topic18",-0.0493314038582085
+"341","America del Sur","Topic87",-0.121817299039399
+"342","America del Sur","Topic04",-0.504151519281076
+"343","America del Sur","Topic37",0.264787588381405
+"344","America del Sur","Topic16",-0.368337445455514
+"345","America del Sur","Topic99",-0.175049405505901
+"346","America del Sur","Topic60",-0.104759842830621
+"347","America del Sur","Topic78",0.298680349576128
+"348","America del Sur","Topic97",-0.581572872117256
+"349","America del Sur","Topic95",0.75974605312161
+"350","America del Sur","Topic59",-0.238290812317449
+"351","America del Sur","Topic34",-0.318679015282909
+"352","America del Sur","Topic94",0.210120273942835
+"353","America del Sur","Topic30",-0.530710217715489
+"354","America del Sur","Topic81",-0.172749323789668
+"355","America del Sur","Topic33",-0.791960250337047
+"356","America del Sur","Topic58",-0.0321145615480017
+"357","America del Sur","Topic22",-0.321287753941676
+"358","America del Sur","Topic10",-0.588135162669234
+"359","America del Sur","Topic57",0.283377843084449
+"360","America del Sur","Topic11",-0.158221909459323
+"361","America del Sur","Topic09",-0.386383369383547
+"362","America del Sur","Topic54",-0.139041121503321
+"363","America del Sur","Topic91",-0.0447722594891245
+"364","America del Sur","Topic90",-0.249348437752116
+"365","America del Sur","Topic23",-0.0623556977917514
+"366","America del Sur","Topic17",-0.717634108549021
+"367","America del Sur","Topic55",0.0408658059141448
+"368","America del Sur","Topic62",0.107647445335551
+"369","America del Sur","Topic74",0.793191709858371
+"370","America del Sur","Topic32",0.173735269062665
+"371","America del Sur","Topic07",0.00236075610230036
+"372","America del Sur","Topic92",0.396934318236056
+"373","America del Sur","Topic73",-0.843834248959413
+"374","America del Sur","Topic19",0.215763296004138
+"375","America del Sur","Topic41",-0.282375379145925
+"376","America del Sur","Topic06",-0.108047515397427
+"377","America del Sur","Topic63",-0.255272034028946
+"378","America del Sur","Topic08",-0.66553352742831
+"379","America del Sur","Topic12",-0.553338834353285
+"380","America del Sur","Topic03",-0.388953865083888
+"381","America del Sur","Topic52",-0.643229732441032
+"382","America del Sur","Topic43",-0.146686232082618
+"383","America del Sur","Topic21",0.292520201542131
+"384","America del Sur","Topic96",0.908230434034216
+"385","Asia Central","Topic80",1.75731874218167
+"386","Asia Central","Topic38",1.36754933929159
+"387","Asia Central","Topic36",-1.50234730996569
+"388","Asia Central","Topic18",0.242927130895982
+"389","Asia Central","Topic87",-1.47070818248428
+"390","Asia Central","Topic04",1.03550384740093
+"391","Asia Central","Topic37",-1.13559277214772
+"392","Asia Central","Topic16",-0.622618745610536
+"393","Asia Central","Topic99",0.989921902817973
+"394","Asia Central","Topic60",0.529575456954282
+"395","Asia Central","Topic78",-0.644570194206512
+"396","Asia Central","Topic97",-0.99184426931784
+"397","Asia Central","Topic95",0.0149275465164569
+"398","Asia Central","Topic59",-1.16564087832191
+"399","Asia Central","Topic34",0.19730572674123
+"400","Asia Central","Topic94",5.31182249925804
+"401","Asia Central","Topic30",0.874891647026118
+"402","Asia Central","Topic81",0.897589858572714
+"403","Asia Central","Topic33",-0.794428630888288
+"404","Asia Central","Topic58",-0.337531632122998
+"405","Asia Central","Topic22",-0.400471387137427
+"406","Asia Central","Topic10",-0.00862578320105625
+"407","Asia Central","Topic57",2.93493866987011
+"408","Asia Central","Topic11",-0.515780720596667
+"409","Asia Central","Topic09",-0.728532569624452
+"410","Asia Central","Topic54",1.98317577377618
+"411","Asia Central","Topic91",0.0240346264702001
+"412","Asia Central","Topic90",-0.600944063948123
+"413","Asia Central","Topic23",-0.00514127768712133
+"414","Asia Central","Topic17",-1.67995580471429
+"415","Asia Central","Topic55",2.31347926120479
+"416","Asia Central","Topic62",1.28020344570473
+"417","Asia Central","Topic74",0.768690164259633
+"418","Asia Central","Topic32",-0.826063620854125
+"419","Asia Central","Topic07",-1.30388546944498
+"420","Asia Central","Topic92",-1.42480144468149
+"421","Asia Central","Topic73",0.135610647556021
+"422","Asia Central","Topic19",-1.59488194496538
+"423","Asia Central","Topic41",-0.197270461489658
+"424","Asia Central","Topic06",0.255816567192989
+"425","Asia Central","Topic63",-1.35318075543161
+"426","Asia Central","Topic08",-1.12091745210428
+"427","Asia Central","Topic12",0.131097518486336
+"428","Asia Central","Topic03",0.518655215379462
+"429","Asia Central","Topic52",-0.359518192122557
+"430","Asia Central","Topic43",0.729163994889158
+"431","Asia Central","Topic21",0.176685696877809
+"432","Asia Central","Topic96",-0.276082471837652
+"433","Asia del Sur","Topic80",-0.170503859351995
+"434","Asia del Sur","Topic38",-0.246765404572764
+"435","Asia del Sur","Topic36",0.255994835801835
+"436","Asia del Sur","Topic18",-0.296640598596924
+"437","Asia del Sur","Topic87",0.0642685394156351
+"438","Asia del Sur","Topic04",-0.146310082877178
+"439","Asia del Sur","Topic37",0.481571208777277
+"440","Asia del Sur","Topic16",-0.406760588631269
+"441","Asia del Sur","Topic99",-0.545591311661792
+"442","Asia del Sur","Topic60",0.37234891202378
+"443","Asia del Sur","Topic78",-0.340398403702434
+"444","Asia del Sur","Topic97",1.08989957424855
+"445","Asia del Sur","Topic95",-0.549810977793543
+"446","Asia del Sur","Topic59",0.102517132406207
+"447","Asia del Sur","Topic34",0.984667703891472
+"448","Asia del Sur","Topic94",-0.3959571317375
+"449","Asia del Sur","Topic30",0.127100401192116
+"450","Asia del Sur","Topic81",-0.312150309478035
+"451","Asia del Sur","Topic33",0.0940410829193973
+"452","Asia del Sur","Topic58",0.840325428083415
+"453","Asia del Sur","Topic22",-0.498446254605246
+"454","Asia del Sur","Topic10",-0.344850424868176
+"455","Asia del Sur","Topic57",-0.220219783108617
+"456","Asia del Sur","Topic11",0.169036964190829
+"457","Asia del Sur","Topic09",-0.15439156748331
+"458","Asia del Sur","Topic54",0.233314754054926
+"459","Asia del Sur","Topic91",-0.157220655094291
+"460","Asia del Sur","Topic90",-0.309792609198609
+"461","Asia del Sur","Topic23",0.216268946707548
+"462","Asia del Sur","Topic17",0.00907694834569795
+"463","Asia del Sur","Topic55",0.128446747548981
+"464","Asia del Sur","Topic62",-0.202840859754855
+"465","Asia del Sur","Topic74",-0.483783047462348
+"466","Asia del Sur","Topic32",-0.542044946675723
+"467","Asia del Sur","Topic07",-0.0966685003763404
+"468","Asia del Sur","Topic92",0.228217912291955
+"469","Asia del Sur","Topic73",-0.419684770548382
+"470","Asia del Sur","Topic19",-0.508045339258115
+"471","Asia del Sur","Topic41",0.0282014659754521
+"472","Asia del Sur","Topic06",-0.0104827452334125
+"473","Asia del Sur","Topic63",-0.337561166879404
+"474","Asia del Sur","Topic08",1.49522679282429
+"475","Asia del Sur","Topic12",0.0755720871115652
+"476","Asia del Sur","Topic03",-0.405619710036319
+"477","Asia del Sur","Topic52",-0.367277774466455
+"478","Asia del Sur","Topic43",0.0869046658106949
+"479","Asia del Sur","Topic21",-0.0866225314489052
+"480","Asia del Sur","Topic96",-0.0971905708641204
+"481","Asia Occidental","Topic80",-0.279362306868759
+"482","Asia Occidental","Topic38",-0.19627225657871
+"483","Asia Occidental","Topic36",-0.0226114273728462
+"484","Asia Occidental","Topic18",-0.465332535185268
+"485","Asia Occidental","Topic87",0.134162235344334
+"486","Asia Occidental","Topic04",-0.27072471561563
+"487","Asia Occidental","Topic37",0.26635646744648
+"488","Asia Occidental","Topic16",-0.559808088422225
+"489","Asia Occidental","Topic99",-0.537297486914253
+"490","Asia Occidental","Topic60",-0.269368075122044
+"491","Asia Occidental","Topic78",0.280354556336474
+"492","Asia Occidental","Topic97",-0.118452132060064
+"493","Asia Occidental","Topic95",-0.468013616040617
+"494","Asia Occidental","Topic59",0.699189086023604
+"495","Asia Occidental","Topic34",0.335934599164517
+"496","Asia Occidental","Topic94",0.433670992011096
+"497","Asia Occidental","Topic30",0.210683114026482
+"498","Asia Occidental","Topic81",0.550066960186919
+"499","Asia Occidental","Topic33",0.541016847459777
+"500","Asia Occidental","Topic58",-0.143086442608806
+"501","Asia Occidental","Topic22",-0.226983847116716
+"502","Asia Occidental","Topic10",0.664002867472448
+"503","Asia Occidental","Topic57",-0.264985698693892
+"504","Asia Occidental","Topic11",-0.298686428116699
+"505","Asia Occidental","Topic09",-0.270625496463169
+"506","Asia Occidental","Topic54",-0.799307695489331
+"507","Asia Occidental","Topic91",0.659717151033679
+"508","Asia Occidental","Topic90",0.0873375378979917
+"509","Asia Occidental","Topic23",0.517599694133908
+"510","Asia Occidental","Topic17",0.0962575640672839
+"511","Asia Occidental","Topic55",-0.730300541781117
+"512","Asia Occidental","Topic62",-0.194693367754929
+"513","Asia Occidental","Topic74",-0.191262694876988
+"514","Asia Occidental","Topic32",0.0638104108766988
+"515","Asia Occidental","Topic07",0.391509858532233
+"516","Asia Occidental","Topic92",-0.175001295603999
+"517","Asia Occidental","Topic73",0.321378139134969
+"518","Asia Occidental","Topic19",-6.63101723694432e-05
+"519","Asia Occidental","Topic41",0.276218480953148
+"520","Asia Occidental","Topic06",0.175205598392261
+"521","Asia Occidental","Topic63",0.395469623027243
+"522","Asia Occidental","Topic08",-0.475876267124784
+"523","Asia Occidental","Topic12",0.554655487741788
+"524","Asia Occidental","Topic03",0.116816246783815
+"525","Asia Occidental","Topic52",-0.345649253335073
+"526","Asia Occidental","Topic43",-0.586367122287784
+"527","Asia Occidental","Topic21",-0.593628509321394
+"528","Asia Occidental","Topic96",-0.337751624698575
+"529","Asia Oriental","Topic80",-0.18781064329813
+"530","Asia Oriental","Topic38",0.0513039635904812
+"531","Asia Oriental","Topic36",-0.481541030091563
+"532","Asia Oriental","Topic18",0.214387645303052
+"533","Asia Oriental","Topic87",0.656377083085442
+"534","Asia Oriental","Topic04",0.0456181550963726
+"535","Asia Oriental","Topic37",0.196143328626446
+"536","Asia Oriental","Topic16",-0.0360743944197124
+"537","Asia Oriental","Topic99",-0.0412496773433338
+"538","Asia Oriental","Topic60",0.0834094615262933
+"539","Asia Oriental","Topic78",-0.139070332104241
+"540","Asia Oriental","Topic97",0.420432539999216
+"541","Asia Oriental","Topic95",-0.381455437480807
+"542","Asia Oriental","Topic59",0.339742833306647
+"543","Asia Oriental","Topic34",-0.395669061142823
+"544","Asia Oriental","Topic94",-0.166745066955387
+"545","Asia Oriental","Topic30",0.0975096173057999
+"546","Asia Oriental","Topic81",-0.0491163344586512
+"547","Asia Oriental","Topic33",0.0817676667662501
+"548","Asia Oriental","Topic58",-0.0831981845794968
+"549","Asia Oriental","Topic22",-0.126966739123166
+"550","Asia Oriental","Topic10",-0.328274216582024
+"551","Asia Oriental","Topic57",-0.342118251307378
+"552","Asia Oriental","Topic11",0.236018512512935
+"553","Asia Oriental","Topic09",0.881325696788532
+"554","Asia Oriental","Topic54",-0.198855819746705
+"555","Asia Oriental","Topic91",-0.219734952226086
+"556","Asia Oriental","Topic90",1.00637504499544
+"557","Asia Oriental","Topic23",-0.0586733732913721
+"558","Asia Oriental","Topic17",0.343994658706276
+"559","Asia Oriental","Topic55",-0.70961773572397
+"560","Asia Oriental","Topic62",0.0791131022839483
+"561","Asia Oriental","Topic74",-0.450675716607884
+"562","Asia Oriental","Topic32",-0.391138233461412
+"563","Asia Oriental","Topic07",-0.335483663936022
+"564","Asia Oriental","Topic92",0.851569765949074
+"565","Asia Oriental","Topic73",0.320918886462779
+"566","Asia Oriental","Topic19",-0.0260098694305114
+"567","Asia Oriental","Topic41",0.163381665196656
+"568","Asia Oriental","Topic06",-0.255622897358261
+"569","Asia Oriental","Topic63",0.417068843152554
+"570","Asia Oriental","Topic08",0.66672972901191
+"571","Asia Oriental","Topic12",-0.00261609560095401
+"572","Asia Oriental","Topic03",-0.299035302435909
+"573","Asia Oriental","Topic52",0.176217092816963
+"574","Asia Oriental","Topic43",-0.141393760841878
+"575","Asia Oriental","Topic21",-0.98126719743531
+"576","Asia Oriental","Topic96",-0.530395719460371
+"577","Australia y Nueva Zelanda","Topic80",-0.266698042650056
+"578","Australia y Nueva Zelanda","Topic38",-0.319932135361944
+"579","Australia y Nueva Zelanda","Topic36",-0.197885778915442
+"580","Australia y Nueva Zelanda","Topic18",1.07252848843489
+"581","Australia y Nueva Zelanda","Topic87",0.425211971485557
+"582","Australia y Nueva Zelanda","Topic04",0.283601364052881
+"583","Australia y Nueva Zelanda","Topic37",-0.0323801422003262
+"584","Australia y Nueva Zelanda","Topic16",0.751989373811243
+"585","Australia y Nueva Zelanda","Topic99",0.449784338787913
+"586","Australia y Nueva Zelanda","Topic60",0.387876848139125
+"587","Australia y Nueva Zelanda","Topic78",-0.176479965726348
+"588","Australia y Nueva Zelanda","Topic97",-0.00349625249708041
+"589","Australia y Nueva Zelanda","Topic95",-0.297316000420891
+"590","Australia y Nueva Zelanda","Topic59",0.183086895675626
+"591","Australia y Nueva Zelanda","Topic34",-0.281093227010286
+"592","Australia y Nueva Zelanda","Topic94",0.322992805617795
+"593","Australia y Nueva Zelanda","Topic30",-0.0254704027626375
+"594","Australia y Nueva Zelanda","Topic81",1.19914744902693
+"595","Australia y Nueva Zelanda","Topic33",-0.0488016204174574
+"596","Australia y Nueva Zelanda","Topic58",-0.368049358573718
+"597","Australia y Nueva Zelanda","Topic22",-0.325155059198499
+"598","Australia y Nueva Zelanda","Topic10",-0.472621238257516
+"599","Australia y Nueva Zelanda","Topic57",0.0457256623182612
+"600","Australia y Nueva Zelanda","Topic11",-0.331683707382442
+"601","Australia y Nueva Zelanda","Topic09",-0.189146494790553
+"602","Australia y Nueva Zelanda","Topic54",-0.45939641462828
+"603","Australia y Nueva Zelanda","Topic91",0.0840196536139614
+"604","Australia y Nueva Zelanda","Topic90",-0.487560909144514
+"605","Australia y Nueva Zelanda","Topic23",-0.208532239578608
+"606","Australia y Nueva Zelanda","Topic17",0.197359698834754
+"607","Australia y Nueva Zelanda","Topic55",0.953299016475976
+"608","Australia y Nueva Zelanda","Topic62",-0.0865023475366324
+"609","Australia y Nueva Zelanda","Topic74",-0.0549672529972982
+"610","Australia y Nueva Zelanda","Topic32",0.118013672402982
+"611","Australia y Nueva Zelanda","Topic07",0.330191657515559
+"612","Australia y Nueva Zelanda","Topic92",-0.278630655828354
+"613","Australia y Nueva Zelanda","Topic73",-0.192849646900902
+"614","Australia y Nueva Zelanda","Topic19",0.380170120586606
+"615","Australia y Nueva Zelanda","Topic41",-0.28259133714433
+"616","Australia y Nueva Zelanda","Topic06",-0.00163492462194661
+"617","Australia y Nueva Zelanda","Topic63",-0.568692854983569
+"618","Australia y Nueva Zelanda","Topic08",-0.540076370035781
+"619","Australia y Nueva Zelanda","Topic12",-0.64121926050857
+"620","Australia y Nueva Zelanda","Topic03",-0.0900777342707318
+"621","Australia y Nueva Zelanda","Topic52",-0.012467951750392
+"622","Australia y Nueva Zelanda","Topic43",-0.601594400907432
+"623","Australia y Nueva Zelanda","Topic21",1.67107249585166
+"624","Australia y Nueva Zelanda","Topic96",1.08890426383141
+"625","Caribe","Topic80",-1.01459216083049
+"626","Caribe","Topic38",5.34938707030224
+"627","Caribe","Topic36",2.59020381630605
+"628","Caribe","Topic18",-1.43969379738104
+"629","Caribe","Topic87",-1.56917602491616
+"630","Caribe","Topic04",-1.49700991975533
+"631","Caribe","Topic37",1.58995974538608
+"632","Caribe","Topic16",-1.52124793016915
+"633","Caribe","Topic99",-1.35975227192306
+"634","Caribe","Topic60",-1.49712216870192
+"635","Caribe","Topic78",-1.77101179548484
+"636","Caribe","Topic97",-1.36684612329648
+"637","Caribe","Topic95",-0.968374554621723
+"638","Caribe","Topic59",-1.50917194592555
+"639","Caribe","Topic34",-0.803837293361341
+"640","Caribe","Topic94",-1.10864444795824
+"641","Caribe","Topic30",1.28756627962734
+"642","Caribe","Topic81",-0.759093901623432
+"643","Caribe","Topic33",-1.36752872080674
+"644","Caribe","Topic58",-1.05433397361086
+"645","Caribe","Topic22",0.263344958082128
+"646","Caribe","Topic10",-1.17002215992404
+"647","Caribe","Topic57",1.49427905459326
+"648","Caribe","Topic11",8.36529405137867
+"649","Caribe","Topic09",-1.70290295004032
+"650","Caribe","Topic54",-1.83770220225539
+"651","Caribe","Topic91",5.64898541576598
+"652","Caribe","Topic90",2.0737447627803
+"653","Caribe","Topic23",-0.885042095381305
+"654","Caribe","Topic17",-1.81725374882089
+"655","Caribe","Topic55",0.806569259453532
+"656","Caribe","Topic62",-1.21456340930638
+"657","Caribe","Topic74",-1.10519473408298
+"658","Caribe","Topic32",-1.5140081674647
+"659","Caribe","Topic07",-1.37816060091411
+"660","Caribe","Topic92",-1.77301231893942
+"661","Caribe","Topic73",-1.75048286388569
+"662","Caribe","Topic19",-1.87762750309944
+"663","Caribe","Topic41",-1.24799271370022
+"664","Caribe","Topic06",2.68885060249761
+"665","Caribe","Topic63",-0.412954277030821
+"666","Caribe","Topic08",-1.61871514275684
+"667","Caribe","Topic12",-1.7481134966984
+"668","Caribe","Topic03",2.39225281031204
+"669","Caribe","Topic52",-1.41968507470137
+"670","Caribe","Topic43",-1.48157541655529
+"671","Caribe","Topic21",0.903384735697601
+"672","Caribe","Topic96",-1.78384891984808
+"673","Europa del Norte","Topic80",-0.0684128777365577
+"674","Europa del Norte","Topic38",0.209916131139935
+"675","Europa del Norte","Topic36",0.181737916721508
+"676","Europa del Norte","Topic18",-0.266315409900064
+"677","Europa del Norte","Topic87",-0.000549721859015949
+"678","Europa del Norte","Topic04",-0.187488524116866
+"679","Europa del Norte","Topic37",-0.120593015730219
+"680","Europa del Norte","Topic16",0.198055751029484
+"681","Europa del Norte","Topic99",0.348890145795717
+"682","Europa del Norte","Topic60",0.92942695394172
+"683","Europa del Norte","Topic78",0.187530795916356
+"684","Europa del Norte","Topic97",-0.308028928083573
+"685","Europa del Norte","Topic95",0.549921345660832
+"686","Europa del Norte","Topic59",-0.334206335912813
+"687","Europa del Norte","Topic34",-0.428133340461234
+"688","Europa del Norte","Topic94",-0.274978692971034
+"689","Europa del Norte","Topic30",-0.322893887600181
+"690","Europa del Norte","Topic81",0.194276889296086
+"691","Europa del Norte","Topic33",0.0584783876224992
+"692","Europa del Norte","Topic58",-0.515793743523343
+"693","Europa del Norte","Topic22",0.0296947023334981
+"694","Europa del Norte","Topic10",0.0142061949925507
+"695","Europa del Norte","Topic57",0.100897314624554
+"696","Europa del Norte","Topic11",-0.318376777432406
+"697","Europa del Norte","Topic09",-0.00881773442450446
+"698","Europa del Norte","Topic54",0.0866096615876343
+"699","Europa del Norte","Topic91",-0.334882651358303
+"700","Europa del Norte","Topic90",-0.401004404674257
+"701","Europa del Norte","Topic23",-0.198913747107361
+"702","Europa del Norte","Topic17",-0.22808975479758
+"703","Europa del Norte","Topic55",0.630846229284602
+"704","Europa del Norte","Topic62",-0.470570642265709
+"705","Europa del Norte","Topic74",0.373196758768236
+"706","Europa del Norte","Topic32",-0.161910349090912
+"707","Europa del Norte","Topic07",-0.132196721536314
+"708","Europa del Norte","Topic92",-0.113846317504361
+"709","Europa del Norte","Topic73",-0.274679940949103
+"710","Europa del Norte","Topic19",-0.246851146405764
+"711","Europa del Norte","Topic41",-0.0711429950728728
+"712","Europa del Norte","Topic06",-0.0621152606336374
+"713","Europa del Norte","Topic63",-0.518571788141204
+"714","Europa del Norte","Topic08",0.176923271961948
+"715","Europa del Norte","Topic12",-0.369775988732304
+"716","Europa del Norte","Topic03",-0.0852954916512614
+"717","Europa del Norte","Topic52",-0.0840045935642957
+"718","Europa del Norte","Topic43",0.363397673933828
+"719","Europa del Norte","Topic21",1.36842338310408
+"720","Europa del Norte","Topic96",0.984376654161871
+"721","Europa del Sur","Topic80",0.260730896114409
+"722","Europa del Sur","Topic38",0.0675195725975686
+"723","Europa del Sur","Topic36",-0.73208660311157
+"724","Europa del Sur","Topic18",0.358948277206395
+"725","Europa del Sur","Topic87",-0.15750168289471
+"726","Europa del Sur","Topic04",-0.00998402064537573
+"727","Europa del Sur","Topic37",0.0139191843494254
+"728","Europa del Sur","Topic16",-0.121366223527207
+"729","Europa del Sur","Topic99",0.29446464164988
+"730","Europa del Sur","Topic60",-0.698361598956138
+"731","Europa del Sur","Topic78",0.31925011844536
+"732","Europa del Sur","Topic97",0.306000462231458
+"733","Europa del Sur","Topic95",-0.454627040545085
+"734","Europa del Sur","Topic59",0.750750424188372
+"735","Europa del Sur","Topic34",-0.443777812446943
+"736","Europa del Sur","Topic94",-0.195547504094243
+"737","Europa del Sur","Topic30",-0.557786240666495
+"738","Europa del Sur","Topic81",-0.183044824014988
+"739","Europa del Sur","Topic33",-0.00352120063998598
+"740","Europa del Sur","Topic58",-0.493043393335133
+"741","Europa del Sur","Topic22",-0.0169043104987994
+"742","Europa del Sur","Topic10",0.0257948630698443
+"743","Europa del Sur","Topic57",-0.685695426198417
+"744","Europa del Sur","Topic11",0.124254018415999
+"745","Europa del Sur","Topic09",0.785230323936436
+"746","Europa del Sur","Topic54",-0.0951577449463011
+"747","Europa del Sur","Topic91",-0.172239058541967
+"748","Europa del Sur","Topic90",0.0233458706909709
+"749","Europa del Sur","Topic23",-0.324643836687313
+"750","Europa del Sur","Topic17",0.824724835532317
+"751","Europa del Sur","Topic55",-0.283873149171584
+"752","Europa del Sur","Topic62",0.046341469091487
+"753","Europa del Sur","Topic74",-0.314056810911333
+"754","Europa del Sur","Topic32",1.00109091886755
+"755","Europa del Sur","Topic07",-0.341396023062204
+"756","Europa del Sur","Topic92",-0.284088261293603
+"757","Europa del Sur","Topic73",0.979007738079366
+"758","Europa del Sur","Topic19",0.584690375823436
+"759","Europa del Sur","Topic41",0.490717350079279
+"760","Europa del Sur","Topic06",-0.56534535708155
+"761","Europa del Sur","Topic63",0.58395483875749
+"762","Europa del Sur","Topic08",0.240086839620962
+"763","Europa del Sur","Topic12",0.446809924208085
+"764","Europa del Sur","Topic03",-0.00475441716362257
+"765","Europa del Sur","Topic52",0.356554049999282
+"766","Europa del Sur","Topic43",0.0378023020004585
+"767","Europa del Sur","Topic21",-0.262018607238626
+"768","Europa del Sur","Topic96",-0.278571370661347
+"769","Europa Occidental","Topic80",-0.387334076696849
+"770","Europa Occidental","Topic38",-0.280614600196668
+"771","Europa Occidental","Topic36",0.0384758333033375
+"772","Europa Occidental","Topic18",0.0650038461760091
+"773","Europa Occidental","Topic87",0.240978179017967
+"774","Europa Occidental","Topic04",-0.181077587632776
+"775","Europa Occidental","Topic37",0.164085400866078
+"776","Europa Occidental","Topic16",0.254738747640864
+"777","Europa Occidental","Topic99",-0.0215504340605584
+"778","Europa Occidental","Topic60",-0.0962751781936101
+"779","Europa Occidental","Topic78",-0.120777254702944
+"780","Europa Occidental","Topic97",0.00907329603418533
+"781","Europa Occidental","Topic95",0.228934326063809
+"782","Europa Occidental","Topic59",-0.463854658333263
+"783","Europa Occidental","Topic34",-0.0957360672800752
+"784","Europa Occidental","Topic94",-0.137243895669695
+"785","Europa Occidental","Topic30",-0.20602391865515
+"786","Europa Occidental","Topic81",-0.0233992766354998
+"787","Europa Occidental","Topic33",0.316135961848392
+"788","Europa Occidental","Topic58",-0.360605401913736
+"789","Europa Occidental","Topic22",0.0217580938967203
+"790","Europa Occidental","Topic10",-0.197871323428629
+"791","Europa Occidental","Topic57",-0.459693584974145
+"792","Europa Occidental","Topic11",-0.0693818131695482
+"793","Europa Occidental","Topic09",0.256877310068313
+"794","Europa Occidental","Topic54",0.348696242402755
+"795","Europa Occidental","Topic91",-0.469173962848081
+"796","Europa Occidental","Topic90",0.532052470883724
+"797","Europa Occidental","Topic23",-0.245412667011597
+"798","Europa Occidental","Topic17",0.512272271794644
+"799","Europa Occidental","Topic55",0.218234026100093
+"800","Europa Occidental","Topic62",-0.322640642257619
+"801","Europa Occidental","Topic74",-0.188150810221384
+"802","Europa Occidental","Topic32",0.0521178114706055
+"803","Europa Occidental","Topic07",-0.0227793313189335
+"804","Europa Occidental","Topic92",0.501442890602892
+"805","Europa Occidental","Topic73",0.756070135639438
+"806","Europa Occidental","Topic19",0.283784095599164
+"807","Europa Occidental","Topic41",-0.100093070192825
+"808","Europa Occidental","Topic06",-0.318564279399523
+"809","Europa Occidental","Topic63",-0.215409097002594
+"810","Europa Occidental","Topic08",0.370897552860038
+"811","Europa Occidental","Topic12",0.310623545857949
+"812","Europa Occidental","Topic03",-0.336703808466647
+"813","Europa Occidental","Topic52",0.677308804378241
+"814","Europa Occidental","Topic43",0.568453434628355
+"815","Europa Occidental","Topic21",-0.0329184140819346
+"816","Europa Occidental","Topic96",-0.0131455386361018
+"817","Europa Oriental","Topic80",-0.20297112814401
+"818","Europa Oriental","Topic38",-0.382127130458023
+"819","Europa Oriental","Topic36",-0.203673203038346
+"820","Europa Oriental","Topic18",-0.208155503910957
+"821","Europa Oriental","Topic87",0.0943234609215715
+"822","Europa Oriental","Topic04",0.407850443181757
+"823","Europa Oriental","Topic37",-0.240465546352998
+"824","Europa Oriental","Topic16",0.462635853222974
+"825","Europa Oriental","Topic99",0.99287458867562
+"826","Europa Oriental","Topic60",-0.139689442410652
+"827","Europa Oriental","Topic78",0.0984432532295614
+"828","Europa Oriental","Topic97",0.0893606258806072
+"829","Europa Oriental","Topic95",0.723089923414871
+"830","Europa Oriental","Topic59",-0.355478634821789
+"831","Europa Oriental","Topic34",-0.0964366178885331
+"832","Europa Oriental","Topic94",-0.274744163005108
+"833","Europa Oriental","Topic30",-0.0839956235293906
+"834","Europa Oriental","Topic81",-0.0263421243124836
+"835","Europa Oriental","Topic33",-0.573884272217372
+"836","Europa Oriental","Topic58",-0.523834611320664
+"837","Europa Oriental","Topic22",0.712469907417433
+"838","Europa Oriental","Topic10",0.868184593885141
+"839","Europa Oriental","Topic57",-0.290668830475385
+"840","Europa Oriental","Topic11",-0.288326438492819
+"841","Europa Oriental","Topic09",0.0724913745497189
+"842","Europa Oriental","Topic54",0.921398428687415
+"843","Europa Oriental","Topic91",0.00832025315800257
+"844","Europa Oriental","Topic90",0.771643849302053
+"845","Europa Oriental","Topic23",-0.0375994692764439
+"846","Europa Oriental","Topic17",0.1864094699817
+"847","Europa Oriental","Topic55",0.10624252782005
+"848","Europa Oriental","Topic62",-0.424263290923765
+"849","Europa Oriental","Topic74",-0.206837939084983
+"850","Europa Oriental","Topic32",-0.304295368610518
+"851","Europa Oriental","Topic07",0.0832313393405178
+"852","Europa Oriental","Topic92",0.0664918488079975
+"853","Europa Oriental","Topic73",0.238215923052862
+"854","Europa Oriental","Topic19",-0.636793802336455
+"855","Europa Oriental","Topic41",-0.281442952097323
+"856","Europa Oriental","Topic06",0.403813012715633
+"857","Europa Oriental","Topic63",0.0340166046396874
+"858","Europa Oriental","Topic08",0.43106959837694
+"859","Europa Oriental","Topic12",0.319130759070524
+"860","Europa Oriental","Topic03",-0.295582479560921
+"861","Europa Oriental","Topic52",0.506127193097496
+"862","Europa Oriental","Topic43",0.24935228305599
+"863","Europa Oriental","Topic21",0.295176702031028
+"864","Europa Oriental","Topic96",0.0390201264680359
+"865","Sudeste Asiatico","Topic80",-0.251226553901151
+"866","Sudeste Asiatico","Topic38",-0.0947681822634793
+"867","Sudeste Asiatico","Topic36",0.39258851811686
+"868","Sudeste Asiatico","Topic18",1.06243759509588
+"869","Sudeste Asiatico","Topic87",0.0288835642363014
+"870","Sudeste Asiatico","Topic04",0.201316888791406
+"871","Sudeste Asiatico","Topic37",-0.221907957842887
+"872","Sudeste Asiatico","Topic16",-0.584771714585829
+"873","Sudeste Asiatico","Topic99",-0.649956015220613
+"874","Sudeste Asiatico","Topic60",-0.148210997889519
+"875","Sudeste Asiatico","Topic78",-0.0211140028605562
+"876","Sudeste Asiatico","Topic97",0.133548718959365
+"877","Sudeste Asiatico","Topic95",-0.280974737215875
+"878","Sudeste Asiatico","Topic59",0.503043520271159
+"879","Sudeste Asiatico","Topic34",-0.0946855317274464
+"880","Sudeste Asiatico","Topic94",0.711030342503758
+"881","Sudeste Asiatico","Topic30",0.1003476023367
+"882","Sudeste Asiatico","Topic81",-0.0724465482016929
+"883","Sudeste Asiatico","Topic33",0.508990872971278
+"884","Sudeste Asiatico","Topic58",0.553425987961501
+"885","Sudeste Asiatico","Topic22",-0.533779795985499
+"886","Sudeste Asiatico","Topic10",-0.0568530849267303
+"887","Sudeste Asiatico","Topic57",0.18106324037826
+"888","Sudeste Asiatico","Topic11",-0.0594120690371051
+"889","Sudeste Asiatico","Topic09",-0.221338620017394
+"890","Sudeste Asiatico","Topic54",-0.392290726577314
+"891","Sudeste Asiatico","Topic91",0.0254858396272593
+"892","Sudeste Asiatico","Topic90",-0.16436909428678
+"893","Sudeste Asiatico","Topic23",0.107928225126707
+"894","Sudeste Asiatico","Topic17",-0.228167286889608
+"895","Sudeste Asiatico","Topic55",0.317822988601764
+"896","Sudeste Asiatico","Topic62",-0.188843175918538
+"897","Sudeste Asiatico","Topic74",-0.131583536905985
+"898","Sudeste Asiatico","Topic32",-0.423712154423878
+"899","Sudeste Asiatico","Topic07",0.0166004977048545
+"900","Sudeste Asiatico","Topic92",-0.0394119210741895
+"901","Sudeste Asiatico","Topic73",0.294984240429933
+"902","Sudeste Asiatico","Topic19",-0.108456030123352
+"903","Sudeste Asiatico","Topic41",0.229652002296258
+"904","Sudeste Asiatico","Topic06",-0.0717397584047971
+"905","Sudeste Asiatico","Topic63",0.555831947692676
+"906","Sudeste Asiatico","Topic08",-0.13319166474022
+"907","Sudeste Asiatico","Topic12",0.177771394800759
+"908","Sudeste Asiatico","Topic03",0.107232576434844
+"909","Sudeste Asiatico","Topic52",0.96041939155553
+"910","Sudeste Asiatico","Topic43",0.175273299738567
+"911","Sudeste Asiatico","Topic21",-0.625642096015879
+"912","Sudeste Asiatico","Topic96",-0.795557250577346
