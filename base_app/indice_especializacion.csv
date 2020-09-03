@@ -1,0 +1,1231 @@
+"pais"	"ISO2"	"ISO3"	"continente"	"subcontinente"	"periodo"	"participacion"
+"1"	"Mundial"	""	""	""	""	"2004_2006"	0.013
+"2"	"Mundial"	""	""	""	""	"2007_2009"	0.014
+"3"	"Mundial"	""	""	""	""	"2010_2012"	0.015
+"4"	"Mundial"	""	""	""	""	"2013_2015"	0.016
+"5"	"Mundial"	""	""	""	""	"2016_2018"	0.017
+"6"	"Albania"	"AL"	"ALB"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"7"	"Albania"	"AL"	"ALB"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"8"	"Albania"	"AL"	"ALB"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"9"	"Albania"	"AL"	"ALB"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"10"	"Albania"	"AL"	"ALB"	"Europa"	"Europa del Sur"	"2016_2018"	NA
+"11"	"Alemania"	"DE"	"DEU"	"Europa"	"Europa Occidental"	"2004_2006"	0.0059
+"12"	"Alemania"	"DE"	"DEU"	"Europa"	"Europa Occidental"	"2007_2009"	0.0074
+"13"	"Alemania"	"DE"	"DEU"	"Europa"	"Europa Occidental"	"2010_2012"	0.0091
+"14"	"Alemania"	"DE"	"DEU"	"Europa"	"Europa Occidental"	"2013_2015"	0.01
+"15"	"Alemania"	"DE"	"DEU"	"Europa"	"Europa Occidental"	"2016_2018"	0.0123
+"16"	"Andorra"	"AD"	"AND"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"17"	"Andorra"	"AD"	"AND"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"18"	"Andorra"	"AD"	"AND"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"19"	"Andorra"	"AD"	"AND"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"20"	"Andorra"	"AD"	"AND"	"Europa"	"Europa del Sur"	"2016_2018"	NA
+"21"	"Angola"	"AO"	"AGO"	"Africa"	"Africa Central"	"2004_2006"	NA
+"22"	"Angola"	"AO"	"AGO"	"Africa"	"Africa Central"	"2007_2009"	NA
+"23"	"Angola"	"AO"	"AGO"	"Africa"	"Africa Central"	"2010_2012"	NA
+"24"	"Angola"	"AO"	"AGO"	"Africa"	"Africa Central"	"2013_2015"	NA
+"25"	"Angola"	"AO"	"AGO"	"Africa"	"Africa Central"	"2016_2018"	NA
+"26"	"Anguila"	"AI"	"AIA"	"America"	"Caribe"	"2004_2006"	NA
+"27"	"Anguila"	"AI"	"AIA"	"America"	"Caribe"	"2007_2009"	NA
+"28"	"Anguila"	"AI"	"AIA"	"America"	"Caribe"	"2010_2012"	NA
+"29"	"Anguila"	"AI"	"AIA"	"America"	"Caribe"	"2013_2015"	NA
+"30"	"Anguila"	"AI"	"AIA"	"America"	"Caribe"	"2016_2018"	NA
+"31"	"Antigua y Barbuda"	"AG"	"ATG"	"America"	"Caribe"	"2004_2006"	NA
+"32"	"Antigua y Barbuda"	"AG"	"ATG"	"America"	"Caribe"	"2007_2009"	NA
+"33"	"Antigua y Barbuda"	"AG"	"ATG"	"America"	"Caribe"	"2010_2012"	NA
+"34"	"Antigua y Barbuda"	"AG"	"ATG"	"America"	"Caribe"	"2013_2015"	NA
+"35"	"Antigua y Barbuda"	"AG"	"ATG"	"America"	"Caribe"	"2016_2018"	NA
+"36"	"Arabia Saudita"	"SA"	"SAU"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"37"	"Arabia Saudita"	"SA"	"SAU"	"Asia"	"Asia Occidental"	"2007_2009"	0.0023
+"38"	"Arabia Saudita"	"SA"	"SAU"	"Asia"	"Asia Occidental"	"2010_2012"	0.0087
+"39"	"Arabia Saudita"	"SA"	"SAU"	"Asia"	"Asia Occidental"	"2013_2015"	0.0058
+"40"	"Arabia Saudita"	"SA"	"SAU"	"Asia"	"Asia Occidental"	"2016_2018"	0.0091
+"41"	"Argelia"	"DZ"	"DZA"	"Africa"	"Africa del Norte"	"2004_2006"	NA
+"42"	"Argelia"	"DZ"	"DZA"	"Africa"	"Africa del Norte"	"2007_2009"	NA
+"43"	"Argelia"	"DZ"	"DZA"	"Africa"	"Africa del Norte"	"2010_2012"	NA
+"44"	"Argelia"	"DZ"	"DZA"	"Africa"	"Africa del Norte"	"2013_2015"	0.0055
+"45"	"Argelia"	"DZ"	"DZA"	"Africa"	"Africa del Norte"	"2016_2018"	0.0011
+"46"	"Argentina"	"AR"	"ARG"	"America"	"America del Sur"	"2004_2006"	0.0034
+"47"	"Argentina"	"AR"	"ARG"	"America"	"America del Sur"	"2007_2009"	0.0102
+"48"	"Argentina"	"AR"	"ARG"	"America"	"America del Sur"	"2010_2012"	0.0158
+"49"	"Argentina"	"AR"	"ARG"	"America"	"America del Sur"	"2013_2015"	0.0183
+"50"	"Argentina"	"AR"	"ARG"	"America"	"America del Sur"	"2016_2018"	0.0149
+"51"	"Armenia"	"AM"	"ARM"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"52"	"Armenia"	"AM"	"ARM"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"53"	"Armenia"	"AM"	"ARM"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"54"	"Armenia"	"AM"	"ARM"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"55"	"Armenia"	"AM"	"ARM"	"Asia"	"Asia Occidental"	"2016_2018"	NA
+"56"	"Aruba"	"AW"	"ABW"	"America"	"Caribe"	"2004_2006"	NA
+"57"	"Aruba"	"AW"	"ABW"	"America"	"Caribe"	"2007_2009"	NA
+"58"	"Aruba"	"AW"	"ABW"	"America"	"Caribe"	"2010_2012"	NA
+"59"	"Aruba"	"AW"	"ABW"	"America"	"Caribe"	"2013_2015"	NA
+"60"	"Aruba"	"AW"	"ABW"	"America"	"Caribe"	"2016_2018"	NA
+"61"	"Australia"	"AU"	"AUS"	"Oceania"	"Australia y Nueva Zelanda"	"2004_2006"	0.0108
+"62"	"Australia"	"AU"	"AUS"	"Oceania"	"Australia y Nueva Zelanda"	"2007_2009"	0.0132
+"63"	"Australia"	"AU"	"AUS"	"Oceania"	"Australia y Nueva Zelanda"	"2010_2012"	0.0142
+"64"	"Australia"	"AU"	"AUS"	"Oceania"	"Australia y Nueva Zelanda"	"2013_2015"	0.0165
+"65"	"Australia"	"AU"	"AUS"	"Oceania"	"Australia y Nueva Zelanda"	"2016_2018"	0.0186
+"66"	"Austria"	"AT"	"AUT"	"Europa"	"Europa Occidental"	"2004_2006"	0.0051
+"67"	"Austria"	"AT"	"AUT"	"Europa"	"Europa Occidental"	"2007_2009"	0.0122
+"68"	"Austria"	"AT"	"AUT"	"Europa"	"Europa Occidental"	"2010_2012"	0.0143
+"69"	"Austria"	"AT"	"AUT"	"Europa"	"Europa Occidental"	"2013_2015"	0.0124
+"70"	"Austria"	"AT"	"AUT"	"Europa"	"Europa Occidental"	"2016_2018"	0.0163
+"71"	"Azerbaiy<e1>n"	"AZ"	"AZE"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"72"	"Azerbaiy<e1>n"	"AZ"	"AZE"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"73"	"Azerbaiy<e1>n"	"AZ"	"AZE"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"74"	"Azerbaiy<e1>n"	"AZ"	"AZE"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"75"	"Azerbaiy<e1>n"	"AZ"	"AZE"	"Asia"	"Asia Occidental"	"2016_2018"	NA
+"76"	"B<e9>lgica"	"BE"	"BEL"	"Europa"	"Europa Occidental"	"2004_2006"	0.0053
+"77"	"B<e9>lgica"	"BE"	"BEL"	"Europa"	"Europa Occidental"	"2007_2009"	0.0069
+"78"	"B<e9>lgica"	"BE"	"BEL"	"Europa"	"Europa Occidental"	"2010_2012"	0.0078
+"79"	"B<e9>lgica"	"BE"	"BEL"	"Europa"	"Europa Occidental"	"2013_2015"	0.0101
+"80"	"B<e9>lgica"	"BE"	"BEL"	"Europa"	"Europa Occidental"	"2016_2018"	0.0128
+"81"	"Bahamas"	"BS"	"BHS"	"America"	"Caribe"	"2004_2006"	NA
+"82"	"Bahamas"	"BS"	"BHS"	"America"	"Caribe"	"2007_2009"	NA
+"83"	"Bahamas"	"BS"	"BHS"	"America"	"Caribe"	"2010_2012"	NA
+"84"	"Bahamas"	"BS"	"BHS"	"America"	"Caribe"	"2013_2015"	NA
+"85"	"Bahamas"	"BS"	"BHS"	"America"	"Caribe"	"2016_2018"	NA
+"86"	"Bahrein"	"BH"	"BHR"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"87"	"Bahrein"	"BH"	"BHR"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"88"	"Bahrein"	"BH"	"BHR"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"89"	"Bahrein"	"BH"	"BHR"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"90"	"Bahrein"	"BH"	"BHR"	"Asia"	"Asia Occidental"	"2016_2018"	NA
+"91"	"Bangladesh"	"BD"	"BGD"	"Asia"	"Asia del Sur"	"2004_2006"	NA
+"92"	"Bangladesh"	"BD"	"BGD"	"Asia"	"Asia del Sur"	"2007_2009"	0.0201
+"93"	"Bangladesh"	"BD"	"BGD"	"Asia"	"Asia del Sur"	"2010_2012"	0.0201
+"94"	"Bangladesh"	"BD"	"BGD"	"Asia"	"Asia del Sur"	"2013_2015"	0.0249
+"95"	"Bangladesh"	"BD"	"BGD"	"Asia"	"Asia del Sur"	"2016_2018"	0.0222
+"96"	"Barbados"	"BB"	"BRB"	"America"	"Caribe"	"2004_2006"	NA
+"97"	"Barbados"	"BB"	"BRB"	"America"	"Caribe"	"2007_2009"	NA
+"98"	"Barbados"	"BB"	"BRB"	"America"	"Caribe"	"2010_2012"	NA
+"99"	"Barbados"	"BB"	"BRB"	"America"	"Caribe"	"2013_2015"	NA
+"100"	"Barbados"	"BB"	"BRB"	"America"	"Caribe"	"2016_2018"	NA
+"101"	"Belice"	"BZ"	"BLZ"	"America"	"America Central"	"2004_2006"	NA
+"102"	"Belice"	"BZ"	"BLZ"	"America"	"America Central"	"2007_2009"	NA
+"103"	"Belice"	"BZ"	"BLZ"	"America"	"America Central"	"2010_2012"	NA
+"104"	"Belice"	"BZ"	"BLZ"	"America"	"America Central"	"2013_2015"	NA
+"105"	"Belice"	"BZ"	"BLZ"	"America"	"America Central"	"2016_2018"	NA
+"106"	"Benin"	"BJ"	"BEN"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"107"	"Benin"	"BJ"	"BEN"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"108"	"Benin"	"BJ"	"BEN"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"109"	"Benin"	"BJ"	"BEN"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"110"	"Benin"	"BJ"	"BEN"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"111"	"Bermuda"	"BM"	"BMU"	"America"	"America del Norte"	"2004_2006"	NA
+"112"	"Bermuda"	"BM"	"BMU"	"America"	"America del Norte"	"2007_2009"	NA
+"113"	"Bermuda"	"BM"	"BMU"	"America"	"America del Norte"	"2010_2012"	NA
+"114"	"Bermuda"	"BM"	"BMU"	"America"	"America del Norte"	"2013_2015"	NA
+"115"	"Bermuda"	"BM"	"BMU"	"America"	"America del Norte"	"2016_2018"	NA
+"116"	"Bielorrusia"	"BY"	"BLR"	"Europa"	"Europa Oriental"	"2004_2006"	NA
+"117"	"Bielorrusia"	"BY"	"BLR"	"Europa"	"Europa Oriental"	"2007_2009"	NA
+"118"	"Bielorrusia"	"BY"	"BLR"	"Europa"	"Europa Oriental"	"2010_2012"	NA
+"119"	"Bielorrusia"	"BY"	"BLR"	"Europa"	"Europa Oriental"	"2013_2015"	NA
+"120"	"Bielorrusia"	"BY"	"BLR"	"Europa"	"Europa Oriental"	"2016_2018"	NA
+"121"	"Bolivia"	"BO"	"BOL"	"America"	"America del Sur"	"2004_2006"	NA
+"122"	"Bolivia"	"BO"	"BOL"	"America"	"America del Sur"	"2007_2009"	NA
+"123"	"Bolivia"	"BO"	"BOL"	"America"	"America del Sur"	"2010_2012"	NA
+"124"	"Bolivia"	"BO"	"BOL"	"America"	"America del Sur"	"2013_2015"	NA
+"125"	"Bolivia"	"BO"	"BOL"	"America"	"America del Sur"	"2016_2018"	NA
+"126"	"Bonaire, San Eustaquio y Saba"	"BQ"	"BES"	"America"	"Caribe"	"2004_2006"	NA
+"127"	"Bonaire, San Eustaquio y Saba"	"BQ"	"BES"	"America"	"Caribe"	"2007_2009"	NA
+"128"	"Bonaire, San Eustaquio y Saba"	"BQ"	"BES"	"America"	"Caribe"	"2010_2012"	NA
+"129"	"Bonaire, San Eustaquio y Saba"	"BQ"	"BES"	"America"	"Caribe"	"2013_2015"	NA
+"130"	"Bonaire, San Eustaquio y Saba"	"BQ"	"BES"	"America"	"Caribe"	"2016_2018"	NA
+"131"	"Bosnia y Herzegovina"	"BA"	"BIH"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"132"	"Bosnia y Herzegovina"	"BA"	"BIH"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"133"	"Bosnia y Herzegovina"	"BA"	"BIH"	"Europa"	"Europa del Sur"	"2010_2012"	0.0059
+"134"	"Bosnia y Herzegovina"	"BA"	"BIH"	"Europa"	"Europa del Sur"	"2013_2015"	0.0122
+"135"	"Bosnia y Herzegovina"	"BA"	"BIH"	"Europa"	"Europa del Sur"	"2016_2018"	0.0307
+"136"	"Botswana"	"BW"	"BWA"	"Africa"	"Africa Austral"	"2004_2006"	NA
+"137"	"Botswana"	"BW"	"BWA"	"Africa"	"Africa Austral"	"2007_2009"	NA
+"138"	"Botswana"	"BW"	"BWA"	"Africa"	"Africa Austral"	"2010_2012"	NA
+"139"	"Botswana"	"BW"	"BWA"	"Africa"	"Africa Austral"	"2013_2015"	NA
+"140"	"Botswana"	"BW"	"BWA"	"Africa"	"Africa Austral"	"2016_2018"	0.0307
+"141"	"Brasil"	"BR"	"BRA"	"America"	"America del Sur"	"2004_2006"	0.0137
+"142"	"Brasil"	"BR"	"BRA"	"America"	"America del Sur"	"2007_2009"	0.0222
+"143"	"Brasil"	"BR"	"BRA"	"America"	"America del Sur"	"2010_2012"	0.0148
+"144"	"Brasil"	"BR"	"BRA"	"America"	"America del Sur"	"2013_2015"	0.0139
+"145"	"Brasil"	"BR"	"BRA"	"America"	"America del Sur"	"2016_2018"	0.0169
+"146"	"Brunei Darussalam"	"BN"	"BRN"	"Asia"	"Sudeste Asiatico"	"2004_2006"	NA
+"147"	"Brunei Darussalam"	"BN"	"BRN"	"Asia"	"Sudeste Asiatico"	"2007_2009"	NA
+"148"	"Brunei Darussalam"	"BN"	"BRN"	"Asia"	"Sudeste Asiatico"	"2010_2012"	NA
+"149"	"Brunei Darussalam"	"BN"	"BRN"	"Asia"	"Sudeste Asiatico"	"2013_2015"	NA
+"150"	"Brunei Darussalam"	"BN"	"BRN"	"Asia"	"Sudeste Asiatico"	"2016_2018"	NA
+"151"	"Bulgaria"	"BG"	"BGR"	"Europa"	"Europa Oriental"	"2004_2006"	NA
+"152"	"Bulgaria"	"BG"	"BGR"	"Europa"	"Europa Oriental"	"2007_2009"	0.0024
+"153"	"Bulgaria"	"BG"	"BGR"	"Europa"	"Europa Oriental"	"2010_2012"	0.0038
+"154"	"Bulgaria"	"BG"	"BGR"	"Europa"	"Europa Oriental"	"2013_2015"	0.0049
+"155"	"Bulgaria"	"BG"	"BGR"	"Europa"	"Europa Oriental"	"2016_2018"	0.01
+"156"	"Burkina Faso"	"BF"	"BFA"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"157"	"Burkina Faso"	"BF"	"BFA"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"158"	"Burkina Faso"	"BF"	"BFA"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"159"	"Burkina Faso"	"BF"	"BFA"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"160"	"Burkina Faso"	"BF"	"BFA"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"161"	"Burundi"	"BI"	"BDI"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"162"	"Burundi"	"BI"	"BDI"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"163"	"Burundi"	"BI"	"BDI"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"164"	"Burundi"	"BI"	"BDI"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"165"	"Burundi"	"BI"	"BDI"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"166"	"But<e1>n"	"BT"	"BTN"	"Asia"	"Asia del Sur"	"2004_2006"	NA
+"167"	"But<e1>n"	"BT"	"BTN"	"Asia"	"Asia del Sur"	"2007_2009"	NA
+"168"	"But<e1>n"	"BT"	"BTN"	"Asia"	"Asia del Sur"	"2010_2012"	NA
+"169"	"But<e1>n"	"BT"	"BTN"	"Asia"	"Asia del Sur"	"2013_2015"	NA
+"170"	"But<e1>n"	"BT"	"BTN"	"Asia"	"Asia del Sur"	"2016_2018"	NA
+"171"	"Cabo Verde"	"CV"	"CPV"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"172"	"Cabo Verde"	"CV"	"CPV"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"173"	"Cabo Verde"	"CV"	"CPV"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"174"	"Cabo Verde"	"CV"	"CPV"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"175"	"Cabo Verde"	"CV"	"CPV"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"176"	"Camboya"	"KH"	"KHM"	"Asia"	"Sudeste Asiatico"	"2004_2006"	NA
+"177"	"Camboya"	"KH"	"KHM"	"Asia"	"Sudeste Asiatico"	"2007_2009"	NA
+"178"	"Camboya"	"KH"	"KHM"	"Asia"	"Sudeste Asiatico"	"2010_2012"	NA
+"179"	"Camboya"	"KH"	"KHM"	"Asia"	"Sudeste Asiatico"	"2013_2015"	NA
+"180"	"Camboya"	"KH"	"KHM"	"Asia"	"Sudeste Asiatico"	"2016_2018"	NA
+"181"	"Camer<fa>n"	"CM"	"CMR"	"Africa"	"Africa Central"	"2004_2006"	NA
+"182"	"Camer<fa>n"	"CM"	"CMR"	"Africa"	"Africa Central"	"2007_2009"	NA
+"183"	"Camer<fa>n"	"CM"	"CMR"	"Africa"	"Africa Central"	"2010_2012"	NA
+"184"	"Camer<fa>n"	"CM"	"CMR"	"Africa"	"Africa Central"	"2013_2015"	0.0127
+"185"	"Camer<fa>n"	"CM"	"CMR"	"Africa"	"Africa Central"	"2016_2018"	0.0163
+"186"	"Canad<e1>"	"CA"	"CAN"	"America"	"America del Norte"	"2004_2006"	0.0156
+"187"	"Canad<e1>"	"CA"	"CAN"	"America"	"America del Norte"	"2007_2009"	0.0182
+"188"	"Canad<e1>"	"CA"	"CAN"	"America"	"America del Norte"	"2010_2012"	0.0171
+"189"	"Canad<e1>"	"CA"	"CAN"	"America"	"America del Norte"	"2013_2015"	0.0182
+"190"	"Canad<e1>"	"CA"	"CAN"	"America"	"America del Norte"	"2016_2018"	0.0226
+"191"	"Chad"	"TD"	"TCD"	"Africa"	"Africa Central"	"2004_2006"	NA
+"192"	"Chad"	"TD"	"TCD"	"Africa"	"Africa Central"	"2007_2009"	NA
+"193"	"Chad"	"TD"	"TCD"	"Africa"	"Africa Central"	"2010_2012"	NA
+"194"	"Chad"	"TD"	"TCD"	"Africa"	"Africa Central"	"2013_2015"	NA
+"195"	"Chad"	"TD"	"TCD"	"Africa"	"Africa Central"	"2016_2018"	NA
+"196"	"Chequia"	"CZ"	"CZE"	"Europa"	"Europa Oriental"	"2004_2006"	0.0017
+"197"	"Chequia"	"CZ"	"CZE"	"Europa"	"Europa Oriental"	"2007_2009"	0.0075
+"198"	"Chequia"	"CZ"	"CZE"	"Europa"	"Europa Oriental"	"2010_2012"	0.0074
+"199"	"Chequia"	"CZ"	"CZE"	"Europa"	"Europa Oriental"	"2013_2015"	0.0098
+"200"	"Chequia"	"CZ"	"CZE"	"Europa"	"Europa Oriental"	"2016_2018"	0.0111
+"201"	"Chile"	"CL"	"CHL"	"America"	"America del Sur"	"2004_2006"	0.0058
+"202"	"Chile"	"CL"	"CHL"	"America"	"America del Sur"	"2007_2009"	0.0097
+"203"	"Chile"	"CL"	"CHL"	"America"	"America del Sur"	"2010_2012"	0.0117
+"204"	"Chile"	"CL"	"CHL"	"America"	"America del Sur"	"2013_2015"	0.0146
+"205"	"Chile"	"CL"	"CHL"	"America"	"America del Sur"	"2016_2018"	0.0142
+"206"	"China"	"CN"	"CHN"	"Asia"	"Asia Oriental"	"2004_2006"	0.0028
+"207"	"China"	"CN"	"CHN"	"Asia"	"Asia Oriental"	"2007_2009"	0.0042
+"208"	"China"	"CN"	"CHN"	"Asia"	"Asia Oriental"	"2010_2012"	0.0041
+"209"	"China"	"CN"	"CHN"	"Asia"	"Asia Oriental"	"2013_2015"	0.0051
+"210"	"China"	"CN"	"CHN"	"Asia"	"Asia Oriental"	"2016_2018"	0.0062
+"211"	"China, regi<f3>n administrativa especial de Hong Kong"	"HK"	"HKG"	"Asia"	"Asia Oriental"	"2004_2006"	NA
+"212"	"China, regi<f3>n administrativa especial de Hong Kong"	"HK"	"HKG"	"Asia"	"Asia Oriental"	"2007_2009"	NA
+"213"	"China, regi<f3>n administrativa especial de Hong Kong"	"HK"	"HKG"	"Asia"	"Asia Oriental"	"2010_2012"	NA
+"214"	"China, regi<f3>n administrativa especial de Hong Kong"	"HK"	"HKG"	"Asia"	"Asia Oriental"	"2013_2015"	NA
+"215"	"China, regi<f3>n administrativa especial de Hong Kong"	"HK"	"HKG"	"Asia"	"Asia Oriental"	"2016_2018"	NA
+"216"	"China, regi<f3>n administrativa especial de Macao"	"MO"	"MAC"	"Asia"	"Asia Oriental"	"2004_2006"	NA
+"217"	"China, regi<f3>n administrativa especial de Macao"	"MO"	"MAC"	"Asia"	"Asia Oriental"	"2007_2009"	NA
+"218"	"China, regi<f3>n administrativa especial de Macao"	"MO"	"MAC"	"Asia"	"Asia Oriental"	"2010_2012"	NA
+"219"	"China, regi<f3>n administrativa especial de Macao"	"MO"	"MAC"	"Asia"	"Asia Oriental"	"2013_2015"	NA
+"220"	"China, regi<f3>n administrativa especial de Macao"	"MO"	"MAC"	"Asia"	"Asia Oriental"	"2016_2018"	NA
+"221"	"Chipre"	"CY"	"CYP"	"Asia"	"Asia Occidental"	"2004_2006"	0.0031
+"222"	"Chipre"	"CY"	"CYP"	"Asia"	"Asia Occidental"	"2007_2009"	0.0132
+"223"	"Chipre"	"CY"	"CYP"	"Asia"	"Asia Occidental"	"2010_2012"	0.0136
+"224"	"Chipre"	"CY"	"CYP"	"Asia"	"Asia Occidental"	"2013_2015"	0.0136
+"225"	"Chipre"	"CY"	"CYP"	"Asia"	"Asia Occidental"	"2016_2018"	0.0151
+"226"	"Colombia"	"CO"	"COL"	"America"	"America del Sur"	"2004_2006"	NA
+"227"	"Colombia"	"CO"	"COL"	"America"	"America del Sur"	"2007_2009"	0.0329
+"228"	"Colombia"	"CO"	"COL"	"America"	"America del Sur"	"2010_2012"	0.036
+"229"	"Colombia"	"CO"	"COL"	"America"	"America del Sur"	"2013_2015"	0.0181
+"230"	"Colombia"	"CO"	"COL"	"America"	"America del Sur"	"2016_2018"	0.0133
+"231"	"Comoras"	"KM"	"COM"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"232"	"Comoras"	"KM"	"COM"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"233"	"Comoras"	"KM"	"COM"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"234"	"Comoras"	"KM"	"COM"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"235"	"Comoras"	"KM"	"COM"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"236"	"Corea del Sur"	"KR"	"KOR"	"Asia"	"Asia Oriental"	"2004_2006"	0.0063
+"237"	"Corea del Sur"	"KR"	"KOR"	"Asia"	"Asia Oriental"	"2007_2009"	0.0111
+"238"	"Corea del Sur"	"KR"	"KOR"	"Asia"	"Asia Oriental"	"2010_2012"	0.0121
+"239"	"Corea del Sur"	"KR"	"KOR"	"Asia"	"Asia Oriental"	"2013_2015"	0.0123
+"240"	"Corea del Sur"	"KR"	"KOR"	"Asia"	"Asia Oriental"	"2016_2018"	0.0113
+"241"	"Costa de Marfil"	"CI"	"CIV"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"242"	"Costa de Marfil"	"CI"	"CIV"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"243"	"Costa de Marfil"	"CI"	"CIV"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"244"	"Costa de Marfil"	"CI"	"CIV"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"245"	"Costa de Marfil"	"CI"	"CIV"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"246"	"Costa Rica"	"CR"	"CRI"	"America"	"America Central"	"2004_2006"	NA
+"247"	"Costa Rica"	"CR"	"CRI"	"America"	"America Central"	"2007_2009"	NA
+"248"	"Costa Rica"	"CR"	"CRI"	"America"	"America Central"	"2010_2012"	NA
+"249"	"Costa Rica"	"CR"	"CRI"	"America"	"America Central"	"2013_2015"	NA
+"250"	"Costa Rica"	"CR"	"CRI"	"America"	"America Central"	"2016_2018"	0.011
+"251"	"Croacia"	"HR"	"HRV"	"Europa"	"Europa del Sur"	"2004_2006"	0.0098
+"252"	"Croacia"	"HR"	"HRV"	"Europa"	"Europa del Sur"	"2007_2009"	0.0091
+"253"	"Croacia"	"HR"	"HRV"	"Europa"	"Europa del Sur"	"2010_2012"	0.0113
+"254"	"Croacia"	"HR"	"HRV"	"Europa"	"Europa del Sur"	"2013_2015"	0.0082
+"255"	"Croacia"	"HR"	"HRV"	"Europa"	"Europa del Sur"	"2016_2018"	0.0111
+"256"	"Cuba"	"CU"	"CUB"	"America"	"Caribe"	"2004_2006"	NA
+"257"	"Cuba"	"CU"	"CUB"	"America"	"Caribe"	"2007_2009"	NA
+"258"	"Cuba"	"CU"	"CUB"	"America"	"Caribe"	"2010_2012"	NA
+"259"	"Cuba"	"CU"	"CUB"	"America"	"Caribe"	"2013_2015"	0.0038
+"260"	"Cuba"	"CU"	"CUB"	"America"	"Caribe"	"2016_2018"	0.0017
+"261"	"Curazao"	"CW"	"CUW"	"America"	"Caribe"	"2004_2006"	NA
+"262"	"Curazao"	"CW"	"CUW"	"America"	"Caribe"	"2007_2009"	NA
+"263"	"Curazao"	"CW"	"CUW"	"America"	"Caribe"	"2010_2012"	NA
+"264"	"Curazao"	"CW"	"CUW"	"America"	"Caribe"	"2013_2015"	NA
+"265"	"Curazao"	"CW"	"CUW"	"America"	"Caribe"	"2016_2018"	NA
+"266"	"Dinamarca"	"DK"	"DNK"	"Europa"	"Europa del Norte"	"2004_2006"	0.0093
+"267"	"Dinamarca"	"DK"	"DNK"	"Europa"	"Europa del Norte"	"2007_2009"	0.0063
+"268"	"Dinamarca"	"DK"	"DNK"	"Europa"	"Europa del Norte"	"2010_2012"	0.0115
+"269"	"Dinamarca"	"DK"	"DNK"	"Europa"	"Europa del Norte"	"2013_2015"	0.0104
+"270"	"Dinamarca"	"DK"	"DNK"	"Europa"	"Europa del Norte"	"2016_2018"	0.0146
+"271"	"Djibouti"	"DJ"	"DJI"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"272"	"Djibouti"	"DJ"	"DJI"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"273"	"Djibouti"	"DJ"	"DJI"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"274"	"Djibouti"	"DJ"	"DJI"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"275"	"Djibouti"	"DJ"	"DJI"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"276"	"Dominica"	"DM"	"DMA"	"America"	"Caribe"	"2004_2006"	NA
+"277"	"Dominica"	"DM"	"DMA"	"America"	"Caribe"	"2007_2009"	NA
+"278"	"Dominica"	"DM"	"DMA"	"America"	"Caribe"	"2010_2012"	NA
+"279"	"Dominica"	"DM"	"DMA"	"America"	"Caribe"	"2013_2015"	NA
+"280"	"Dominica"	"DM"	"DMA"	"America"	"Caribe"	"2016_2018"	NA
+"281"	"Ecuador"	"EC"	"ECU"	"America"	"America del Sur"	"2004_2006"	NA
+"282"	"Ecuador"	"EC"	"ECU"	"America"	"America del Sur"	"2007_2009"	NA
+"283"	"Ecuador"	"EC"	"ECU"	"America"	"America del Sur"	"2010_2012"	0.0069
+"284"	"Ecuador"	"EC"	"ECU"	"America"	"America del Sur"	"2013_2015"	0.0137
+"285"	"Ecuador"	"EC"	"ECU"	"America"	"America del Sur"	"2016_2018"	0.0117
+"286"	"Egipto"	"EG"	"EGY"	"Africa"	"Africa del Norte"	"2004_2006"	0.0049
+"287"	"Egipto"	"EG"	"EGY"	"Africa"	"Africa del Norte"	"2007_2009"	0.0138
+"288"	"Egipto"	"EG"	"EGY"	"Africa"	"Africa del Norte"	"2010_2012"	0.0091
+"289"	"Egipto"	"EG"	"EGY"	"Africa"	"Africa del Norte"	"2013_2015"	0.0078
+"290"	"Egipto"	"EG"	"EGY"	"Africa"	"Africa del Norte"	"2016_2018"	0.0133
+"291"	"El Salvador"	"SV"	"SLV"	"America"	"America Central"	"2004_2006"	NA
+"292"	"El Salvador"	"SV"	"SLV"	"America"	"America Central"	"2007_2009"	NA
+"293"	"El Salvador"	"SV"	"SLV"	"America"	"America Central"	"2010_2012"	NA
+"294"	"El Salvador"	"SV"	"SLV"	"America"	"America Central"	"2013_2015"	NA
+"295"	"El Salvador"	"SV"	"SLV"	"America"	"America Central"	"2016_2018"	NA
+"296"	"Emiratos <c1>rabes Unidos"	"AE"	"ARE"	"Asia"	"Asia Occidental"	"2004_2006"	0.0028
+"297"	"Emiratos <c1>rabes Unidos"	"AE"	"ARE"	"Asia"	"Asia Occidental"	"2007_2009"	0.0014
+"298"	"Emiratos <c1>rabes Unidos"	"AE"	"ARE"	"Asia"	"Asia Occidental"	"2010_2012"	0.014
+"299"	"Emiratos <c1>rabes Unidos"	"AE"	"ARE"	"Asia"	"Asia Occidental"	"2013_2015"	0.0207
+"300"	"Emiratos <c1>rabes Unidos"	"AE"	"ARE"	"Asia"	"Asia Occidental"	"2016_2018"	0.0181
+"301"	"Eritrea"	"ER"	"ERI"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"302"	"Eritrea"	"ER"	"ERI"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"303"	"Eritrea"	"ER"	"ERI"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"304"	"Eritrea"	"ER"	"ERI"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"305"	"Eritrea"	"ER"	"ERI"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"306"	"Eslovaquia"	"SK"	"SVK"	"Europa"	"Europa Oriental"	"2004_2006"	0.0068
+"307"	"Eslovaquia"	"SK"	"SVK"	"Europa"	"Europa Oriental"	"2007_2009"	0.0078
+"308"	"Eslovaquia"	"SK"	"SVK"	"Europa"	"Europa Oriental"	"2010_2012"	0.003
+"309"	"Eslovaquia"	"SK"	"SVK"	"Europa"	"Europa Oriental"	"2013_2015"	0.0051
+"310"	"Eslovaquia"	"SK"	"SVK"	"Europa"	"Europa Oriental"	"2016_2018"	0.0079
+"311"	"Eslovenia"	"SI"	"SVN"	"Europa"	"Europa del Sur"	"2004_2006"	0.0023
+"312"	"Eslovenia"	"SI"	"SVN"	"Europa"	"Europa del Sur"	"2007_2009"	0.0089
+"313"	"Eslovenia"	"SI"	"SVN"	"Europa"	"Europa del Sur"	"2010_2012"	0.0076
+"314"	"Eslovenia"	"SI"	"SVN"	"Europa"	"Europa del Sur"	"2013_2015"	0.0073
+"315"	"Eslovenia"	"SI"	"SVN"	"Europa"	"Europa del Sur"	"2016_2018"	0.0104
+"316"	"Espa<f1>a"	"ES"	"ESP"	"Europa"	"Europa del Sur"	"2004_2006"	0.009
+"317"	"Espa<f1>a"	"ES"	"ESP"	"Europa"	"Europa del Sur"	"2007_2009"	0.0114
+"318"	"Espa<f1>a"	"ES"	"ESP"	"Europa"	"Europa del Sur"	"2010_2012"	0.0164
+"319"	"Espa<f1>a"	"ES"	"ESP"	"Europa"	"Europa del Sur"	"2013_2015"	0.0161
+"320"	"Espa<f1>a"	"ES"	"ESP"	"Europa"	"Europa del Sur"	"2016_2018"	0.0194
+"321"	"Estados Unidos"	"US"	"USA"	"America"	"America del Norte"	"2004_2006"	0.0158
+"322"	"Estados Unidos"	"US"	"USA"	"America"	"America del Norte"	"2007_2009"	0.0192
+"323"	"Estados Unidos"	"US"	"USA"	"America"	"America del Norte"	"2010_2012"	0.0196
+"324"	"Estados Unidos"	"US"	"USA"	"America"	"America del Norte"	"2013_2015"	0.0203
+"325"	"Estados Unidos"	"US"	"USA"	"America"	"America del Norte"	"2016_2018"	0.023
+"326"	"Estonia"	"EE"	"EST"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"327"	"Estonia"	"EE"	"EST"	"Europa"	"Europa del Norte"	"2007_2009"	0.0074
+"328"	"Estonia"	"EE"	"EST"	"Europa"	"Europa del Norte"	"2010_2012"	0.009
+"329"	"Estonia"	"EE"	"EST"	"Europa"	"Europa del Norte"	"2013_2015"	0.0121
+"330"	"Estonia"	"EE"	"EST"	"Europa"	"Europa del Norte"	"2016_2018"	0.012
+"331"	"Eswatini"	"SZ"	"SWZ"	"Africa"	"Africa Austral"	"2004_2006"	NA
+"332"	"Eswatini"	"SZ"	"SWZ"	"Africa"	"Africa Austral"	"2007_2009"	NA
+"333"	"Eswatini"	"SZ"	"SWZ"	"Africa"	"Africa Austral"	"2010_2012"	NA
+"334"	"Eswatini"	"SZ"	"SWZ"	"Africa"	"Africa Austral"	"2013_2015"	NA
+"335"	"Eswatini"	"SZ"	"SWZ"	"Africa"	"Africa Austral"	"2016_2018"	NA
+"336"	"Etiop<ed>a"	"ET"	"ETH"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"337"	"Etiop<ed>a"	"ET"	"ETH"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"338"	"Etiop<ed>a"	"ET"	"ETH"	"Africa"	"Africa Oriental"	"2010_2012"	0.0174
+"339"	"Etiop<ed>a"	"ET"	"ETH"	"Africa"	"Africa Oriental"	"2013_2015"	0.0146
+"340"	"Etiop<ed>a"	"ET"	"ETH"	"Africa"	"Africa Oriental"	"2016_2018"	0.0179
+"341"	"Fiji"	"FJ"	"FJI"	"Oceania"	"Melanesia"	"2004_2006"	NA
+"342"	"Fiji"	"FJ"	"FJI"	"Oceania"	"Melanesia"	"2007_2009"	NA
+"343"	"Fiji"	"FJ"	"FJI"	"Oceania"	"Melanesia"	"2010_2012"	NA
+"344"	"Fiji"	"FJ"	"FJI"	"Oceania"	"Melanesia"	"2013_2015"	NA
+"345"	"Fiji"	"FJ"	"FJI"	"Oceania"	"Melanesia"	"2016_2018"	NA
+"346"	"Filipinas"	"PH"	"PHL"	"Asia"	"Sudeste Asiatico"	"2004_2006"	0.0126
+"347"	"Filipinas"	"PH"	"PHL"	"Asia"	"Sudeste Asiatico"	"2007_2009"	0.0251
+"348"	"Filipinas"	"PH"	"PHL"	"Asia"	"Sudeste Asiatico"	"2010_2012"	0.0177
+"349"	"Filipinas"	"PH"	"PHL"	"Asia"	"Sudeste Asiatico"	"2013_2015"	0.0121
+"350"	"Filipinas"	"PH"	"PHL"	"Asia"	"Sudeste Asiatico"	"2016_2018"	0.0193
+"351"	"Finlandia"	"FI"	"FIN"	"Europa"	"Europa del Norte"	"2004_2006"	0.0095
+"352"	"Finlandia"	"FI"	"FIN"	"Europa"	"Europa del Norte"	"2007_2009"	0.0129
+"353"	"Finlandia"	"FI"	"FIN"	"Europa"	"Europa del Norte"	"2010_2012"	0.0153
+"354"	"Finlandia"	"FI"	"FIN"	"Europa"	"Europa del Norte"	"2013_2015"	0.0148
+"355"	"Finlandia"	"FI"	"FIN"	"Europa"	"Europa del Norte"	"2016_2018"	0.0162
+"356"	"Francia"	"FR"	"FRA"	"Europa"	"Europa Occidental"	"2004_2006"	0.0034
+"357"	"Francia"	"FR"	"FRA"	"Europa"	"Europa Occidental"	"2007_2009"	0.0048
+"358"	"Francia"	"FR"	"FRA"	"Europa"	"Europa Occidental"	"2010_2012"	0.005
+"359"	"Francia"	"FR"	"FRA"	"Europa"	"Europa Occidental"	"2013_2015"	0.0069
+"360"	"Francia"	"FR"	"FRA"	"Europa"	"Europa Occidental"	"2016_2018"	0.0097
+"361"	"Gab<f3>n"	"GA"	"GAB"	"Africa"	"Africa Central"	"2004_2006"	NA
+"362"	"Gab<f3>n"	"GA"	"GAB"	"Africa"	"Africa Central"	"2007_2009"	NA
+"363"	"Gab<f3>n"	"GA"	"GAB"	"Africa"	"Africa Central"	"2010_2012"	NA
+"364"	"Gab<f3>n"	"GA"	"GAB"	"Africa"	"Africa Central"	"2013_2015"	NA
+"365"	"Gab<f3>n"	"GA"	"GAB"	"Africa"	"Africa Central"	"2016_2018"	NA
+"366"	"Gambia"	"GM"	"GMB"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"367"	"Gambia"	"GM"	"GMB"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"368"	"Gambia"	"GM"	"GMB"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"369"	"Gambia"	"GM"	"GMB"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"370"	"Gambia"	"GM"	"GMB"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"371"	"Georgia"	"GE"	"GEO"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"372"	"Georgia"	"GE"	"GEO"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"373"	"Georgia"	"GE"	"GEO"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"374"	"Georgia"	"GE"	"GEO"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"375"	"Georgia"	"GE"	"GEO"	"Asia"	"Asia Occidental"	"2016_2018"	0.0156
+"376"	"Ghana"	"GH"	"GHA"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"377"	"Ghana"	"GH"	"GHA"	"Africa"	"Africa Occidental"	"2007_2009"	0.0116
+"378"	"Ghana"	"GH"	"GHA"	"Africa"	"Africa Occidental"	"2010_2012"	0.0205
+"379"	"Ghana"	"GH"	"GHA"	"Africa"	"Africa Occidental"	"2013_2015"	0.0209
+"380"	"Ghana"	"GH"	"GHA"	"Africa"	"Africa Occidental"	"2016_2018"	0.0205
+"381"	"Gibraltar"	"GI"	"GIB"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"382"	"Gibraltar"	"GI"	"GIB"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"383"	"Gibraltar"	"GI"	"GIB"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"384"	"Gibraltar"	"GI"	"GIB"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"385"	"Gibraltar"	"GI"	"GIB"	"Europa"	"Europa del Sur"	"2016_2018"	NA
+"386"	"Granada"	"GD"	"GRD"	"America"	"Caribe"	"2004_2006"	NA
+"387"	"Granada"	"GD"	"GRD"	"America"	"Caribe"	"2007_2009"	NA
+"388"	"Granada"	"GD"	"GRD"	"America"	"Caribe"	"2010_2012"	NA
+"389"	"Granada"	"GD"	"GRD"	"America"	"Caribe"	"2013_2015"	NA
+"390"	"Granada"	"GD"	"GRD"	"America"	"Caribe"	"2016_2018"	NA
+"391"	"Grecia"	"GR"	"GRC"	"Europa"	"Europa del Sur"	"2004_2006"	0.0066
+"392"	"Grecia"	"GR"	"GRC"	"Europa"	"Europa del Sur"	"2007_2009"	0.0066
+"393"	"Grecia"	"GR"	"GRC"	"Europa"	"Europa del Sur"	"2010_2012"	0.0069
+"394"	"Grecia"	"GR"	"GRC"	"Europa"	"Europa del Sur"	"2013_2015"	0.0102
+"395"	"Grecia"	"GR"	"GRC"	"Europa"	"Europa del Sur"	"2016_2018"	0.009
+"396"	"Groenlandia"	"GL"	"GRL"	"America"	"America del Norte"	"2004_2006"	NA
+"397"	"Groenlandia"	"GL"	"GRL"	"America"	"America del Norte"	"2007_2009"	NA
+"398"	"Groenlandia"	"GL"	"GRL"	"America"	"America del Norte"	"2010_2012"	NA
+"399"	"Groenlandia"	"GL"	"GRL"	"America"	"America del Norte"	"2013_2015"	NA
+"400"	"Groenlandia"	"GL"	"GRL"	"America"	"America del Norte"	"2016_2018"	NA
+"401"	"Guadalupe"	"GP"	"GLP"	"America"	"Caribe"	"2004_2006"	NA
+"402"	"Guadalupe"	"GP"	"GLP"	"America"	"Caribe"	"2007_2009"	NA
+"403"	"Guadalupe"	"GP"	"GLP"	"America"	"Caribe"	"2010_2012"	NA
+"404"	"Guadalupe"	"GP"	"GLP"	"America"	"Caribe"	"2013_2015"	NA
+"405"	"Guadalupe"	"GP"	"GLP"	"America"	"Caribe"	"2016_2018"	NA
+"406"	"Guam"	"GU"	"GUM"	"Oceania"	"Micronesia"	"2004_2006"	NA
+"407"	"Guam"	"GU"	"GUM"	"Oceania"	"Micronesia"	"2007_2009"	NA
+"408"	"Guam"	"GU"	"GUM"	"Oceania"	"Micronesia"	"2010_2012"	NA
+"409"	"Guam"	"GU"	"GUM"	"Oceania"	"Micronesia"	"2013_2015"	NA
+"410"	"Guam"	"GU"	"GUM"	"Oceania"	"Micronesia"	"2016_2018"	NA
+"411"	"Guatemala"	"GT"	"GTM"	"America"	"America Central"	"2004_2006"	NA
+"412"	"Guatemala"	"GT"	"GTM"	"America"	"America Central"	"2007_2009"	NA
+"413"	"Guatemala"	"GT"	"GTM"	"America"	"America Central"	"2010_2012"	NA
+"414"	"Guatemala"	"GT"	"GTM"	"America"	"America Central"	"2013_2015"	NA
+"415"	"Guatemala"	"GT"	"GTM"	"America"	"America Central"	"2016_2018"	NA
+"416"	"Guayana Francesa"	"GF"	"GUF"	"America"	"America del Sur"	"2004_2006"	NA
+"417"	"Guayana Francesa"	"GF"	"GUF"	"America"	"America del Sur"	"2007_2009"	NA
+"418"	"Guayana Francesa"	"GF"	"GUF"	"America"	"America del Sur"	"2010_2012"	NA
+"419"	"Guayana Francesa"	"GF"	"GUF"	"America"	"America del Sur"	"2013_2015"	NA
+"420"	"Guayana Francesa"	"GF"	"GUF"	"America"	"America del Sur"	"2016_2018"	NA
+"421"	"Guernsey"	"GG"	"GGY"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"422"	"Guernsey"	"GG"	"GGY"	"Europa"	"Europa del Norte"	"2007_2009"	NA
+"423"	"Guernsey"	"GG"	"GGY"	"Europa"	"Europa del Norte"	"2010_2012"	NA
+"424"	"Guernsey"	"GG"	"GGY"	"Europa"	"Europa del Norte"	"2013_2015"	NA
+"425"	"Guernsey"	"GG"	"GGY"	"Europa"	"Europa del Norte"	"2016_2018"	NA
+"426"	"Guinea"	"GN"	"GIN"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"427"	"Guinea"	"GN"	"GIN"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"428"	"Guinea"	"GN"	"GIN"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"429"	"Guinea"	"GN"	"GIN"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"430"	"Guinea"	"GN"	"GIN"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"431"	"Guinea-Bissau"	"GW"	"GNB"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"432"	"Guinea-Bissau"	"GW"	"GNB"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"433"	"Guinea-Bissau"	"GW"	"GNB"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"434"	"Guinea-Bissau"	"GW"	"GNB"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"435"	"Guinea-Bissau"	"GW"	"GNB"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"436"	"Guinea Ecuatorial"	"GQ"	"GNQ"	"Africa"	"Africa Central"	"2004_2006"	NA
+"437"	"Guinea Ecuatorial"	"GQ"	"GNQ"	"Africa"	"Africa Central"	"2007_2009"	NA
+"438"	"Guinea Ecuatorial"	"GQ"	"GNQ"	"Africa"	"Africa Central"	"2010_2012"	NA
+"439"	"Guinea Ecuatorial"	"GQ"	"GNQ"	"Africa"	"Africa Central"	"2013_2015"	NA
+"440"	"Guinea Ecuatorial"	"GQ"	"GNQ"	"Africa"	"Africa Central"	"2016_2018"	NA
+"441"	"Guyana"	"GY"	"GUY"	"America"	"America del Sur"	"2004_2006"	NA
+"442"	"Guyana"	"GY"	"GUY"	"America"	"America del Sur"	"2007_2009"	NA
+"443"	"Guyana"	"GY"	"GUY"	"America"	"America del Sur"	"2010_2012"	NA
+"444"	"Guyana"	"GY"	"GUY"	"America"	"America del Sur"	"2013_2015"	NA
+"445"	"Guyana"	"GY"	"GUY"	"America"	"America del Sur"	"2016_2018"	NA
+"446"	"Hait<ed>"	"HT"	"HTI"	"America"	"Caribe"	"2004_2006"	NA
+"447"	"Hait<ed>"	"HT"	"HTI"	"America"	"Caribe"	"2007_2009"	NA
+"448"	"Hait<ed>"	"HT"	"HTI"	"America"	"Caribe"	"2010_2012"	NA
+"449"	"Hait<ed>"	"HT"	"HTI"	"America"	"Caribe"	"2013_2015"	NA
+"450"	"Hait<ed>"	"HT"	"HTI"	"America"	"Caribe"	"2016_2018"	NA
+"451"	"Honduras"	"HN"	"HND"	"America"	"America Central"	"2004_2006"	NA
+"452"	"Honduras"	"HN"	"HND"	"America"	"America Central"	"2007_2009"	NA
+"453"	"Honduras"	"HN"	"HND"	"America"	"America Central"	"2010_2012"	NA
+"454"	"Honduras"	"HN"	"HND"	"America"	"America Central"	"2013_2015"	NA
+"455"	"Honduras"	"HN"	"HND"	"America"	"America Central"	"2016_2018"	NA
+"456"	"Hungr<ed>a"	"HU"	"HUN"	"Europa"	"Europa Oriental"	"2004_2006"	0.0069
+"457"	"Hungr<ed>a"	"HU"	"HUN"	"Europa"	"Europa Oriental"	"2007_2009"	0.0073
+"458"	"Hungr<ed>a"	"HU"	"HUN"	"Europa"	"Europa Oriental"	"2010_2012"	0.0098
+"459"	"Hungr<ed>a"	"HU"	"HUN"	"Europa"	"Europa Oriental"	"2013_2015"	0.0076
+"460"	"Hungr<ed>a"	"HU"	"HUN"	"Europa"	"Europa Oriental"	"2016_2018"	0.0106
+"461"	"India"	"IN"	"IND"	"Asia"	"Asia del Sur"	"2004_2006"	0.0054
+"462"	"India"	"IN"	"IND"	"Asia"	"Asia del Sur"	"2007_2009"	0.0095
+"463"	"India"	"IN"	"IND"	"Asia"	"Asia del Sur"	"2010_2012"	0.0095
+"464"	"India"	"IN"	"IND"	"Asia"	"Asia del Sur"	"2013_2015"	0.0102
+"465"	"India"	"IN"	"IND"	"Asia"	"Asia del Sur"	"2016_2018"	0.0125
+"466"	"Indonesia"	"ID"	"IDN"	"Asia"	"Sudeste Asiatico"	"2004_2006"	NA
+"467"	"Indonesia"	"ID"	"IDN"	"Asia"	"Sudeste Asiatico"	"2007_2009"	0.0108
+"468"	"Indonesia"	"ID"	"IDN"	"Asia"	"Sudeste Asiatico"	"2010_2012"	0.0121
+"469"	"Indonesia"	"ID"	"IDN"	"Asia"	"Sudeste Asiatico"	"2013_2015"	0.0081
+"470"	"Indonesia"	"ID"	"IDN"	"Asia"	"Sudeste Asiatico"	"2016_2018"	0.0081
+"471"	"Ir<e1>n"	"IR"	"IRN"	"Asia"	"Asia del Sur"	"2004_2006"	0.0017
+"472"	"Ir<e1>n"	"IR"	"IRN"	"Asia"	"Asia del Sur"	"2007_2009"	0.01
+"473"	"Ir<e1>n"	"IR"	"IRN"	"Asia"	"Asia del Sur"	"2010_2012"	0.0103
+"474"	"Ir<e1>n"	"IR"	"IRN"	"Asia"	"Asia del Sur"	"2013_2015"	0.0109
+"475"	"Ir<e1>n"	"IR"	"IRN"	"Asia"	"Asia del Sur"	"2016_2018"	0.0087
+"476"	"Irak"	"IQ"	"IRQ"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"477"	"Irak"	"IQ"	"IRQ"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"478"	"Irak"	"IQ"	"IRQ"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"479"	"Irak"	"IQ"	"IRQ"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"480"	"Irak"	"IQ"	"IRQ"	"Asia"	"Asia Occidental"	"2016_2018"	0.0034
+"481"	"Irlanda"	"IE"	"IRL"	"Europa"	"Europa del Norte"	"2004_2006"	0.0098
+"482"	"Irlanda"	"IE"	"IRL"	"Europa"	"Europa del Norte"	"2007_2009"	0.0128
+"483"	"Irlanda"	"IE"	"IRL"	"Europa"	"Europa del Norte"	"2010_2012"	0.0184
+"484"	"Irlanda"	"IE"	"IRL"	"Europa"	"Europa del Norte"	"2013_2015"	0.015
+"485"	"Irlanda"	"IE"	"IRL"	"Europa"	"Europa del Norte"	"2016_2018"	0.0187
+"486"	"Isla Christmas"	"CX"	"CXR"	"Asia"	"Australia y Nueva Zelanda"	"2004_2006"	NA
+"487"	"Isla Christmas"	"CX"	"CXR"	"Asia"	"Australia y Nueva Zelanda"	"2007_2009"	NA
+"488"	"Isla Christmas"	"CX"	"CXR"	"Asia"	"Australia y Nueva Zelanda"	"2010_2012"	NA
+"489"	"Isla Christmas"	"CX"	"CXR"	"Asia"	"Australia y Nueva Zelanda"	"2013_2015"	NA
+"490"	"Isla Christmas"	"CX"	"CXR"	"Asia"	"Australia y Nueva Zelanda"	"2016_2018"	NA
+"491"	"Isla de Man"	"IM"	"IMN"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"492"	"Isla de Man"	"IM"	"IMN"	"Europa"	"Europa del Norte"	"2007_2009"	NA
+"493"	"Isla de Man"	"IM"	"IMN"	"Europa"	"Europa del Norte"	"2010_2012"	NA
+"494"	"Isla de Man"	"IM"	"IMN"	"Europa"	"Europa del Norte"	"2013_2015"	NA
+"495"	"Isla de Man"	"IM"	"IMN"	"Europa"	"Europa del Norte"	"2016_2018"	NA
+"496"	"Isla mauricio"	"MU"	"MUS"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"497"	"Isla mauricio"	"MU"	"MUS"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"498"	"Isla mauricio"	"MU"	"MUS"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"499"	"Isla mauricio"	"MU"	"MUS"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"500"	"Isla mauricio"	"MU"	"MUS"	"Asia"	"Asia Occidental"	"2016_2018"	NA
+"501"	"Isla Norfolk"	"NF"	"NFK"	"Oceania"	"Australia y Nueva Zelanda"	"2004_2006"	NA
+"502"	"Isla Norfolk"	"NF"	"NFK"	"Oceania"	"Australia y Nueva Zelanda"	"2007_2009"	NA
+"503"	"Isla Norfolk"	"NF"	"NFK"	"Oceania"	"Australia y Nueva Zelanda"	"2010_2012"	NA
+"504"	"Isla Norfolk"	"NF"	"NFK"	"Oceania"	"Australia y Nueva Zelanda"	"2013_2015"	NA
+"505"	"Isla Norfolk"	"NF"	"NFK"	"Oceania"	"Australia y Nueva Zelanda"	"2016_2018"	NA
+"506"	"Islandia"	"IS"	"ISL"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"507"	"Islandia"	"IS"	"ISL"	"Europa"	"Europa del Norte"	"2007_2009"	0.0179
+"508"	"Islandia"	"IS"	"ISL"	"Europa"	"Europa del Norte"	"2010_2012"	0.0186
+"509"	"Islandia"	"IS"	"ISL"	"Europa"	"Europa del Norte"	"2013_2015"	0.0447
+"510"	"Islandia"	"IS"	"ISL"	"Europa"	"Europa del Norte"	"2016_2018"	0.037
+"511"	"Islas Aland"	"AX"	"ALA"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"512"	"Islas Aland"	"AX"	"ALA"	"Europa"	"Europa del Norte"	"2007_2009"	NA
+"513"	"Islas Aland"	"AX"	"ALA"	"Europa"	"Europa del Norte"	"2010_2012"	NA
+"514"	"Islas Aland"	"AX"	"ALA"	"Europa"	"Europa del Norte"	"2013_2015"	NA
+"515"	"Islas Aland"	"AX"	"ALA"	"Europa"	"Europa del Norte"	"2016_2018"	NA
+"516"	"Islas Caim<e1>n"	"KY"	"CYM"	"America"	"Caribe"	"2004_2006"	NA
+"517"	"Islas Caim<e1>n"	"KY"	"CYM"	"America"	"Caribe"	"2007_2009"	NA
+"518"	"Islas Caim<e1>n"	"KY"	"CYM"	"America"	"Caribe"	"2010_2012"	NA
+"519"	"Islas Caim<e1>n"	"KY"	"CYM"	"America"	"Caribe"	"2013_2015"	NA
+"520"	"Islas Caim<e1>n"	"KY"	"CYM"	"America"	"Caribe"	"2016_2018"	NA
+"521"	"Islas Cocos (Keeling)"	"CC"	"CCK"	"Asia"	"Australia y Nueva Zelanda"	"2004_2006"	NA
+"522"	"Islas Cocos (Keeling)"	"CC"	"CCK"	"Asia"	"Australia y Nueva Zelanda"	"2007_2009"	NA
+"523"	"Islas Cocos (Keeling)"	"CC"	"CCK"	"Asia"	"Australia y Nueva Zelanda"	"2010_2012"	NA
+"524"	"Islas Cocos (Keeling)"	"CC"	"CCK"	"Asia"	"Australia y Nueva Zelanda"	"2013_2015"	NA
+"525"	"Islas Cocos (Keeling)"	"CC"	"CCK"	"Asia"	"Australia y Nueva Zelanda"	"2016_2018"	NA
+"526"	"Islas Cook"	"CK"	"COK"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"527"	"Islas Cook"	"CK"	"COK"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"528"	"Islas Cook"	"CK"	"COK"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"529"	"Islas Cook"	"CK"	"COK"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"530"	"Islas Cook"	"CK"	"COK"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"531"	"Islas Feroe"	"FO"	"FRO"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"532"	"Islas Feroe"	"FO"	"FRO"	"Europa"	"Europa del Norte"	"2007_2009"	NA
+"533"	"Islas Feroe"	"FO"	"FRO"	"Europa"	"Europa del Norte"	"2010_2012"	NA
+"534"	"Islas Feroe"	"FO"	"FRO"	"Europa"	"Europa del Norte"	"2013_2015"	NA
+"535"	"Islas Feroe"	"FO"	"FRO"	"Europa"	"Europa del Norte"	"2016_2018"	NA
+"536"	"Islas Malvinas (Falkland)"	"FK"	"FLK"	"America"	"America del Sur"	"2004_2006"	NA
+"537"	"Islas Malvinas (Falkland)"	"FK"	"FLK"	"America"	"America del Sur"	"2007_2009"	NA
+"538"	"Islas Malvinas (Falkland)"	"FK"	"FLK"	"America"	"America del Sur"	"2010_2012"	NA
+"539"	"Islas Malvinas (Falkland)"	"FK"	"FLK"	"America"	"America del Sur"	"2013_2015"	NA
+"540"	"Islas Malvinas (Falkland)"	"FK"	"FLK"	"America"	"America del Sur"	"2016_2018"	NA
+"541"	"Islas Marianas Septentrionales"	"MP"	"MNP"	"Oceania"	"Micronesia"	"2004_2006"	NA
+"542"	"Islas Marianas Septentrionales"	"MP"	"MNP"	"Oceania"	"Micronesia"	"2007_2009"	NA
+"543"	"Islas Marianas Septentrionales"	"MP"	"MNP"	"Oceania"	"Micronesia"	"2010_2012"	NA
+"544"	"Islas Marianas Septentrionales"	"MP"	"MNP"	"Oceania"	"Micronesia"	"2013_2015"	NA
+"545"	"Islas Marianas Septentrionales"	"MP"	"MNP"	"Oceania"	"Micronesia"	"2016_2018"	NA
+"546"	"Islas Marshall"	"MH"	"MHL"	"Oceania"	"Micronesia"	"2004_2006"	NA
+"547"	"Islas Marshall"	"MH"	"MHL"	"Oceania"	"Micronesia"	"2007_2009"	NA
+"548"	"Islas Marshall"	"MH"	"MHL"	"Oceania"	"Micronesia"	"2010_2012"	NA
+"549"	"Islas Marshall"	"MH"	"MHL"	"Oceania"	"Micronesia"	"2013_2015"	NA
+"550"	"Islas Marshall"	"MH"	"MHL"	"Oceania"	"Micronesia"	"2016_2018"	NA
+"551"	"Islas Solomon"	"SB"	"SLB"	"Oceania"	"Melanesia"	"2004_2006"	NA
+"552"	"Islas Solomon"	"SB"	"SLB"	"Oceania"	"Melanesia"	"2007_2009"	NA
+"553"	"Islas Solomon"	"SB"	"SLB"	"Oceania"	"Melanesia"	"2010_2012"	NA
+"554"	"Islas Solomon"	"SB"	"SLB"	"Oceania"	"Melanesia"	"2013_2015"	NA
+"555"	"Islas Solomon"	"SB"	"SLB"	"Oceania"	"Melanesia"	"2016_2018"	NA
+"556"	"Islas V<ed>rgenes Brit<e1>nicas"	"VG"	"VGB"	"America"	"Caribe"	"2004_2006"	NA
+"557"	"Islas V<ed>rgenes Brit<e1>nicas"	"VG"	"VGB"	"America"	"Caribe"	"2007_2009"	NA
+"558"	"Islas V<ed>rgenes Brit<e1>nicas"	"VG"	"VGB"	"America"	"Caribe"	"2010_2012"	NA
+"559"	"Islas V<ed>rgenes Brit<e1>nicas"	"VG"	"VGB"	"America"	"Caribe"	"2013_2015"	NA
+"560"	"Islas V<ed>rgenes Brit<e1>nicas"	"VG"	"VGB"	"America"	"Caribe"	"2016_2018"	NA
+"561"	"Islas Virgenes"	"VI"	"VIR"	"America"	"Caribe"	"2004_2006"	NA
+"562"	"Islas Virgenes"	"VI"	"VIR"	"America"	"Caribe"	"2007_2009"	NA
+"563"	"Islas Virgenes"	"VI"	"VIR"	"America"	"Caribe"	"2010_2012"	NA
+"564"	"Islas Virgenes"	"VI"	"VIR"	"America"	"Caribe"	"2013_2015"	NA
+"565"	"Islas Virgenes"	"VI"	"VIR"	"America"	"Caribe"	"2016_2018"	NA
+"566"	"Israel"	"IL"	"ISR"	"Asia"	"Asia Occidental"	"2004_2006"	0.0161
+"567"	"Israel"	"IL"	"ISR"	"Asia"	"Asia Occidental"	"2007_2009"	0.0187
+"568"	"Israel"	"IL"	"ISR"	"Asia"	"Asia Occidental"	"2010_2012"	0.0179
+"569"	"Israel"	"IL"	"ISR"	"Asia"	"Asia Occidental"	"2013_2015"	0.0162
+"570"	"Israel"	"IL"	"ISR"	"Asia"	"Asia Occidental"	"2016_2018"	0.0217
+"571"	"Italia"	"IT"	"ITA"	"Europa"	"Europa del Sur"	"2004_2006"	0.0047
+"572"	"Italia"	"IT"	"ITA"	"Europa"	"Europa del Sur"	"2007_2009"	0.0057
+"573"	"Italia"	"IT"	"ITA"	"Europa"	"Europa del Sur"	"2010_2012"	0.0064
+"574"	"Italia"	"IT"	"ITA"	"Europa"	"Europa del Sur"	"2013_2015"	0.009
+"575"	"Italia"	"IT"	"ITA"	"Europa"	"Europa del Sur"	"2016_2018"	0.0109
+"576"	"Jamaica"	"JM"	"JAM"	"America"	"Caribe"	"2004_2006"	NA
+"577"	"Jamaica"	"JM"	"JAM"	"America"	"Caribe"	"2007_2009"	NA
+"578"	"Jamaica"	"JM"	"JAM"	"America"	"Caribe"	"2010_2012"	NA
+"579"	"Jamaica"	"JM"	"JAM"	"America"	"Caribe"	"2013_2015"	NA
+"580"	"Jamaica"	"JM"	"JAM"	"America"	"Caribe"	"2016_2018"	NA
+"581"	"Jap<f3>n"	"JP"	"JPN"	"Asia"	"Asia Oriental"	"2004_2006"	0.0066
+"582"	"Jap<f3>n"	"JP"	"JPN"	"Asia"	"Asia Oriental"	"2007_2009"	0.0054
+"583"	"Jap<f3>n"	"JP"	"JPN"	"Asia"	"Asia Oriental"	"2010_2012"	0.0082
+"584"	"Jap<f3>n"	"JP"	"JPN"	"Asia"	"Asia Oriental"	"2013_2015"	0.0064
+"585"	"Jap<f3>n"	"JP"	"JPN"	"Asia"	"Asia Oriental"	"2016_2018"	0.008
+"586"	"Jersey"	"JE"	"JEY"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"587"	"Jersey"	"JE"	"JEY"	"Europa"	"Europa del Norte"	"2007_2009"	NA
+"588"	"Jersey"	"JE"	"JEY"	"Europa"	"Europa del Norte"	"2010_2012"	NA
+"589"	"Jersey"	"JE"	"JEY"	"Europa"	"Europa del Norte"	"2013_2015"	NA
+"590"	"Jersey"	"JE"	"JEY"	"Europa"	"Europa del Norte"	"2016_2018"	NA
+"591"	"Jord<e1>n"	"JO"	"JOR"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"592"	"Jord<e1>n"	"JO"	"JOR"	"Asia"	"Asia Occidental"	"2007_2009"	0.0154
+"593"	"Jord<e1>n"	"JO"	"JOR"	"Asia"	"Asia Occidental"	"2010_2012"	0.0091
+"594"	"Jord<e1>n"	"JO"	"JOR"	"Asia"	"Asia Occidental"	"2013_2015"	0.0096
+"595"	"Jord<e1>n"	"JO"	"JOR"	"Asia"	"Asia Occidental"	"2016_2018"	0.0114
+"596"	"Katar"	"QA"	"QAT"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"597"	"Katar"	"QA"	"QAT"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"598"	"Katar"	"QA"	"QAT"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"599"	"Katar"	"QA"	"QAT"	"Asia"	"Asia Occidental"	"2013_2015"	0.0066
+"600"	"Katar"	"QA"	"QAT"	"Asia"	"Asia Occidental"	"2016_2018"	0.021
+"601"	"Kazajst<e1>n"	"KZ"	"KAZ"	"Asia"	"Asia Central"	"2004_2006"	NA
+"602"	"Kazajst<e1>n"	"KZ"	"KAZ"	"Asia"	"Asia Central"	"2007_2009"	NA
+"603"	"Kazajst<e1>n"	"KZ"	"KAZ"	"Asia"	"Asia Central"	"2010_2012"	NA
+"604"	"Kazajst<e1>n"	"KZ"	"KAZ"	"Asia"	"Asia Central"	"2013_2015"	0.0055
+"605"	"Kazajst<e1>n"	"KZ"	"KAZ"	"Asia"	"Asia Central"	"2016_2018"	0.0047
+"606"	"Kenia"	"KE"	"KEN"	"Africa"	"Africa Oriental"	"2004_2006"	0.0151
+"607"	"Kenia"	"KE"	"KEN"	"Africa"	"Africa Oriental"	"2007_2009"	0.0255
+"608"	"Kenia"	"KE"	"KEN"	"Africa"	"Africa Oriental"	"2010_2012"	0.0207
+"609"	"Kenia"	"KE"	"KEN"	"Africa"	"Africa Oriental"	"2013_2015"	0.0195
+"610"	"Kenia"	"KE"	"KEN"	"Africa"	"Africa Oriental"	"2016_2018"	0.0315
+"611"	"Kirguizist<e1>n"	"KG"	"KGZ"	"Asia"	"Asia Central"	"2004_2006"	NA
+"612"	"Kirguizist<e1>n"	"KG"	"KGZ"	"Asia"	"Asia Central"	"2007_2009"	NA
+"613"	"Kirguizist<e1>n"	"KG"	"KGZ"	"Asia"	"Asia Central"	"2010_2012"	NA
+"614"	"Kirguizist<e1>n"	"KG"	"KGZ"	"Asia"	"Asia Central"	"2013_2015"	NA
+"615"	"Kirguizist<e1>n"	"KG"	"KGZ"	"Asia"	"Asia Central"	"2016_2018"	NA
+"616"	"Kiribati"	"KI"	"KIR"	"Oceania"	"Micronesia"	"2004_2006"	NA
+"617"	"Kiribati"	"KI"	"KIR"	"Oceania"	"Micronesia"	"2007_2009"	NA
+"618"	"Kiribati"	"KI"	"KIR"	"Oceania"	"Micronesia"	"2010_2012"	NA
+"619"	"Kiribati"	"KI"	"KIR"	"Oceania"	"Micronesia"	"2013_2015"	NA
+"620"	"Kiribati"	"KI"	"KIR"	"Oceania"	"Micronesia"	"2016_2018"	NA
+"621"	"Kosovo"	"XK"	"KOS"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"622"	"Kosovo"	"XK"	"KOS"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"623"	"Kosovo"	"XK"	"KOS"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"624"	"Kosovo"	"XK"	"KOS"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"625"	"Kosovo"	"XK"	"KOS"	"Europa"	"Europa del Sur"	"2016_2018"	NA
+"626"	"Kuwait"	"KW"	"KWT"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"627"	"Kuwait"	"KW"	"KWT"	"Asia"	"Asia Occidental"	"2007_2009"	0.0146
+"628"	"Kuwait"	"KW"	"KWT"	"Asia"	"Asia Occidental"	"2010_2012"	0.0107
+"629"	"Kuwait"	"KW"	"KWT"	"Asia"	"Asia Occidental"	"2013_2015"	0.0106
+"630"	"Kuwait"	"KW"	"KWT"	"Asia"	"Asia Occidental"	"2016_2018"	0.0129
+"631"	"L<ed>bano"	"LB"	"LBN"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"632"	"L<ed>bano"	"LB"	"LBN"	"Asia"	"Asia Occidental"	"2007_2009"	0.0181
+"633"	"L<ed>bano"	"LB"	"LBN"	"Asia"	"Asia Occidental"	"2010_2012"	0.0159
+"634"	"L<ed>bano"	"LB"	"LBN"	"Asia"	"Asia Occidental"	"2013_2015"	0.0202
+"635"	"L<ed>bano"	"LB"	"LBN"	"Asia"	"Asia Occidental"	"2016_2018"	0.0225
+"636"	"Laos"	"LA"	"LAO"	"Asia"	"Sudeste Asiatico"	"2004_2006"	NA
+"637"	"Laos"	"LA"	"LAO"	"Asia"	"Sudeste Asiatico"	"2007_2009"	NA
+"638"	"Laos"	"LA"	"LAO"	"Asia"	"Sudeste Asiatico"	"2010_2012"	NA
+"639"	"Laos"	"LA"	"LAO"	"Asia"	"Sudeste Asiatico"	"2013_2015"	NA
+"640"	"Laos"	"LA"	"LAO"	"Asia"	"Sudeste Asiatico"	"2016_2018"	NA
+"641"	"Lesoto"	"LS"	"LSO"	"Africa"	"Africa Austral"	"2004_2006"	NA
+"642"	"Lesoto"	"LS"	"LSO"	"Africa"	"Africa Austral"	"2007_2009"	NA
+"643"	"Lesoto"	"LS"	"LSO"	"Africa"	"Africa Austral"	"2010_2012"	NA
+"644"	"Lesoto"	"LS"	"LSO"	"Africa"	"Africa Austral"	"2013_2015"	NA
+"645"	"Lesoto"	"LS"	"LSO"	"Africa"	"Africa Austral"	"2016_2018"	NA
+"646"	"Letonia"	"LV"	"LVA"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"647"	"Letonia"	"LV"	"LVA"	"Europa"	"Europa del Norte"	"2007_2009"	NA
+"648"	"Letonia"	"LV"	"LVA"	"Europa"	"Europa del Norte"	"2010_2012"	NA
+"649"	"Letonia"	"LV"	"LVA"	"Europa"	"Europa del Norte"	"2013_2015"	0.0102
+"650"	"Letonia"	"LV"	"LVA"	"Europa"	"Europa del Norte"	"2016_2018"	0.0099
+"651"	"Liberia"	"LR"	"LBR"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"652"	"Liberia"	"LR"	"LBR"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"653"	"Liberia"	"LR"	"LBR"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"654"	"Liberia"	"LR"	"LBR"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"655"	"Liberia"	"LR"	"LBR"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"656"	"Libia"	"LY"	"LBY"	"Africa"	"Africa del Norte"	"2004_2006"	NA
+"657"	"Libia"	"LY"	"LBY"	"Africa"	"Africa del Norte"	"2007_2009"	NA
+"658"	"Libia"	"LY"	"LBY"	"Africa"	"Africa del Norte"	"2010_2012"	NA
+"659"	"Libia"	"LY"	"LBY"	"Africa"	"Africa del Norte"	"2013_2015"	NA
+"660"	"Libia"	"LY"	"LBY"	"Africa"	"Africa del Norte"	"2016_2018"	NA
+"661"	"Liechtenstein"	"LI"	"LIE"	"Europa"	"Europa Occidental"	"2004_2006"	NA
+"662"	"Liechtenstein"	"LI"	"LIE"	"Europa"	"Europa Occidental"	"2007_2009"	NA
+"663"	"Liechtenstein"	"LI"	"LIE"	"Europa"	"Europa Occidental"	"2010_2012"	NA
+"664"	"Liechtenstein"	"LI"	"LIE"	"Europa"	"Europa Occidental"	"2013_2015"	NA
+"665"	"Liechtenstein"	"LI"	"LIE"	"Europa"	"Europa Occidental"	"2016_2018"	NA
+"666"	"Lituania"	"LT"	"LTU"	"Europa"	"Europa del Norte"	"2004_2006"	0.0035
+"667"	"Lituania"	"LT"	"LTU"	"Europa"	"Europa del Norte"	"2007_2009"	0.0057
+"668"	"Lituania"	"LT"	"LTU"	"Europa"	"Europa del Norte"	"2010_2012"	0.0048
+"669"	"Lituania"	"LT"	"LTU"	"Europa"	"Europa del Norte"	"2013_2015"	0.0044
+"670"	"Lituania"	"LT"	"LTU"	"Europa"	"Europa del Norte"	"2016_2018"	0.0112
+"671"	"Luxemburgo"	"LU"	"LUX"	"Europa"	"Europa Occidental"	"2004_2006"	NA
+"672"	"Luxemburgo"	"LU"	"LUX"	"Europa"	"Europa Occidental"	"2007_2009"	NA
+"673"	"Luxemburgo"	"LU"	"LUX"	"Europa"	"Europa Occidental"	"2010_2012"	0.0137
+"674"	"Luxemburgo"	"LU"	"LUX"	"Europa"	"Europa Occidental"	"2013_2015"	0.0137
+"675"	"Luxemburgo"	"LU"	"LUX"	"Europa"	"Europa Occidental"	"2016_2018"	0.0088
+"676"	"M<e9>xico"	"MX"	"MEX"	"America"	"America Central"	"2004_2006"	0.0085
+"677"	"M<e9>xico"	"MX"	"MEX"	"America"	"America Central"	"2007_2009"	0.0137
+"678"	"M<e9>xico"	"MX"	"MEX"	"America"	"America Central"	"2010_2012"	0.0121
+"679"	"M<e9>xico"	"MX"	"MEX"	"America"	"America Central"	"2013_2015"	0.0138
+"680"	"M<e9>xico"	"MX"	"MEX"	"America"	"America Central"	"2016_2018"	0.017
+"681"	"M<f3>naco"	"MC"	"MCO"	"Europa"	"Europa Occidental"	"2004_2006"	NA
+"682"	"M<f3>naco"	"MC"	"MCO"	"Europa"	"Europa Occidental"	"2007_2009"	NA
+"683"	"M<f3>naco"	"MC"	"MCO"	"Europa"	"Europa Occidental"	"2010_2012"	NA
+"684"	"M<f3>naco"	"MC"	"MCO"	"Europa"	"Europa Occidental"	"2013_2015"	NA
+"685"	"M<f3>naco"	"MC"	"MCO"	"Europa"	"Europa Occidental"	"2016_2018"	NA
+"686"	"Madagascar"	"MG"	"MDG"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"687"	"Madagascar"	"MG"	"MDG"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"688"	"Madagascar"	"MG"	"MDG"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"689"	"Madagascar"	"MG"	"MDG"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"690"	"Madagascar"	"MG"	"MDG"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"691"	"Malasia"	"MY"	"MYS"	"Asia"	"Sudeste Asiatico"	"2004_2006"	0.009
+"692"	"Malasia"	"MY"	"MYS"	"Asia"	"Sudeste Asiatico"	"2007_2009"	0.0091
+"693"	"Malasia"	"MY"	"MYS"	"Asia"	"Sudeste Asiatico"	"2010_2012"	0.0119
+"694"	"Malasia"	"MY"	"MYS"	"Asia"	"Sudeste Asiatico"	"2013_2015"	0.0115
+"695"	"Malasia"	"MY"	"MYS"	"Asia"	"Sudeste Asiatico"	"2016_2018"	0.0089
+"696"	"Malawi"	"MW"	"MWI"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"697"	"Malawi"	"MW"	"MWI"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"698"	"Malawi"	"MW"	"MWI"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"699"	"Malawi"	"MW"	"MWI"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"700"	"Malawi"	"MW"	"MWI"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"701"	"Maldivas"	"MV"	"MDV"	"Asia"	"Asia del Sur"	"2004_2006"	NA
+"702"	"Maldivas"	"MV"	"MDV"	"Asia"	"Asia del Sur"	"2007_2009"	NA
+"703"	"Maldivas"	"MV"	"MDV"	"Asia"	"Asia del Sur"	"2010_2012"	NA
+"704"	"Maldivas"	"MV"	"MDV"	"Asia"	"Asia del Sur"	"2013_2015"	NA
+"705"	"Maldivas"	"MV"	"MDV"	"Asia"	"Asia del Sur"	"2016_2018"	NA
+"706"	"Mali"	"ML"	"MLI"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"707"	"Mali"	"ML"	"MLI"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"708"	"Mali"	"ML"	"MLI"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"709"	"Mali"	"ML"	"MLI"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"710"	"Mali"	"ML"	"MLI"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"711"	"Malta"	"MT"	"MLT"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"712"	"Malta"	"MT"	"MLT"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"713"	"Malta"	"MT"	"MLT"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"714"	"Malta"	"MT"	"MLT"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"715"	"Malta"	"MT"	"MLT"	"Europa"	"Europa del Sur"	"2016_2018"	0.0092
+"716"	"Marruecos"	"MA"	"MAR"	"Africa"	"Africa del Norte"	"2004_2006"	NA
+"717"	"Marruecos"	"MA"	"MAR"	"Africa"	"Africa del Norte"	"2007_2009"	NA
+"718"	"Marruecos"	"MA"	"MAR"	"Africa"	"Africa del Norte"	"2010_2012"	NA
+"719"	"Marruecos"	"MA"	"MAR"	"Africa"	"Africa del Norte"	"2013_2015"	0.0079
+"720"	"Marruecos"	"MA"	"MAR"	"Africa"	"Africa del Norte"	"2016_2018"	0.0128
+"721"	"Martinica"	"MQ"	"MTQ"	"America"	"Caribe"	"2004_2006"	NA
+"722"	"Martinica"	"MQ"	"MTQ"	"America"	"Caribe"	"2007_2009"	NA
+"723"	"Martinica"	"MQ"	"MTQ"	"America"	"Caribe"	"2010_2012"	NA
+"724"	"Martinica"	"MQ"	"MTQ"	"America"	"Caribe"	"2013_2015"	NA
+"725"	"Martinica"	"MQ"	"MTQ"	"America"	"Caribe"	"2016_2018"	NA
+"726"	"Mauritania"	"MR"	"MRT"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"727"	"Mauritania"	"MR"	"MRT"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"728"	"Mauritania"	"MR"	"MRT"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"729"	"Mauritania"	"MR"	"MRT"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"730"	"Mauritania"	"MR"	"MRT"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"731"	"Mayotte"	"YT"	"MYT"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"732"	"Mayotte"	"YT"	"MYT"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"733"	"Mayotte"	"YT"	"MYT"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"734"	"Mayotte"	"YT"	"MYT"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"735"	"Mayotte"	"YT"	"MYT"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"736"	"Micronesia (Estados Federados de)"	"FM"	"FSM"	"Oceania"	"Micronesia"	"2004_2006"	NA
+"737"	"Micronesia (Estados Federados de)"	"FM"	"FSM"	"Oceania"	"Micronesia"	"2007_2009"	NA
+"738"	"Micronesia (Estados Federados de)"	"FM"	"FSM"	"Oceania"	"Micronesia"	"2010_2012"	NA
+"739"	"Micronesia (Estados Federados de)"	"FM"	"FSM"	"Oceania"	"Micronesia"	"2013_2015"	NA
+"740"	"Micronesia (Estados Federados de)"	"FM"	"FSM"	"Oceania"	"Micronesia"	"2016_2018"	NA
+"741"	"Moldavia"	"MD"	"MDA"	"Europa"	"Europa Oriental"	"2004_2006"	NA
+"742"	"Moldavia"	"MD"	"MDA"	"Europa"	"Europa Oriental"	"2007_2009"	NA
+"743"	"Moldavia"	"MD"	"MDA"	"Europa"	"Europa Oriental"	"2010_2012"	NA
+"744"	"Moldavia"	"MD"	"MDA"	"Europa"	"Europa Oriental"	"2013_2015"	NA
+"745"	"Moldavia"	"MD"	"MDA"	"Europa"	"Europa Oriental"	"2016_2018"	NA
+"746"	"Mongolia"	"MN"	"MNG"	"Asia"	"Asia Oriental"	"2004_2006"	NA
+"747"	"Mongolia"	"MN"	"MNG"	"Asia"	"Asia Oriental"	"2007_2009"	NA
+"748"	"Mongolia"	"MN"	"MNG"	"Asia"	"Asia Oriental"	"2010_2012"	NA
+"749"	"Mongolia"	"MN"	"MNG"	"Asia"	"Asia Oriental"	"2013_2015"	NA
+"750"	"Mongolia"	"MN"	"MNG"	"Asia"	"Asia Oriental"	"2016_2018"	NA
+"751"	"Montenegro"	"ME"	"MNE"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"752"	"Montenegro"	"ME"	"MNE"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"753"	"Montenegro"	"ME"	"MNE"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"754"	"Montenegro"	"ME"	"MNE"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"755"	"Montenegro"	"ME"	"MNE"	"Europa"	"Europa del Sur"	"2016_2018"	NA
+"756"	"Montserrat"	"MS"	"MSR"	"America"	"Caribe"	"2004_2006"	NA
+"757"	"Montserrat"	"MS"	"MSR"	"America"	"Caribe"	"2007_2009"	NA
+"758"	"Montserrat"	"MS"	"MSR"	"America"	"Caribe"	"2010_2012"	NA
+"759"	"Montserrat"	"MS"	"MSR"	"America"	"Caribe"	"2013_2015"	NA
+"760"	"Montserrat"	"MS"	"MSR"	"America"	"Caribe"	"2016_2018"	NA
+"761"	"Mozambique"	"MZ"	"MOZ"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"762"	"Mozambique"	"MZ"	"MOZ"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"763"	"Mozambique"	"MZ"	"MOZ"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"764"	"Mozambique"	"MZ"	"MOZ"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"765"	"Mozambique"	"MZ"	"MOZ"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"766"	"Myanmar"	"MM"	"MMR"	"Asia"	"Sudeste Asiatico"	"2004_2006"	NA
+"767"	"Myanmar"	"MM"	"MMR"	"Asia"	"Sudeste Asiatico"	"2007_2009"	NA
+"768"	"Myanmar"	"MM"	"MMR"	"Asia"	"Sudeste Asiatico"	"2010_2012"	NA
+"769"	"Myanmar"	"MM"	"MMR"	"Asia"	"Sudeste Asiatico"	"2013_2015"	NA
+"770"	"Myanmar"	"MM"	"MMR"	"Asia"	"Sudeste Asiatico"	"2016_2018"	NA
+"771"	"N<ed>ger"	"NE"	"NER"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"772"	"N<ed>ger"	"NE"	"NER"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"773"	"N<ed>ger"	"NE"	"NER"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"774"	"N<ed>ger"	"NE"	"NER"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"775"	"N<ed>ger"	"NE"	"NER"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"776"	"Namibia"	NA	"NAM"	"Africa"	"Africa Austral"	"2004_2006"	NA
+"777"	"Namibia"	NA	"NAM"	"Africa"	"Africa Austral"	"2007_2009"	NA
+"778"	"Namibia"	NA	"NAM"	"Africa"	"Africa Austral"	"2010_2012"	NA
+"779"	"Namibia"	NA	"NAM"	"Africa"	"Africa Austral"	"2013_2015"	NA
+"780"	"Namibia"	NA	"NAM"	"Africa"	"Africa Austral"	"2016_2018"	NA
+"781"	"Nauru"	"NR"	"NRU"	"Oceania"	"Micronesia"	"2004_2006"	NA
+"782"	"Nauru"	"NR"	"NRU"	"Oceania"	"Micronesia"	"2007_2009"	NA
+"783"	"Nauru"	"NR"	"NRU"	"Oceania"	"Micronesia"	"2010_2012"	NA
+"784"	"Nauru"	"NR"	"NRU"	"Oceania"	"Micronesia"	"2013_2015"	NA
+"785"	"Nauru"	"NR"	"NRU"	"Oceania"	"Micronesia"	"2016_2018"	NA
+"786"	"Nepal"	"NP"	"NPL"	"Asia"	"Asia del Sur"	"2004_2006"	NA
+"787"	"Nepal"	"NP"	"NPL"	"Asia"	"Asia del Sur"	"2007_2009"	NA
+"788"	"Nepal"	"NP"	"NPL"	"Asia"	"Asia del Sur"	"2010_2012"	NA
+"789"	"Nepal"	"NP"	"NPL"	"Asia"	"Asia del Sur"	"2013_2015"	NA
+"790"	"Nepal"	"NP"	"NPL"	"Asia"	"Asia del Sur"	"2016_2018"	0.0339
+"791"	"Nicaragua"	"NI"	"NIC"	"America"	"America Central"	"2004_2006"	NA
+"792"	"Nicaragua"	"NI"	"NIC"	"America"	"America Central"	"2007_2009"	NA
+"793"	"Nicaragua"	"NI"	"NIC"	"America"	"America Central"	"2010_2012"	NA
+"794"	"Nicaragua"	"NI"	"NIC"	"America"	"America Central"	"2013_2015"	NA
+"795"	"Nicaragua"	"NI"	"NIC"	"America"	"America Central"	"2016_2018"	NA
+"796"	"Nigeria"	"NG"	"NGA"	"Africa"	"Africa Occidental"	"2004_2006"	0.0197
+"797"	"Nigeria"	"NG"	"NGA"	"Africa"	"Africa Occidental"	"2007_2009"	0.0311
+"798"	"Nigeria"	"NG"	"NGA"	"Africa"	"Africa Occidental"	"2010_2012"	0.0224
+"799"	"Nigeria"	"NG"	"NGA"	"Africa"	"Africa Occidental"	"2013_2015"	0.0163
+"800"	"Nigeria"	"NG"	"NGA"	"Africa"	"Africa Occidental"	"2016_2018"	0.0175
+"801"	"Niue"	"NU"	"NIU"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"802"	"Niue"	"NU"	"NIU"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"803"	"Niue"	"NU"	"NIU"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"804"	"Niue"	"NU"	"NIU"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"805"	"Niue"	"NU"	"NIU"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"806"	"Norte Macedonia"	"MK"	"MKD"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"807"	"Norte Macedonia"	"MK"	"MKD"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"808"	"Norte Macedonia"	"MK"	"MKD"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"809"	"Norte Macedonia"	"MK"	"MKD"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"810"	"Norte Macedonia"	"MK"	"MKD"	"Europa"	"Europa del Sur"	"2016_2018"	0.0201
+"811"	"Noruega"	"NO"	"NOR"	"Europa"	"Europa del Norte"	"2004_2006"	0.0168
+"812"	"Noruega"	"NO"	"NOR"	"Europa"	"Europa del Norte"	"2007_2009"	0.0156
+"813"	"Noruega"	"NO"	"NOR"	"Europa"	"Europa del Norte"	"2010_2012"	0.0145
+"814"	"Noruega"	"NO"	"NOR"	"Europa"	"Europa del Norte"	"2013_2015"	0.0191
+"815"	"Noruega"	"NO"	"NOR"	"Europa"	"Europa del Norte"	"2016_2018"	0.0192
+"816"	"Nueva Caledonia"	"NC"	"NCL"	"Oceania"	"Melanesia"	"2004_2006"	NA
+"817"	"Nueva Caledonia"	"NC"	"NCL"	"Oceania"	"Melanesia"	"2007_2009"	NA
+"818"	"Nueva Caledonia"	"NC"	"NCL"	"Oceania"	"Melanesia"	"2010_2012"	NA
+"819"	"Nueva Caledonia"	"NC"	"NCL"	"Oceania"	"Melanesia"	"2013_2015"	NA
+"820"	"Nueva Caledonia"	"NC"	"NCL"	"Oceania"	"Melanesia"	"2016_2018"	NA
+"821"	"Nueva Zelanda"	"NZ"	"NZL"	"Oceania"	"Australia y Nueva Zelanda"	"2004_2006"	0.0131
+"822"	"Nueva Zelanda"	"NZ"	"NZL"	"Oceania"	"Australia y Nueva Zelanda"	"2007_2009"	0.0135
+"823"	"Nueva Zelanda"	"NZ"	"NZL"	"Oceania"	"Australia y Nueva Zelanda"	"2010_2012"	0.0171
+"824"	"Nueva Zelanda"	"NZ"	"NZL"	"Oceania"	"Australia y Nueva Zelanda"	"2013_2015"	0.015
+"825"	"Nueva Zelanda"	"NZ"	"NZL"	"Oceania"	"Australia y Nueva Zelanda"	"2016_2018"	0.0175
+"826"	"Om<e1>n"	"OM"	"OMN"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"827"	"Om<e1>n"	"OM"	"OMN"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"828"	"Om<e1>n"	"OM"	"OMN"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"829"	"Om<e1>n"	"OM"	"OMN"	"Asia"	"Asia Occidental"	"2013_2015"	0.0237
+"830"	"Om<e1>n"	"OM"	"OMN"	"Asia"	"Asia Occidental"	"2016_2018"	0.0212
+"831"	"Pa<ed>ses Bajos"	"NL"	"NLD"	"Europa"	"Europa Occidental"	"2004_2006"	0.0092
+"832"	"Pa<ed>ses Bajos"	"NL"	"NLD"	"Europa"	"Europa Occidental"	"2007_2009"	0.0114
+"833"	"Pa<ed>ses Bajos"	"NL"	"NLD"	"Europa"	"Europa Occidental"	"2010_2012"	0.0108
+"834"	"Pa<ed>ses Bajos"	"NL"	"NLD"	"Europa"	"Europa Occidental"	"2013_2015"	0.0121
+"835"	"Pa<ed>ses Bajos"	"NL"	"NLD"	"Europa"	"Europa Occidental"	"2016_2018"	0.0126
+"836"	"Pakist<e1>n"	"PK"	"PAK"	"Asia"	"Asia del Sur"	"2004_2006"	0.0155
+"837"	"Pakist<e1>n"	"PK"	"PAK"	"Asia"	"Asia del Sur"	"2007_2009"	0.0143
+"838"	"Pakist<e1>n"	"PK"	"PAK"	"Asia"	"Asia del Sur"	"2010_2012"	0.0134
+"839"	"Pakist<e1>n"	"PK"	"PAK"	"Asia"	"Asia del Sur"	"2013_2015"	0.0149
+"840"	"Pakist<e1>n"	"PK"	"PAK"	"Asia"	"Asia del Sur"	"2016_2018"	0.0237
+"841"	"Palau"	"PW"	"PLW"	"Oceania"	"Micronesia"	"2004_2006"	NA
+"842"	"Palau"	"PW"	"PLW"	"Oceania"	"Micronesia"	"2007_2009"	NA
+"843"	"Palau"	"PW"	"PLW"	"Oceania"	"Micronesia"	"2010_2012"	NA
+"844"	"Palau"	"PW"	"PLW"	"Oceania"	"Micronesia"	"2013_2015"	NA
+"845"	"Palau"	"PW"	"PLW"	"Oceania"	"Micronesia"	"2016_2018"	NA
+"846"	"Palestina"	"PS"	"PSE"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"847"	"Palestina"	"PS"	"PSE"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"848"	"Palestina"	"PS"	"PSE"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"849"	"Palestina"	"PS"	"PSE"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"850"	"Palestina"	"PS"	"PSE"	"Asia"	"Asia Occidental"	"2016_2018"	NA
+"851"	"Panam<e1>"	"PA"	"PAN"	"America"	"America Central"	"2004_2006"	NA
+"852"	"Panam<e1>"	"PA"	"PAN"	"America"	"America Central"	"2007_2009"	NA
+"853"	"Panam<e1>"	"PA"	"PAN"	"America"	"America Central"	"2010_2012"	NA
+"854"	"Panam<e1>"	"PA"	"PAN"	"America"	"America Central"	"2013_2015"	NA
+"855"	"Panam<e1>"	"PA"	"PAN"	"America"	"America Central"	"2016_2018"	NA
+"856"	"Papua Nueva Guinea"	"PG"	"PNG"	"Oceania"	"Melanesia"	"2004_2006"	NA
+"857"	"Papua Nueva Guinea"	"PG"	"PNG"	"Oceania"	"Melanesia"	"2007_2009"	NA
+"858"	"Papua Nueva Guinea"	"PG"	"PNG"	"Oceania"	"Melanesia"	"2010_2012"	NA
+"859"	"Papua Nueva Guinea"	"PG"	"PNG"	"Oceania"	"Melanesia"	"2013_2015"	NA
+"860"	"Papua Nueva Guinea"	"PG"	"PNG"	"Oceania"	"Melanesia"	"2016_2018"	NA
+"861"	"Paraguay"	"PY"	"PRY"	"America"	"America del Sur"	"2004_2006"	NA
+"862"	"Paraguay"	"PY"	"PRY"	"America"	"America del Sur"	"2007_2009"	NA
+"863"	"Paraguay"	"PY"	"PRY"	"America"	"America del Sur"	"2010_2012"	NA
+"864"	"Paraguay"	"PY"	"PRY"	"America"	"America del Sur"	"2013_2015"	NA
+"865"	"Paraguay"	"PY"	"PRY"	"America"	"America del Sur"	"2016_2018"	NA
+"866"	"Per<fa>"	"PE"	"PER"	"America"	"America del Sur"	"2004_2006"	NA
+"867"	"Per<fa>"	"PE"	"PER"	"America"	"America del Sur"	"2007_2009"	NA
+"868"	"Per<fa>"	"PE"	"PER"	"America"	"America del Sur"	"2010_2012"	0.0092
+"869"	"Per<fa>"	"PE"	"PER"	"America"	"America del Sur"	"2013_2015"	0.0168
+"870"	"Per<fa>"	"PE"	"PER"	"America"	"America del Sur"	"2016_2018"	0.0156
+"871"	"Pitcairn"	"PN"	"PCN"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"872"	"Pitcairn"	"PN"	"PCN"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"873"	"Pitcairn"	"PN"	"PCN"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"874"	"Pitcairn"	"PN"	"PCN"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"875"	"Pitcairn"	"PN"	"PCN"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"876"	"Polinesia Francesa"	"PF"	"PYF"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"877"	"Polinesia Francesa"	"PF"	"PYF"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"878"	"Polinesia Francesa"	"PF"	"PYF"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"879"	"Polinesia Francesa"	"PF"	"PYF"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"880"	"Polinesia Francesa"	"PF"	"PYF"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"881"	"Polonia"	"PL"	"POL"	"Europa"	"Europa Oriental"	"2004_2006"	0.0014
+"882"	"Polonia"	"PL"	"POL"	"Europa"	"Europa Oriental"	"2007_2009"	0.0038
+"883"	"Polonia"	"PL"	"POL"	"Europa"	"Europa Oriental"	"2010_2012"	0.0063
+"884"	"Polonia"	"PL"	"POL"	"Europa"	"Europa Oriental"	"2013_2015"	0.0084
+"885"	"Polonia"	"PL"	"POL"	"Europa"	"Europa Oriental"	"2016_2018"	0.0089
+"886"	"Portugal"	"PT"	"PRT"	"Europa"	"Europa del Sur"	"2004_2006"	0.0081
+"887"	"Portugal"	"PT"	"PRT"	"Europa"	"Europa del Sur"	"2007_2009"	0.0088
+"888"	"Portugal"	"PT"	"PRT"	"Europa"	"Europa del Sur"	"2010_2012"	0.0115
+"889"	"Portugal"	"PT"	"PRT"	"Europa"	"Europa del Sur"	"2013_2015"	0.0112
+"890"	"Portugal"	"PT"	"PRT"	"Europa"	"Europa del Sur"	"2016_2018"	0.0164
+"891"	"Puerto Rico"	"PR"	"PRI"	"America"	"Caribe"	"2004_2006"	NA
+"892"	"Puerto Rico"	"PR"	"PRI"	"America"	"Caribe"	"2007_2009"	NA
+"893"	"Puerto Rico"	"PR"	"PRI"	"America"	"Caribe"	"2010_2012"	NA
+"894"	"Puerto Rico"	"PR"	"PRI"	"America"	"Caribe"	"2013_2015"	NA
+"895"	"Puerto Rico"	"PR"	"PRI"	"America"	"Caribe"	"2016_2018"	NA
+"896"	"Reino de Tonga"	"TO"	"TON"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"897"	"Reino de Tonga"	"TO"	"TON"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"898"	"Reino de Tonga"	"TO"	"TON"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"899"	"Reino de Tonga"	"TO"	"TON"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"900"	"Reino de Tonga"	"TO"	"TON"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"901"	"Reino Unido"	"GB"	"GBR"	"Europa"	"Europa del Norte"	"2004_2006"	0.0107
+"902"	"Reino Unido"	"GB"	"GBR"	"Europa"	"Europa del Norte"	"2007_2009"	0.0137
+"903"	"Reino Unido"	"GB"	"GBR"	"Europa"	"Europa del Norte"	"2010_2012"	0.0151
+"904"	"Reino Unido"	"GB"	"GBR"	"Europa"	"Europa del Norte"	"2013_2015"	0.0149
+"905"	"Reino Unido"	"GB"	"GBR"	"Europa"	"Europa del Norte"	"2016_2018"	0.0176
+"906"	"Rep<fa>blica Centroafricana"	"CF"	"CAF"	"Africa"	"Africa Central"	"2004_2006"	NA
+"907"	"Rep<fa>blica Centroafricana"	"CF"	"CAF"	"Africa"	"Africa Central"	"2007_2009"	NA
+"908"	"Rep<fa>blica Centroafricana"	"CF"	"CAF"	"Africa"	"Africa Central"	"2010_2012"	NA
+"909"	"Rep<fa>blica Centroafricana"	"CF"	"CAF"	"Africa"	"Africa Central"	"2013_2015"	NA
+"910"	"Rep<fa>blica Centroafricana"	"CF"	"CAF"	"Africa"	"Africa Central"	"2016_2018"	NA
+"911"	"Rep<fa>blica Dominicana"	"DO"	"DOM"	"America"	"Caribe"	"2004_2006"	NA
+"912"	"Rep<fa>blica Dominicana"	"DO"	"DOM"	"America"	"Caribe"	"2007_2009"	NA
+"913"	"Rep<fa>blica Dominicana"	"DO"	"DOM"	"America"	"Caribe"	"2010_2012"	NA
+"914"	"Rep<fa>blica Dominicana"	"DO"	"DOM"	"America"	"Caribe"	"2013_2015"	NA
+"915"	"Rep<fa>blica Dominicana"	"DO"	"DOM"	"America"	"Caribe"	"2016_2018"	NA
+"916"	"Rep<fa>blica Popular Democr<e1>tica de Corea"	"KP"	"PRK"	"Asia"	"Asia Oriental"	"2004_2006"	NA
+"917"	"Rep<fa>blica Popular Democr<e1>tica de Corea"	"KP"	"PRK"	"Asia"	"Asia Oriental"	"2007_2009"	NA
+"918"	"Rep<fa>blica Popular Democr<e1>tica de Corea"	"KP"	"PRK"	"Asia"	"Asia Oriental"	"2010_2012"	NA
+"919"	"Rep<fa>blica Popular Democr<e1>tica de Corea"	"KP"	"PRK"	"Asia"	"Asia Oriental"	"2013_2015"	NA
+"920"	"Rep<fa>blica Popular Democr<e1>tica de Corea"	"KP"	"PRK"	"Asia"	"Asia Oriental"	"2016_2018"	NA
+"921"	"Republica de Sudan"	"SD"	"SDN"	"Africa"	"Africa del Norte"	"2004_2006"	NA
+"922"	"Republica de Sudan"	"SD"	"SDN"	"Africa"	"Africa del Norte"	"2007_2009"	NA
+"923"	"Republica de Sudan"	"SD"	"SDN"	"Africa"	"Africa del Norte"	"2010_2012"	NA
+"924"	"Republica de Sudan"	"SD"	"SDN"	"Africa"	"Africa del Norte"	"2013_2015"	NA
+"925"	"Republica de Sudan"	"SD"	"SDN"	"Africa"	"Africa del Norte"	"2016_2018"	NA
+"926"	"Republica del Congo"	"CG"	"COG"	"Africa"	"Africa Central"	"2004_2006"	NA
+"927"	"Republica del Congo"	"CG"	"COG"	"Africa"	"Africa Central"	"2007_2009"	NA
+"928"	"Republica del Congo"	"CG"	"COG"	"Africa"	"Africa Central"	"2010_2012"	NA
+"929"	"Republica del Congo"	"CG"	"COG"	"Africa"	"Africa Central"	"2013_2015"	NA
+"930"	"Republica del Congo"	"CG"	"COG"	"Africa"	"Africa Central"	"2016_2018"	NA
+"931"	"Republica Democr<e1>tica del Congo"	"CD"	"COD"	"Africa"	"Africa Central"	"2004_2006"	NA
+"932"	"Republica Democr<e1>tica del Congo"	"CD"	"COD"	"Africa"	"Africa Central"	"2007_2009"	NA
+"933"	"Republica Democr<e1>tica del Congo"	"CD"	"COD"	"Africa"	"Africa Central"	"2010_2012"	NA
+"934"	"Republica Democr<e1>tica del Congo"	"CD"	"COD"	"Africa"	"Africa Central"	"2013_2015"	NA
+"935"	"Republica Democr<e1>tica del Congo"	"CD"	"COD"	"Africa"	"Africa Central"	"2016_2018"	NA
+"936"	"Reuni<f3>n"	"RE"	"REU"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"937"	"Reuni<f3>n"	"RE"	"REU"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"938"	"Reuni<f3>n"	"RE"	"REU"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"939"	"Reuni<f3>n"	"RE"	"REU"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"940"	"Reuni<f3>n"	"RE"	"REU"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"941"	"Ruanda"	"RW"	"RWA"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"942"	"Ruanda"	"RW"	"RWA"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"943"	"Ruanda"	"RW"	"RWA"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"944"	"Ruanda"	"RW"	"RWA"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"945"	"Ruanda"	"RW"	"RWA"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"946"	"Rumania"	"RO"	"ROU"	"Europa"	"Europa Oriental"	"2004_2006"	0.0122
+"947"	"Rumania"	"RO"	"ROU"	"Europa"	"Europa Oriental"	"2007_2009"	0.0029
+"948"	"Rumania"	"RO"	"ROU"	"Europa"	"Europa Oriental"	"2010_2012"	0.0046
+"949"	"Rumania"	"RO"	"ROU"	"Europa"	"Europa Oriental"	"2013_2015"	0.0048
+"950"	"Rumania"	"RO"	"ROU"	"Europa"	"Europa Oriental"	"2016_2018"	0.0064
+"951"	"Russia"	"RU"	"RUS"	"Europa"	"Europa Oriental"	"2004_2006"	0.003
+"952"	"Russia"	"RU"	"RUS"	"Europa"	"Europa Oriental"	"2007_2009"	0.0043
+"953"	"Russia"	"RU"	"RUS"	"Europa"	"Europa Oriental"	"2010_2012"	0.0035
+"954"	"Russia"	"RU"	"RUS"	"Europa"	"Europa Oriental"	"2013_2015"	0.006
+"955"	"Russia"	"RU"	"RUS"	"Europa"	"Europa Oriental"	"2016_2018"	0.0045
+"956"	"Sahara Occidental"	"EH"	"ESH"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"957"	"Sahara Occidental"	"EH"	"ESH"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"958"	"Sahara Occidental"	"EH"	"ESH"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"959"	"Sahara Occidental"	"EH"	"ESH"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"960"	"Sahara Occidental"	"EH"	"ESH"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"961"	"Saint Kitts y Nevis"	"KN"	"KNA"	"America"	"Caribe"	"2004_2006"	NA
+"962"	"Saint Kitts y Nevis"	"KN"	"KNA"	"America"	"Caribe"	"2007_2009"	NA
+"963"	"Saint Kitts y Nevis"	"KN"	"KNA"	"America"	"Caribe"	"2010_2012"	NA
+"964"	"Saint Kitts y Nevis"	"KN"	"KNA"	"America"	"Caribe"	"2013_2015"	NA
+"965"	"Saint Kitts y Nevis"	"KN"	"KNA"	"America"	"Caribe"	"2016_2018"	NA
+"966"	"Saint Maarten"	"SX"	"SXM"	"America"	"Caribe"	"2004_2006"	NA
+"967"	"Saint Maarten"	"SX"	"SXM"	"America"	"Caribe"	"2007_2009"	NA
+"968"	"Saint Maarten"	"SX"	"SXM"	"America"	"Caribe"	"2010_2012"	NA
+"969"	"Saint Maarten"	"SX"	"SXM"	"America"	"Caribe"	"2013_2015"	NA
+"970"	"Saint Maarten"	"SX"	"SXM"	"America"	"Caribe"	"2016_2018"	NA
+"971"	"Samoa"	"WS"	"WSM"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"972"	"Samoa"	"WS"	"WSM"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"973"	"Samoa"	"WS"	"WSM"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"974"	"Samoa"	"WS"	"WSM"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"975"	"Samoa"	"WS"	"WSM"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"976"	"Samoa Americana"	"AS"	"ASM"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"977"	"Samoa Americana"	"AS"	"ASM"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"978"	"Samoa Americana"	"AS"	"ASM"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"979"	"Samoa Americana"	"AS"	"ASM"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"980"	"Samoa Americana"	"AS"	"ASM"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"981"	"San Barth<e9>lemy"	"BL"	"BLM"	"America"	"Caribe"	"2004_2006"	NA
+"982"	"San Barth<e9>lemy"	"BL"	"BLM"	"America"	"Caribe"	"2007_2009"	NA
+"983"	"San Barth<e9>lemy"	"BL"	"BLM"	"America"	"Caribe"	"2010_2012"	NA
+"984"	"San Barth<e9>lemy"	"BL"	"BLM"	"America"	"Caribe"	"2013_2015"	NA
+"985"	"San Barth<e9>lemy"	"BL"	"BLM"	"America"	"Caribe"	"2016_2018"	NA
+"986"	"San Marino"	"SM"	"SMR"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"987"	"San Marino"	"SM"	"SMR"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"988"	"San Marino"	"SM"	"SMR"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"989"	"San Marino"	"SM"	"SMR"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"990"	"San Marino"	"SM"	"SMR"	"Europa"	"Europa del Sur"	"2016_2018"	NA
+"991"	"San Mart<ed>n (parte francesa)"	"MF"	"MAF"	"America"	"Caribe"	"2004_2006"	NA
+"992"	"San Mart<ed>n (parte francesa)"	"MF"	"MAF"	"America"	"Caribe"	"2007_2009"	NA
+"993"	"San Mart<ed>n (parte francesa)"	"MF"	"MAF"	"America"	"Caribe"	"2010_2012"	NA
+"994"	"San Mart<ed>n (parte francesa)"	"MF"	"MAF"	"America"	"Caribe"	"2013_2015"	NA
+"995"	"San Mart<ed>n (parte francesa)"	"MF"	"MAF"	"America"	"Caribe"	"2016_2018"	NA
+"996"	"San Pedro y Miquel<f3>n"	"PM"	"SPM"	"America"	"America del Norte"	"2004_2006"	NA
+"997"	"San Pedro y Miquel<f3>n"	"PM"	"SPM"	"America"	"America del Norte"	"2007_2009"	NA
+"998"	"San Pedro y Miquel<f3>n"	"PM"	"SPM"	"America"	"America del Norte"	"2010_2012"	NA
+"999"	"San Pedro y Miquel<f3>n"	"PM"	"SPM"	"America"	"America del Norte"	"2013_2015"	NA
+"1000"	"San Pedro y Miquel<f3>n"	"PM"	"SPM"	"America"	"America del Norte"	"2016_2018"	NA
+"1001"	"San Vicente y las Granadinas"	"VC"	"VCT"	"America"	"Caribe"	"2004_2006"	NA
+"1002"	"San Vicente y las Granadinas"	"VC"	"VCT"	"America"	"Caribe"	"2007_2009"	NA
+"1003"	"San Vicente y las Granadinas"	"VC"	"VCT"	"America"	"Caribe"	"2010_2012"	NA
+"1004"	"San Vicente y las Granadinas"	"VC"	"VCT"	"America"	"Caribe"	"2013_2015"	NA
+"1005"	"San Vicente y las Granadinas"	"VC"	"VCT"	"America"	"Caribe"	"2016_2018"	NA
+"1006"	"Santa Elena"	"SH"	"SHN"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"1007"	"Santa Elena"	"SH"	"SHN"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"1008"	"Santa Elena"	"SH"	"SHN"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"1009"	"Santa Elena"	"SH"	"SHN"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"1010"	"Santa Elena"	"SH"	"SHN"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"1011"	"Santa Luc<ed>a"	"LC"	"LCA"	"America"	"Caribe"	"2004_2006"	NA
+"1012"	"Santa Luc<ed>a"	"LC"	"LCA"	"America"	"Caribe"	"2007_2009"	NA
+"1013"	"Santa Luc<ed>a"	"LC"	"LCA"	"America"	"Caribe"	"2010_2012"	NA
+"1014"	"Santa Luc<ed>a"	"LC"	"LCA"	"America"	"Caribe"	"2013_2015"	NA
+"1015"	"Santa Luc<ed>a"	"LC"	"LCA"	"America"	"Caribe"	"2016_2018"	NA
+"1016"	"Santa Sede"	"VA"	"VAT"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"1017"	"Santa Sede"	"VA"	"VAT"	"Europa"	"Europa del Sur"	"2007_2009"	NA
+"1018"	"Santa Sede"	"VA"	"VAT"	"Europa"	"Europa del Sur"	"2010_2012"	NA
+"1019"	"Santa Sede"	"VA"	"VAT"	"Europa"	"Europa del Sur"	"2013_2015"	NA
+"1020"	"Santa Sede"	"VA"	"VAT"	"Europa"	"Europa del Sur"	"2016_2018"	NA
+"1021"	"Santo Tom<e9> y Pr<ed>ncipe"	"ST"	"STP"	"Africa"	"Africa Central"	"2004_2006"	NA
+"1022"	"Santo Tom<e9> y Pr<ed>ncipe"	"ST"	"STP"	"Africa"	"Africa Central"	"2007_2009"	NA
+"1023"	"Santo Tom<e9> y Pr<ed>ncipe"	"ST"	"STP"	"Africa"	"Africa Central"	"2010_2012"	NA
+"1024"	"Santo Tom<e9> y Pr<ed>ncipe"	"ST"	"STP"	"Africa"	"Africa Central"	"2013_2015"	NA
+"1025"	"Santo Tom<e9> y Pr<ed>ncipe"	"ST"	"STP"	"Africa"	"Africa Central"	"2016_2018"	NA
+"1026"	"Senegal"	"SN"	"SEN"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"1027"	"Senegal"	"SN"	"SEN"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"1028"	"Senegal"	"SN"	"SEN"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"1029"	"Senegal"	"SN"	"SEN"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"1030"	"Senegal"	"SN"	"SEN"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"1031"	"Serbia"	"RS"	"SRB"	"Europa"	"Europa del Sur"	"2004_2006"	NA
+"1032"	"Serbia"	"RS"	"SRB"	"Europa"	"Europa del Sur"	"2007_2009"	0.007
+"1033"	"Serbia"	"RS"	"SRB"	"Europa"	"Europa del Sur"	"2010_2012"	0.0118
+"1034"	"Serbia"	"RS"	"SRB"	"Europa"	"Europa del Sur"	"2013_2015"	0.012
+"1035"	"Serbia"	"RS"	"SRB"	"Europa"	"Europa del Sur"	"2016_2018"	0.0127
+"1036"	"Seychelles"	"SC"	"SYC"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"1037"	"Seychelles"	"SC"	"SYC"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"1038"	"Seychelles"	"SC"	"SYC"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"1039"	"Seychelles"	"SC"	"SYC"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"1040"	"Seychelles"	"SC"	"SYC"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"1041"	"Sierra Leona"	"SL"	"SLE"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"1042"	"Sierra Leona"	"SL"	"SLE"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"1043"	"Sierra Leona"	"SL"	"SLE"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"1044"	"Sierra Leona"	"SL"	"SLE"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"1045"	"Sierra Leona"	"SL"	"SLE"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"1046"	"Singapur"	"SG"	"SGP"	"Asia"	"Sudeste Asiatico"	"2004_2006"	0.0077
+"1047"	"Singapur"	"SG"	"SGP"	"Asia"	"Sudeste Asiatico"	"2007_2009"	0.0065
+"1048"	"Singapur"	"SG"	"SGP"	"Asia"	"Sudeste Asiatico"	"2010_2012"	0.0102
+"1049"	"Singapur"	"SG"	"SGP"	"Asia"	"Sudeste Asiatico"	"2013_2015"	0.0094
+"1050"	"Singapur"	"SG"	"SGP"	"Asia"	"Sudeste Asiatico"	"2016_2018"	0.0095
+"1051"	"Siria"	"SY"	"SYR"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"1052"	"Siria"	"SY"	"SYR"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"1053"	"Siria"	"SY"	"SYR"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"1054"	"Siria"	"SY"	"SYR"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"1055"	"Siria"	"SY"	"SYR"	"Asia"	"Asia Occidental"	"2016_2018"	NA
+"1056"	"Somalia"	"SO"	"SOM"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"1057"	"Somalia"	"SO"	"SOM"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"1058"	"Somalia"	"SO"	"SOM"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"1059"	"Somalia"	"SO"	"SOM"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"1060"	"Somalia"	"SO"	"SOM"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"1061"	"Sri Lanka"	"LK"	"LKA"	"Asia"	"Asia del Sur"	"2004_2006"	NA
+"1062"	"Sri Lanka"	"LK"	"LKA"	"Asia"	"Asia del Sur"	"2007_2009"	NA
+"1063"	"Sri Lanka"	"LK"	"LKA"	"Asia"	"Asia del Sur"	"2010_2012"	0.0132
+"1064"	"Sri Lanka"	"LK"	"LKA"	"Asia"	"Asia del Sur"	"2013_2015"	0.0104
+"1065"	"Sri Lanka"	"LK"	"LKA"	"Asia"	"Asia del Sur"	"2016_2018"	0.0186
+"1066"	"Sud<e1>frica"	"ZA"	"ZAF"	"Africa"	"Africa Austral"	"2004_2006"	0.0117
+"1067"	"Sud<e1>frica"	"ZA"	"ZAF"	"Africa"	"Africa Austral"	"2007_2009"	0.0171
+"1068"	"Sud<e1>frica"	"ZA"	"ZAF"	"Africa"	"Africa Austral"	"2010_2012"	0.0147
+"1069"	"Sud<e1>frica"	"ZA"	"ZAF"	"Africa"	"Africa Austral"	"2013_2015"	0.0162
+"1070"	"Sud<e1>frica"	"ZA"	"ZAF"	"Africa"	"Africa Austral"	"2016_2018"	0.0201
+"1071"	"Sudan del Sur"	"SS"	"SSD"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"1072"	"Sudan del Sur"	"SS"	"SSD"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"1073"	"Sudan del Sur"	"SS"	"SSD"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"1074"	"Sudan del Sur"	"SS"	"SSD"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"1075"	"Sudan del Sur"	"SS"	"SSD"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"1076"	"Suecia"	"SE"	"SWE"	"Europa"	"Europa del Norte"	"2004_2006"	0.0186
+"1077"	"Suecia"	"SE"	"SWE"	"Europa"	"Europa del Norte"	"2007_2009"	0.0176
+"1078"	"Suecia"	"SE"	"SWE"	"Europa"	"Europa del Norte"	"2010_2012"	0.025
+"1079"	"Suecia"	"SE"	"SWE"	"Europa"	"Europa del Norte"	"2013_2015"	0.0252
+"1080"	"Suecia"	"SE"	"SWE"	"Europa"	"Europa del Norte"	"2016_2018"	0.0269
+"1081"	"Suiza"	"CH"	"CHE"	"Europa"	"Europa Occidental"	"2004_2006"	0.0092
+"1082"	"Suiza"	"CH"	"CHE"	"Europa"	"Europa Occidental"	"2007_2009"	0.0089
+"1083"	"Suiza"	"CH"	"CHE"	"Europa"	"Europa Occidental"	"2010_2012"	0.0078
+"1084"	"Suiza"	"CH"	"CHE"	"Europa"	"Europa Occidental"	"2013_2015"	0.0111
+"1085"	"Suiza"	"CH"	"CHE"	"Europa"	"Europa Occidental"	"2016_2018"	0.0109
+"1086"	"Surinam"	"SR"	"SUR"	"America"	"America del Sur"	"2004_2006"	NA
+"1087"	"Surinam"	"SR"	"SUR"	"America"	"America del Sur"	"2007_2009"	NA
+"1088"	"Surinam"	"SR"	"SUR"	"America"	"America del Sur"	"2010_2012"	NA
+"1089"	"Surinam"	"SR"	"SUR"	"America"	"America del Sur"	"2013_2015"	NA
+"1090"	"Surinam"	"SR"	"SUR"	"America"	"America del Sur"	"2016_2018"	NA
+"1091"	"Svalbard & Jan Mayen Islands"	"SJ"	"SJM"	"Europa"	"Europa del Norte"	"2004_2006"	NA
+"1092"	"Svalbard & Jan Mayen Islands"	"SJ"	"SJM"	"Europa"	"Europa del Norte"	"2007_2009"	NA
+"1093"	"Svalbard & Jan Mayen Islands"	"SJ"	"SJM"	"Europa"	"Europa del Norte"	"2010_2012"	NA
+"1094"	"Svalbard & Jan Mayen Islands"	"SJ"	"SJM"	"Europa"	"Europa del Norte"	"2013_2015"	NA
+"1095"	"Svalbard & Jan Mayen Islands"	"SJ"	"SJM"	"Europa"	"Europa del Norte"	"2016_2018"	NA
+"1096"	"T<fa>nez"	"TN"	"TUN"	"Africa"	"Africa del Norte"	"2004_2006"	NA
+"1097"	"T<fa>nez"	"TN"	"TUN"	"Africa"	"Africa del Norte"	"2007_2009"	0.0067
+"1098"	"T<fa>nez"	"TN"	"TUN"	"Africa"	"Africa del Norte"	"2010_2012"	0.0024
+"1099"	"T<fa>nez"	"TN"	"TUN"	"Africa"	"Africa del Norte"	"2013_2015"	0.0043
+"1100"	"T<fa>nez"	"TN"	"TUN"	"Africa"	"Africa del Norte"	"2016_2018"	0.0093
+"1101"	"Tailandia"	"TH"	"THA"	"Asia"	"Sudeste Asiatico"	"2004_2006"	0.0122
+"1102"	"Tailandia"	"TH"	"THA"	"Asia"	"Sudeste Asiatico"	"2007_2009"	0.0048
+"1103"	"Tailandia"	"TH"	"THA"	"Asia"	"Sudeste Asiatico"	"2010_2012"	0.0102
+"1104"	"Tailandia"	"TH"	"THA"	"Asia"	"Sudeste Asiatico"	"2013_2015"	0.0111
+"1105"	"Tailandia"	"TH"	"THA"	"Asia"	"Sudeste Asiatico"	"2016_2018"	0.0116
+"1106"	"Taiwan"	"TW"	"TWN"	"Asia"	"Asia Oriental"	"2004_2006"	NA
+"1107"	"Taiwan"	"TW"	"TWN"	"Asia"	"Asia Oriental"	"2007_2009"	NA
+"1108"	"Taiwan"	"TW"	"TWN"	"Asia"	"Asia Oriental"	"2010_2012"	NA
+"1109"	"Taiwan"	"TW"	"TWN"	"Asia"	"Asia Oriental"	"2013_2015"	NA
+"1110"	"Taiwan"	"TW"	"TWN"	"Asia"	"Asia Oriental"	"2016_2018"	NA
+"1111"	"Tanzania"	"TZ"	"TZA"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"1112"	"Tanzania"	"TZ"	"TZA"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"1113"	"Tanzania"	"TZ"	"TZA"	"Africa"	"Africa Oriental"	"2010_2012"	0.0162
+"1114"	"Tanzania"	"TZ"	"TZA"	"Africa"	"Africa Oriental"	"2013_2015"	0.0216
+"1115"	"Tanzania"	"TZ"	"TZA"	"Africa"	"Africa Oriental"	"2016_2018"	0.0357
+"1116"	"Tayikist<e1>n"	"TJ"	"TJK"	"Asia"	"Asia Central"	"2004_2006"	NA
+"1117"	"Tayikist<e1>n"	"TJ"	"TJK"	"Asia"	"Asia Central"	"2007_2009"	NA
+"1118"	"Tayikist<e1>n"	"TJ"	"TJK"	"Asia"	"Asia Central"	"2010_2012"	NA
+"1119"	"Tayikist<e1>n"	"TJ"	"TJK"	"Asia"	"Asia Central"	"2013_2015"	NA
+"1120"	"Tayikist<e1>n"	"TJ"	"TJK"	"Asia"	"Asia Central"	"2016_2018"	NA
+"1121"	"Territorio Brit<e1>nico del Oc<e9>ano <cd>ndico"	"IO"	"IOT"	"Asia"	"Africa Oriental"	"2004_2006"	NA
+"1122"	"Territorio Brit<e1>nico del Oc<e9>ano <cd>ndico"	"IO"	"IOT"	"Asia"	"Africa Oriental"	"2007_2009"	NA
+"1123"	"Territorio Brit<e1>nico del Oc<e9>ano <cd>ndico"	"IO"	"IOT"	"Asia"	"Africa Oriental"	"2010_2012"	NA
+"1124"	"Territorio Brit<e1>nico del Oc<e9>ano <cd>ndico"	"IO"	"IOT"	"Asia"	"Africa Oriental"	"2013_2015"	NA
+"1125"	"Territorio Brit<e1>nico del Oc<e9>ano <cd>ndico"	"IO"	"IOT"	"Asia"	"Africa Oriental"	"2016_2018"	NA
+"1126"	"Timor del Este"	"TL"	"TLS"	"Asia"	"Sudeste Asiatico"	"2004_2006"	NA
+"1127"	"Timor del Este"	"TL"	"TLS"	"Asia"	"Sudeste Asiatico"	"2007_2009"	NA
+"1128"	"Timor del Este"	"TL"	"TLS"	"Asia"	"Sudeste Asiatico"	"2010_2012"	NA
+"1129"	"Timor del Este"	"TL"	"TLS"	"Asia"	"Sudeste Asiatico"	"2013_2015"	NA
+"1130"	"Timor del Este"	"TL"	"TLS"	"Asia"	"Sudeste Asiatico"	"2016_2018"	NA
+"1131"	"Togo"	"TG"	"TGO"	"Africa"	"Africa Occidental"	"2004_2006"	NA
+"1132"	"Togo"	"TG"	"TGO"	"Africa"	"Africa Occidental"	"2007_2009"	NA
+"1133"	"Togo"	"TG"	"TGO"	"Africa"	"Africa Occidental"	"2010_2012"	NA
+"1134"	"Togo"	"TG"	"TGO"	"Africa"	"Africa Occidental"	"2013_2015"	NA
+"1135"	"Togo"	"TG"	"TGO"	"Africa"	"Africa Occidental"	"2016_2018"	NA
+"1136"	"Tokelan"	"TK"	"TKL"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"1137"	"Tokelan"	"TK"	"TKL"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"1138"	"Tokelan"	"TK"	"TKL"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"1139"	"Tokelan"	"TK"	"TKL"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"1140"	"Tokelan"	"TK"	"TKL"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"1141"	"Trinidad y Tobago"	"TT"	"TTO"	"America"	"Caribe"	"2004_2006"	NA
+"1142"	"Trinidad y Tobago"	"TT"	"TTO"	"America"	"Caribe"	"2007_2009"	NA
+"1143"	"Trinidad y Tobago"	"TT"	"TTO"	"America"	"Caribe"	"2010_2012"	NA
+"1144"	"Trinidad y Tobago"	"TT"	"TTO"	"America"	"Caribe"	"2013_2015"	NA
+"1145"	"Trinidad y Tobago"	"TT"	"TTO"	"America"	"Caribe"	"2016_2018"	NA
+"1146"	"Turkmenistan"	"TM"	"TKM"	"Asia"	"Asia Central"	"2004_2006"	NA
+"1147"	"Turkmenistan"	"TM"	"TKM"	"Asia"	"Asia Central"	"2007_2009"	NA
+"1148"	"Turkmenistan"	"TM"	"TKM"	"Asia"	"Asia Central"	"2010_2012"	NA
+"1149"	"Turkmenistan"	"TM"	"TKM"	"Asia"	"Asia Central"	"2013_2015"	NA
+"1150"	"Turkmenistan"	"TM"	"TKM"	"Asia"	"Asia Central"	"2016_2018"	NA
+"1151"	"Turks y Caicos"	"TC"	"TCA"	"America"	"Caribe"	"2004_2006"	NA
+"1152"	"Turks y Caicos"	"TC"	"TCA"	"America"	"Caribe"	"2007_2009"	NA
+"1153"	"Turks y Caicos"	"TC"	"TCA"	"America"	"Caribe"	"2010_2012"	NA
+"1154"	"Turks y Caicos"	"TC"	"TCA"	"America"	"Caribe"	"2013_2015"	NA
+"1155"	"Turks y Caicos"	"TC"	"TCA"	"America"	"Caribe"	"2016_2018"	NA
+"1156"	"Turqu<ed>a"	"TR"	"TUR"	"Asia"	"Asia Occidental"	"2004_2006"	0.0125
+"1157"	"Turqu<ed>a"	"TR"	"TUR"	"Asia"	"Asia Occidental"	"2007_2009"	0.0139
+"1158"	"Turqu<ed>a"	"TR"	"TUR"	"Asia"	"Asia Occidental"	"2010_2012"	0.0149
+"1159"	"Turqu<ed>a"	"TR"	"TUR"	"Asia"	"Asia Occidental"	"2013_2015"	0.0137
+"1160"	"Turqu<ed>a"	"TR"	"TUR"	"Asia"	"Asia Occidental"	"2016_2018"	0.0148
+"1161"	"Tuvalu"	"TV"	"TUV"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"1162"	"Tuvalu"	"TV"	"TUV"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"1163"	"Tuvalu"	"TV"	"TUV"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"1164"	"Tuvalu"	"TV"	"TUV"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"1165"	"Tuvalu"	"TV"	"TUV"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"1166"	"Ucrania"	"UA"	"UKR"	"Europa"	"Europa Oriental"	"2004_2006"	0.003
+"1167"	"Ucrania"	"UA"	"UKR"	"Europa"	"Europa Oriental"	"2007_2009"	0.0029
+"1168"	"Ucrania"	"UA"	"UKR"	"Europa"	"Europa Oriental"	"2010_2012"	0.0041
+"1169"	"Ucrania"	"UA"	"UKR"	"Europa"	"Europa Oriental"	"2013_2015"	0.0019
+"1170"	"Ucrania"	"UA"	"UKR"	"Europa"	"Europa Oriental"	"2016_2018"	0.0029
+"1171"	"Uganda"	"UG"	"UGA"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"1172"	"Uganda"	"UG"	"UGA"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"1173"	"Uganda"	"UG"	"UGA"	"Africa"	"Africa Oriental"	"2010_2012"	0.0289
+"1174"	"Uganda"	"UG"	"UGA"	"Africa"	"Africa Oriental"	"2013_2015"	0.0308
+"1175"	"Uganda"	"UG"	"UGA"	"Africa"	"Africa Oriental"	"2016_2018"	0.0239
+"1176"	"United States Minor Outlying Islands"	"UM"	"UMI"	"Oceania"	"Micronesia"	"2004_2006"	NA
+"1177"	"United States Minor Outlying Islands"	"UM"	"UMI"	"America"	"Micronesia"	"2004_2006"	NA
+"1178"	"United States Minor Outlying Islands"	"UM"	"UMI"	"Oceania"	"Micronesia"	"2007_2009"	NA
+"1179"	"United States Minor Outlying Islands"	"UM"	"UMI"	"America"	"Micronesia"	"2007_2009"	NA
+"1180"	"United States Minor Outlying Islands"	"UM"	"UMI"	"Oceania"	"Micronesia"	"2010_2012"	NA
+"1181"	"United States Minor Outlying Islands"	"UM"	"UMI"	"America"	"Micronesia"	"2010_2012"	NA
+"1182"	"United States Minor Outlying Islands"	"UM"	"UMI"	"Oceania"	"Micronesia"	"2013_2015"	NA
+"1183"	"United States Minor Outlying Islands"	"UM"	"UMI"	"America"	"Micronesia"	"2013_2015"	NA
+"1184"	"United States Minor Outlying Islands"	"UM"	"UMI"	"Oceania"	"Micronesia"	"2016_2018"	NA
+"1185"	"United States Minor Outlying Islands"	"UM"	"UMI"	"America"	"Micronesia"	"2016_2018"	NA
+"1186"	"Uruguay"	"UY"	"URY"	"America"	"America del Sur"	"2004_2006"	NA
+"1187"	"Uruguay"	"UY"	"URY"	"America"	"America del Sur"	"2007_2009"	NA
+"1188"	"Uruguay"	"UY"	"URY"	"America"	"America del Sur"	"2010_2012"	NA
+"1189"	"Uruguay"	"UY"	"URY"	"America"	"America del Sur"	"2013_2015"	0.0181
+"1190"	"Uruguay"	"UY"	"URY"	"America"	"America del Sur"	"2016_2018"	0.0235
+"1191"	"Uzbekistan"	"UZ"	"UZB"	"Asia"	"Asia Central"	"2004_2006"	NA
+"1192"	"Uzbekistan"	"UZ"	"UZB"	"Asia"	"Asia Central"	"2007_2009"	NA
+"1193"	"Uzbekistan"	"UZ"	"UZB"	"Asia"	"Asia Central"	"2010_2012"	NA
+"1194"	"Uzbekistan"	"UZ"	"UZB"	"Asia"	"Asia Central"	"2013_2015"	NA
+"1195"	"Uzbekistan"	"UZ"	"UZB"	"Asia"	"Asia Central"	"2016_2018"	NA
+"1196"	"Vanuatu"	"VU"	"VUT"	"Oceania"	"Melanesia"	"2004_2006"	NA
+"1197"	"Vanuatu"	"VU"	"VUT"	"Oceania"	"Melanesia"	"2007_2009"	NA
+"1198"	"Vanuatu"	"VU"	"VUT"	"Oceania"	"Melanesia"	"2010_2012"	NA
+"1199"	"Vanuatu"	"VU"	"VUT"	"Oceania"	"Melanesia"	"2013_2015"	NA
+"1200"	"Vanuatu"	"VU"	"VUT"	"Oceania"	"Melanesia"	"2016_2018"	NA
+"1201"	"Venezuela"	"VE"	"VEN"	"America"	"America del Sur"	"2004_2006"	NA
+"1202"	"Venezuela"	"VE"	"VEN"	"America"	"America del Sur"	"2007_2009"	0.0016
+"1203"	"Venezuela"	"VE"	"VEN"	"America"	"America del Sur"	"2010_2012"	NA
+"1204"	"Venezuela"	"VE"	"VEN"	"America"	"America del Sur"	"2013_2015"	0.0049
+"1205"	"Venezuela"	"VE"	"VEN"	"America"	"America del Sur"	"2016_2018"	0.0081
+"1206"	"Vietnam"	"VN"	"VNM"	"Asia"	"Sudeste Asiatico"	"2004_2006"	NA
+"1207"	"Vietnam"	"VN"	"VNM"	"Asia"	"Sudeste Asiatico"	"2007_2009"	0.0092
+"1208"	"Vietnam"	"VN"	"VNM"	"Asia"	"Sudeste Asiatico"	"2010_2012"	0.0153
+"1209"	"Vietnam"	"VN"	"VNM"	"Asia"	"Sudeste Asiatico"	"2013_2015"	0.0133
+"1210"	"Vietnam"	"VN"	"VNM"	"Asia"	"Sudeste Asiatico"	"2016_2018"	0.0114
+"1211"	"Wallis y Futuna"	"WF"	"WLF"	"Oceania"	"Polinesia"	"2004_2006"	NA
+"1212"	"Wallis y Futuna"	"WF"	"WLF"	"Oceania"	"Polinesia"	"2007_2009"	NA
+"1213"	"Wallis y Futuna"	"WF"	"WLF"	"Oceania"	"Polinesia"	"2010_2012"	NA
+"1214"	"Wallis y Futuna"	"WF"	"WLF"	"Oceania"	"Polinesia"	"2013_2015"	NA
+"1215"	"Wallis y Futuna"	"WF"	"WLF"	"Oceania"	"Polinesia"	"2016_2018"	NA
+"1216"	"Yemen"	"YE"	"YEM"	"Asia"	"Asia Occidental"	"2004_2006"	NA
+"1217"	"Yemen"	"YE"	"YEM"	"Asia"	"Asia Occidental"	"2007_2009"	NA
+"1218"	"Yemen"	"YE"	"YEM"	"Asia"	"Asia Occidental"	"2010_2012"	NA
+"1219"	"Yemen"	"YE"	"YEM"	"Asia"	"Asia Occidental"	"2013_2015"	NA
+"1220"	"Yemen"	"YE"	"YEM"	"Asia"	"Asia Occidental"	"2016_2018"	NA
+"1221"	"Zambia"	"ZM"	"ZMB"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"1222"	"Zambia"	"ZM"	"ZMB"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"1223"	"Zambia"	"ZM"	"ZMB"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"1224"	"Zambia"	"ZM"	"ZMB"	"Africa"	"Africa Oriental"	"2013_2015"	NA
+"1225"	"Zambia"	"ZM"	"ZMB"	"Africa"	"Africa Oriental"	"2016_2018"	NA
+"1226"	"Zimbabue"	"ZW"	"ZWE"	"Africa"	"Africa Oriental"	"2004_2006"	NA
+"1227"	"Zimbabue"	"ZW"	"ZWE"	"Africa"	"Africa Oriental"	"2007_2009"	NA
+"1228"	"Zimbabue"	"ZW"	"ZWE"	"Africa"	"Africa Oriental"	"2010_2012"	NA
+"1229"	"Zimbabue"	"ZW"	"ZWE"	"Africa"	"Africa Oriental"	"2013_2015"	0.0236
+"1230"	"Zimbabue"	"ZW"	"ZWE"	"Africa"	"Africa Oriental"	"2016_2018"	0.0296
