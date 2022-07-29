@@ -6,5 +6,12 @@ Para la exploración de datos se utilizó R, mientras que todas las técnicas de
 https://drive.google.com/drive/folders/1ct5bdPXSb0jvQ7WkUfyXO5cgIEiZ_6n_?usp=sharing
 
 
+
+```python
+import pickle
+lda_model = pickle.load(open("./lda_model.pkl", "rb"))
+```
+
+
 #### Se disponibiliza una app donde se pueden recorrer y analizar de manera dinamica los resultados encontrados
 https://juanpablosokil.shinyapps.io/Reporte_Tesis/
