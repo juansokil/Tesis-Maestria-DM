@@ -1,0 +1,376 @@
+id;pais;ISO2;ISO3;continente;subcontinente;periodo;participacion
+1;Mundial;;;;;2004_2006;0.01326
+2;Mundial;;;;;2007_2009;0.01519
+3;Mundial;;;;;2010_2012;0.01601
+4;Mundial;;;;;2013_2015;0.01613
+5;Mundial;;;;;2016_2018;0.01700
+11;Alemania;DE;DEU;Europa;Europa Occidental;2004_2006;0.0059
+12;Alemania;DE;DEU;Europa;Europa Occidental;2007_2009;0.0074
+13;Alemania;DE;DEU;Europa;Europa Occidental;2010_2012;0.0091
+14;Alemania;DE;DEU;Europa;Europa Occidental;2013_2015;0.01
+15;Alemania;DE;DEU;Europa;Europa Occidental;2016_2018;0.0123
+37;Arabia Saudita;SA;SAU;Asia;Asia Occidental;2007_2009;0.0023
+38;Arabia Saudita;SA;SAU;Asia;Asia Occidental;2010_2012;0.0087
+39;Arabia Saudita;SA;SAU;Asia;Asia Occidental;2013_2015;0.0058
+40;Arabia Saudita;SA;SAU;Asia;Asia Occidental;2016_2018;0.0091
+44;Argelia;DZ;DZA;Africa;Africa del Norte;2013_2015;0.0055
+45;Argelia;DZ;DZA;Africa;Africa del Norte;2016_2018;0.0011
+46;Argentina;AR;ARG;America;America del Sur;2004_2006;0.0034
+47;Argentina;AR;ARG;America;America del Sur;2007_2009;0.0102
+48;Argentina;AR;ARG;America;America del Sur;2010_2012;0.0158
+49;Argentina;AR;ARG;America;America del Sur;2013_2015;0.0183
+50;Argentina;AR;ARG;America;America del Sur;2016_2018;0.0149
+61;Australia;AU;AUS;Oceania;Australia y Nueva Zelanda;2004_2006;0.0108
+62;Australia;AU;AUS;Oceania;Australia y Nueva Zelanda;2007_2009;0.0132
+63;Australia;AU;AUS;Oceania;Australia y Nueva Zelanda;2010_2012;0.0142
+64;Australia;AU;AUS;Oceania;Australia y Nueva Zelanda;2013_2015;0.0165
+65;Australia;AU;AUS;Oceania;Australia y Nueva Zelanda;2016_2018;0.0186
+66;Austria;AT;AUT;Europa;Europa Occidental;2004_2006;0.0051
+67;Austria;AT;AUT;Europa;Europa Occidental;2007_2009;0.0122
+68;Austria;AT;AUT;Europa;Europa Occidental;2010_2012;0.0143
+69;Austria;AT;AUT;Europa;Europa Occidental;2013_2015;0.0124
+70;Austria;AT;AUT;Europa;Europa Occidental;2016_2018;0.0163
+76;Bélgica;BE;BEL;Europa;Europa Occidental;2004_2006;0.0053
+77;Bélgica;BE;BEL;Europa;Europa Occidental;2007_2009;0.0069
+78;Bélgica;BE;BEL;Europa;Europa Occidental;2010_2012;0.0078
+79;Bélgica;BE;BEL;Europa;Europa Occidental;2013_2015;0.0101
+80;Bélgica;BE;BEL;Europa;Europa Occidental;2016_2018;0.0128
+92;Bangladesh;BD;BGD;Asia;Asia del Sur;2007_2009;0.0201
+93;Bangladesh;BD;BGD;Asia;Asia del Sur;2010_2012;0.0201
+94;Bangladesh;BD;BGD;Asia;Asia del Sur;2013_2015;0.0249
+95;Bangladesh;BD;BGD;Asia;Asia del Sur;2016_2018;0.0222
+133;Bosnia y Herzegovina;BA;BIH;Europa;Europa del Sur;2010_2012;0.0059
+134;Bosnia y Herzegovina;BA;BIH;Europa;Europa del Sur;2013_2015;0.0122
+135;Bosnia y Herzegovina;BA;BIH;Europa;Europa del Sur;2016_2018;0.0307
+140;Botswana;BW;BWA;Africa;Africa Austral;2016_2018;0.0307
+141;Brasil;BR;BRA;America;America del Sur;2004_2006;0.0137
+142;Brasil;BR;BRA;America;America del Sur;2007_2009;0.0222
+143;Brasil;BR;BRA;America;America del Sur;2010_2012;0.0148
+144;Brasil;BR;BRA;America;America del Sur;2013_2015;0.0139
+145;Brasil;BR;BRA;America;America del Sur;2016_2018;0.0169
+152;Bulgaria;BG;BGR;Europa;Europa Oriental;2007_2009;0.0024
+153;Bulgaria;BG;BGR;Europa;Europa Oriental;2010_2012;0.0038
+154;Bulgaria;BG;BGR;Europa;Europa Oriental;2013_2015;0.0049
+155;Bulgaria;BG;BGR;Europa;Europa Oriental;2016_2018;0.01
+184;Camerún;CM;CMR;Africa;Africa Central;2013_2015;0.0127
+185;Camerún;CM;CMR;Africa;Africa Central;2016_2018;0.0163
+186;Canadá;CA;CAN;America;America del Norte;2004_2006;0.0156
+187;Canadá;CA;CAN;America;America del Norte;2007_2009;0.0182
+188;Canadá;CA;CAN;America;America del Norte;2010_2012;0.0171
+189;Canadá;CA;CAN;America;America del Norte;2013_2015;0.0182
+190;Canadá;CA;CAN;America;America del Norte;2016_2018;0.0226
+196;Chequia;CZ;CZE;Europa;Europa Oriental;2004_2006;0.0017
+197;Chequia;CZ;CZE;Europa;Europa Oriental;2007_2009;0.0075
+198;Chequia;CZ;CZE;Europa;Europa Oriental;2010_2012;0.0074
+199;Chequia;CZ;CZE;Europa;Europa Oriental;2013_2015;0.0098
+200;Chequia;CZ;CZE;Europa;Europa Oriental;2016_2018;0.0111
+201;Chile;CL;CHL;America;America del Sur;2004_2006;0.0058
+202;Chile;CL;CHL;America;America del Sur;2007_2009;0.0097
+203;Chile;CL;CHL;America;America del Sur;2010_2012;0.0117
+204;Chile;CL;CHL;America;America del Sur;2013_2015;0.0146
+205;Chile;CL;CHL;America;America del Sur;2016_2018;0.0142
+206;China;CN;CHN;Asia;Asia Oriental;2004_2006;0.0028
+207;China;CN;CHN;Asia;Asia Oriental;2007_2009;0.0042
+208;China;CN;CHN;Asia;Asia Oriental;2010_2012;0.0041
+209;China;CN;CHN;Asia;Asia Oriental;2013_2015;0.0051
+210;China;CN;CHN;Asia;Asia Oriental;2016_2018;0.0062
+221;Chipre;CY;CYP;Asia;Asia Occidental;2004_2006;0.0031
+222;Chipre;CY;CYP;Asia;Asia Occidental;2007_2009;0.0132
+223;Chipre;CY;CYP;Asia;Asia Occidental;2010_2012;0.0136
+224;Chipre;CY;CYP;Asia;Asia Occidental;2013_2015;0.0136
+225;Chipre;CY;CYP;Asia;Asia Occidental;2016_2018;0.0151
+227;Colombia;CO;COL;America;America del Sur;2007_2009;0.0329
+228;Colombia;CO;COL;America;America del Sur;2010_2012;0.036
+229;Colombia;CO;COL;America;America del Sur;2013_2015;0.0181
+230;Colombia;CO;COL;America;America del Sur;2016_2018;0.0133
+236;Corea del Sur;KR;KOR;Asia;Asia Oriental;2004_2006;0.0063
+237;Corea del Sur;KR;KOR;Asia;Asia Oriental;2007_2009;0.0111
+238;Corea del Sur;KR;KOR;Asia;Asia Oriental;2010_2012;0.0121
+239;Corea del Sur;KR;KOR;Asia;Asia Oriental;2013_2015;0.0123
+240;Corea del Sur;KR;KOR;Asia;Asia Oriental;2016_2018;0.0113
+250;Costa Rica;CR;CRI;America;America Central;2016_2018;0.011
+251;Croacia;HR;HRV;Europa;Europa del Sur;2004_2006;0.0098
+252;Croacia;HR;HRV;Europa;Europa del Sur;2007_2009;0.0091
+253;Croacia;HR;HRV;Europa;Europa del Sur;2010_2012;0.0113
+254;Croacia;HR;HRV;Europa;Europa del Sur;2013_2015;0.0082
+255;Croacia;HR;HRV;Europa;Europa del Sur;2016_2018;0.0111
+259;Cuba;CU;CUB;America;Caribe;2013_2015;0.0038
+260;Cuba;CU;CUB;America;Caribe;2016_2018;0.0017
+266;Dinamarca;DK;DNK;Europa;Europa del Norte;2004_2006;0.0093
+267;Dinamarca;DK;DNK;Europa;Europa del Norte;2007_2009;0.0063
+268;Dinamarca;DK;DNK;Europa;Europa del Norte;2010_2012;0.0115
+269;Dinamarca;DK;DNK;Europa;Europa del Norte;2013_2015;0.0104
+270;Dinamarca;DK;DNK;Europa;Europa del Norte;2016_2018;0.0146
+283;Ecuador;EC;ECU;America;America del Sur;2010_2012;0.0069
+284;Ecuador;EC;ECU;America;America del Sur;2013_2015;0.0137
+285;Ecuador;EC;ECU;America;America del Sur;2016_2018;0.0117
+286;Egipto;EG;EGY;Africa;Africa del Norte;2004_2006;0.0049
+287;Egipto;EG;EGY;Africa;Africa del Norte;2007_2009;0.0138
+288;Egipto;EG;EGY;Africa;Africa del Norte;2010_2012;0.0091
+289;Egipto;EG;EGY;Africa;Africa del Norte;2013_2015;0.0078
+290;Egipto;EG;EGY;Africa;Africa del Norte;2016_2018;0.0133
+296;Emiratos Árabes Unidos;AE;ARE;Asia;Asia Occidental;2004_2006;0.0028
+297;Emiratos Árabes Unidos;AE;ARE;Asia;Asia Occidental;2007_2009;0.0014
+298;Emiratos Árabes Unidos;AE;ARE;Asia;Asia Occidental;2010_2012;0.014
+299;Emiratos Árabes Unidos;AE;ARE;Asia;Asia Occidental;2013_2015;0.0207
+300;Emiratos Árabes Unidos;AE;ARE;Asia;Asia Occidental;2016_2018;0.0181
+306;Eslovaquia;SK;SVK;Europa;Europa Oriental;2004_2006;0.0068
+307;Eslovaquia;SK;SVK;Europa;Europa Oriental;2007_2009;0.0078
+308;Eslovaquia;SK;SVK;Europa;Europa Oriental;2010_2012;0.003
+309;Eslovaquia;SK;SVK;Europa;Europa Oriental;2013_2015;0.0051
+310;Eslovaquia;SK;SVK;Europa;Europa Oriental;2016_2018;0.0079
+311;Eslovenia;SI;SVN;Europa;Europa del Sur;2004_2006;0.0023
+312;Eslovenia;SI;SVN;Europa;Europa del Sur;2007_2009;0.0089
+313;Eslovenia;SI;SVN;Europa;Europa del Sur;2010_2012;0.0076
+314;Eslovenia;SI;SVN;Europa;Europa del Sur;2013_2015;0.0073
+315;Eslovenia;SI;SVN;Europa;Europa del Sur;2016_2018;0.0104
+316;España;ES;ESP;Europa;Europa del Sur;2004_2006;0.009
+317;España;ES;ESP;Europa;Europa del Sur;2007_2009;0.0114
+318;España;ES;ESP;Europa;Europa del Sur;2010_2012;0.0164
+319;España;ES;ESP;Europa;Europa del Sur;2013_2015;0.0161
+320;España;ES;ESP;Europa;Europa del Sur;2016_2018;0.0194
+321;Estados Unidos;US;USA;America;America del Norte;2004_2006;0.0158
+322;Estados Unidos;US;USA;America;America del Norte;2007_2009;0.0192
+323;Estados Unidos;US;USA;America;America del Norte;2010_2012;0.0196
+324;Estados Unidos;US;USA;America;America del Norte;2013_2015;0.0203
+325;Estados Unidos;US;USA;America;America del Norte;2016_2018;0.023
+327;Estonia;EE;EST;Europa;Europa del Norte;2007_2009;0.0074
+328;Estonia;EE;EST;Europa;Europa del Norte;2010_2012;0.009
+329;Estonia;EE;EST;Europa;Europa del Norte;2013_2015;0.0121
+330;Estonia;EE;EST;Europa;Europa del Norte;2016_2018;0.012
+338;Etiopía;ET;ETH;Africa;Africa Oriental;2010_2012;0.0174
+339;Etiopía;ET;ETH;Africa;Africa Oriental;2013_2015;0.0146
+340;Etiopía;ET;ETH;Africa;Africa Oriental;2016_2018;0.0179
+346;Filipinas;PH;PHL;Asia;Sudeste Asiatico;2004_2006;0.0126
+347;Filipinas;PH;PHL;Asia;Sudeste Asiatico;2007_2009;0.0251
+348;Filipinas;PH;PHL;Asia;Sudeste Asiatico;2010_2012;0.0177
+349;Filipinas;PH;PHL;Asia;Sudeste Asiatico;2013_2015;0.0121
+350;Filipinas;PH;PHL;Asia;Sudeste Asiatico;2016_2018;0.0193
+351;Finlandia;FI;FIN;Europa;Europa del Norte;2004_2006;0.0095
+352;Finlandia;FI;FIN;Europa;Europa del Norte;2007_2009;0.0129
+353;Finlandia;FI;FIN;Europa;Europa del Norte;2010_2012;0.0153
+354;Finlandia;FI;FIN;Europa;Europa del Norte;2013_2015;0.0148
+355;Finlandia;FI;FIN;Europa;Europa del Norte;2016_2018;0.0162
+356;Francia;FR;FRA;Europa;Europa Occidental;2004_2006;0.0034
+357;Francia;FR;FRA;Europa;Europa Occidental;2007_2009;0.0048
+358;Francia;FR;FRA;Europa;Europa Occidental;2010_2012;0.005
+359;Francia;FR;FRA;Europa;Europa Occidental;2013_2015;0.0069
+360;Francia;FR;FRA;Europa;Europa Occidental;2016_2018;0.0097
+375;Georgia;GE;GEO;Asia;Asia Occidental;2016_2018;0.0156
+377;Ghana;GH;GHA;Africa;Africa Occidental;2007_2009;0.0116
+378;Ghana;GH;GHA;Africa;Africa Occidental;2010_2012;0.0205
+379;Ghana;GH;GHA;Africa;Africa Occidental;2013_2015;0.0209
+380;Ghana;GH;GHA;Africa;Africa Occidental;2016_2018;0.0205
+391;Grecia;GR;GRC;Europa;Europa del Sur;2004_2006;0.0066
+392;Grecia;GR;GRC;Europa;Europa del Sur;2007_2009;0.0066
+393;Grecia;GR;GRC;Europa;Europa del Sur;2010_2012;0.0069
+394;Grecia;GR;GRC;Europa;Europa del Sur;2013_2015;0.0102
+395;Grecia;GR;GRC;Europa;Europa del Sur;2016_2018;0.009
+456;Hungría;HU;HUN;Europa;Europa Oriental;2004_2006;0.0069
+457;Hungría;HU;HUN;Europa;Europa Oriental;2007_2009;0.0073
+458;Hungría;HU;HUN;Europa;Europa Oriental;2010_2012;0.0098
+459;Hungría;HU;HUN;Europa;Europa Oriental;2013_2015;0.0076
+460;Hungría;HU;HUN;Europa;Europa Oriental;2016_2018;0.0106
+461;India;IN;IND;Asia;Asia del Sur;2004_2006;0.0054
+462;India;IN;IND;Asia;Asia del Sur;2007_2009;0.0095
+463;India;IN;IND;Asia;Asia del Sur;2010_2012;0.0095
+464;India;IN;IND;Asia;Asia del Sur;2013_2015;0.0102
+465;India;IN;IND;Asia;Asia del Sur;2016_2018;0.0125
+467;Indonesia;ID;IDN;Asia;Sudeste Asiatico;2007_2009;0.0108
+468;Indonesia;ID;IDN;Asia;Sudeste Asiatico;2010_2012;0.0121
+469;Indonesia;ID;IDN;Asia;Sudeste Asiatico;2013_2015;0.0081
+470;Indonesia;ID;IDN;Asia;Sudeste Asiatico;2016_2018;0.0081
+471;Irán;IR;IRN;Asia;Asia del Sur;2004_2006;0.0017
+472;Irán;IR;IRN;Asia;Asia del Sur;2007_2009;0.01
+473;Irán;IR;IRN;Asia;Asia del Sur;2010_2012;0.0103
+474;Irán;IR;IRN;Asia;Asia del Sur;2013_2015;0.0109
+475;Irán;IR;IRN;Asia;Asia del Sur;2016_2018;0.0087
+480;Irak;IQ;IRQ;Asia;Asia Occidental;2016_2018;0.0034
+481;Irlanda;IE;IRL;Europa;Europa del Norte;2004_2006;0.0098
+482;Irlanda;IE;IRL;Europa;Europa del Norte;2007_2009;0.0128
+483;Irlanda;IE;IRL;Europa;Europa del Norte;2010_2012;0.0184
+484;Irlanda;IE;IRL;Europa;Europa del Norte;2013_2015;0.015
+485;Irlanda;IE;IRL;Europa;Europa del Norte;2016_2018;0.0187
+507;Islandia;IS;ISL;Europa;Europa del Norte;2007_2009;0.0179
+508;Islandia;IS;ISL;Europa;Europa del Norte;2010_2012;0.0186
+509;Islandia;IS;ISL;Europa;Europa del Norte;2013_2015;0.0447
+510;Islandia;IS;ISL;Europa;Europa del Norte;2016_2018;0.037
+566;Israel;IL;ISR;Asia;Asia Occidental;2004_2006;0.0161
+567;Israel;IL;ISR;Asia;Asia Occidental;2007_2009;0.0187
+568;Israel;IL;ISR;Asia;Asia Occidental;2010_2012;0.0179
+569;Israel;IL;ISR;Asia;Asia Occidental;2013_2015;0.0162
+570;Israel;IL;ISR;Asia;Asia Occidental;2016_2018;0.0217
+571;Italia;IT;ITA;Europa;Europa del Sur;2004_2006;0.0047
+572;Italia;IT;ITA;Europa;Europa del Sur;2007_2009;0.0057
+573;Italia;IT;ITA;Europa;Europa del Sur;2010_2012;0.0064
+574;Italia;IT;ITA;Europa;Europa del Sur;2013_2015;0.009
+575;Italia;IT;ITA;Europa;Europa del Sur;2016_2018;0.0109
+581;Japón;JP;JPN;Asia;Asia Oriental;2004_2006;0.0066
+582;Japón;JP;JPN;Asia;Asia Oriental;2007_2009;0.0054
+583;Japón;JP;JPN;Asia;Asia Oriental;2010_2012;0.0082
+584;Japón;JP;JPN;Asia;Asia Oriental;2013_2015;0.0064
+585;Japón;JP;JPN;Asia;Asia Oriental;2016_2018;0.008
+592;Jordania;JO;JOR;Asia;Asia Occidental;2007_2009;0.0154
+593;Jordania;JO;JOR;Asia;Asia Occidental;2010_2012;0.0091
+594;Jordania;JO;JOR;Asia;Asia Occidental;2013_2015;0.0096
+595;Jordania;JO;JOR;Asia;Asia Occidental;2016_2018;0.0114
+599;Qatar;QA;QAT;Asia;Asia Occidental;2013_2015;0.0066
+600;Qatar;QA;QAT;Asia;Asia Occidental;2016_2018;0.021
+604;Kazajistan;KZ;KAZ;Asia;Asia Central;2013_2015;0.0055
+605;Kazajistan;KZ;KAZ;Asia;Asia Central;2016_2018;0.0047
+606;Kenia;KE;KEN;Africa;Africa Oriental;2004_2006;0.0151
+607;Kenia;KE;KEN;Africa;Africa Oriental;2007_2009;0.0255
+608;Kenia;KE;KEN;Africa;Africa Oriental;2010_2012;0.0207
+609;Kenia;KE;KEN;Africa;Africa Oriental;2013_2015;0.0195
+610;Kenia;KE;KEN;Africa;Africa Oriental;2016_2018;0.0315
+627;Kuwait;KW;KWT;Asia;Asia Occidental;2007_2009;0.0146
+628;Kuwait;KW;KWT;Asia;Asia Occidental;2010_2012;0.0107
+629;Kuwait;KW;KWT;Asia;Asia Occidental;2013_2015;0.0106
+630;Kuwait;KW;KWT;Asia;Asia Occidental;2016_2018;0.0129
+632;Líbano;LB;LBN;Asia;Asia Occidental;2007_2009;0.0181
+633;Líbano;LB;LBN;Asia;Asia Occidental;2010_2012;0.0159
+634;Líbano;LB;LBN;Asia;Asia Occidental;2013_2015;0.0202
+635;Líbano;LB;LBN;Asia;Asia Occidental;2016_2018;0.0225
+649;Letonia;LV;LVA;Europa;Europa del Norte;2013_2015;0.0102
+650;Letonia;LV;LVA;Europa;Europa del Norte;2016_2018;0.0099
+666;Lituania;LT;LTU;Europa;Europa del Norte;2004_2006;0.0035
+667;Lituania;LT;LTU;Europa;Europa del Norte;2007_2009;0.0057
+668;Lituania;LT;LTU;Europa;Europa del Norte;2010_2012;0.0048
+669;Lituania;LT;LTU;Europa;Europa del Norte;2013_2015;0.0044
+670;Lituania;LT;LTU;Europa;Europa del Norte;2016_2018;0.0112
+673;Luxemburgo;LU;LUX;Europa;Europa Occidental;2010_2012;0.0137
+674;Luxemburgo;LU;LUX;Europa;Europa Occidental;2013_2015;0.0137
+675;Luxemburgo;LU;LUX;Europa;Europa Occidental;2016_2018;0.0088
+676;México;MX;MEX;America;America Central;2004_2006;0.0085
+677;México;MX;MEX;America;America Central;2007_2009;0.0137
+678;México;MX;MEX;America;America Central;2010_2012;0.0121
+679;México;MX;MEX;America;America Central;2013_2015;0.0138
+680;México;MX;MEX;America;America Central;2016_2018;0.017
+691;Malasia;MY;MYS;Asia;Sudeste Asiatico;2004_2006;0.009
+692;Malasia;MY;MYS;Asia;Sudeste Asiatico;2007_2009;0.0091
+693;Malasia;MY;MYS;Asia;Sudeste Asiatico;2010_2012;0.0119
+694;Malasia;MY;MYS;Asia;Sudeste Asiatico;2013_2015;0.0115
+695;Malasia;MY;MYS;Asia;Sudeste Asiatico;2016_2018;0.0089
+715;Malta;MT;MLT;Europa;Europa del Sur;2016_2018;0.0092
+719;Marruecos;MA;MAR;Africa;Africa del Norte;2013_2015;0.0079
+720;Marruecos;MA;MAR;Africa;Africa del Norte;2016_2018;0.0128
+790;Nepal;NP;NPL;Asia;Asia del Sur;2016_2018;0.0339
+796;Nigeria;NG;NGA;Africa;Africa Occidental;2004_2006;0.0197
+797;Nigeria;NG;NGA;Africa;Africa Occidental;2007_2009;0.0311
+798;Nigeria;NG;NGA;Africa;Africa Occidental;2010_2012;0.0224
+799;Nigeria;NG;NGA;Africa;Africa Occidental;2013_2015;0.0163
+800;Nigeria;NG;NGA;Africa;Africa Occidental;2016_2018;0.0175
+810;Norte Macedonia;MK;MKD;Europa;Europa del Sur;2016_2018;0.0201
+811;Noruega;NO;NOR;Europa;Europa del Norte;2004_2006;0.0168
+812;Noruega;NO;NOR;Europa;Europa del Norte;2007_2009;0.0156
+813;Noruega;NO;NOR;Europa;Europa del Norte;2010_2012;0.0145
+814;Noruega;NO;NOR;Europa;Europa del Norte;2013_2015;0.0191
+815;Noruega;NO;NOR;Europa;Europa del Norte;2016_2018;0.0192
+821;Nueva Zelanda;NZ;NZL;Oceania;Australia y Nueva Zelanda;2004_2006;0.0131
+822;Nueva Zelanda;NZ;NZL;Oceania;Australia y Nueva Zelanda;2007_2009;0.0135
+823;Nueva Zelanda;NZ;NZL;Oceania;Australia y Nueva Zelanda;2010_2012;0.0171
+824;Nueva Zelanda;NZ;NZL;Oceania;Australia y Nueva Zelanda;2013_2015;0.015
+825;Nueva Zelanda;NZ;NZL;Oceania;Australia y Nueva Zelanda;2016_2018;0.0175
+829;Omán;OM;OMN;Asia;Asia Occidental;2013_2015;0.0237
+830;Omán;OM;OMN;Asia;Asia Occidental;2016_2018;0.0212
+831;Países Bajos;NL;NLD;Europa;Europa Occidental;2004_2006;0.0092
+832;Países Bajos;NL;NLD;Europa;Europa Occidental;2007_2009;0.0114
+833;Países Bajos;NL;NLD;Europa;Europa Occidental;2010_2012;0.0108
+834;Países Bajos;NL;NLD;Europa;Europa Occidental;2013_2015;0.0121
+835;Países Bajos;NL;NLD;Europa;Europa Occidental;2016_2018;0.0126
+836;Pakistán;PK;PAK;Asia;Asia del Sur;2004_2006;0.0155
+837;Pakistán;PK;PAK;Asia;Asia del Sur;2007_2009;0.0143
+838;Pakistán;PK;PAK;Asia;Asia del Sur;2010_2012;0.0134
+839;Pakistán;PK;PAK;Asia;Asia del Sur;2013_2015;0.0149
+840;Pakistán;PK;PAK;Asia;Asia del Sur;2016_2018;0.0237
+868;Perú;PE;PER;America;America del Sur;2010_2012;0.0092
+869;Perú;PE;PER;America;America del Sur;2013_2015;0.0168
+870;Perú;PE;PER;America;America del Sur;2016_2018;0.0156
+881;Polonia;PL;POL;Europa;Europa Oriental;2004_2006;0.0014
+882;Polonia;PL;POL;Europa;Europa Oriental;2007_2009;0.0038
+883;Polonia;PL;POL;Europa;Europa Oriental;2010_2012;0.0063
+884;Polonia;PL;POL;Europa;Europa Oriental;2013_2015;0.0084
+885;Polonia;PL;POL;Europa;Europa Oriental;2016_2018;0.0089
+886;Portugal;PT;PRT;Europa;Europa del Sur;2004_2006;0.0081
+887;Portugal;PT;PRT;Europa;Europa del Sur;2007_2009;0.0088
+888;Portugal;PT;PRT;Europa;Europa del Sur;2010_2012;0.0115
+889;Portugal;PT;PRT;Europa;Europa del Sur;2013_2015;0.0112
+890;Portugal;PT;PRT;Europa;Europa del Sur;2016_2018;0.0164
+901;Reino Unido;GB;GBR;Europa;Europa del Norte;2004_2006;0.0107
+902;Reino Unido;GB;GBR;Europa;Europa del Norte;2007_2009;0.0137
+903;Reino Unido;GB;GBR;Europa;Europa del Norte;2010_2012;0.0151
+904;Reino Unido;GB;GBR;Europa;Europa del Norte;2013_2015;0.0149
+905;Reino Unido;GB;GBR;Europa;Europa del Norte;2016_2018;0.0176
+946;Rumania;RO;ROU;Europa;Europa Oriental;2004_2006;0.0122
+947;Rumania;RO;ROU;Europa;Europa Oriental;2007_2009;0.0029
+948;Rumania;RO;ROU;Europa;Europa Oriental;2010_2012;0.0046
+949;Rumania;RO;ROU;Europa;Europa Oriental;2013_2015;0.0048
+950;Rumania;RO;ROU;Europa;Europa Oriental;2016_2018;0.0064
+951;Russia;RU;RUS;Europa;Europa Oriental;2004_2006;0.003
+952;Russia;RU;RUS;Europa;Europa Oriental;2007_2009;0.0043
+953;Russia;RU;RUS;Europa;Europa Oriental;2010_2012;0.0035
+954;Russia;RU;RUS;Europa;Europa Oriental;2013_2015;0.006
+955;Russia;RU;RUS;Europa;Europa Oriental;2016_2018;0.0045
+1032;Serbia;RS;SRB;Europa;Europa del Sur;2007_2009;0.007
+1033;Serbia;RS;SRB;Europa;Europa del Sur;2010_2012;0.0118
+1034;Serbia;RS;SRB;Europa;Europa del Sur;2013_2015;0.012
+1035;Serbia;RS;SRB;Europa;Europa del Sur;2016_2018;0.0127
+1046;Singapur;SG;SGP;Asia;Sudeste Asiatico;2004_2006;0.0077
+1047;Singapur;SG;SGP;Asia;Sudeste Asiatico;2007_2009;0.0065
+1048;Singapur;SG;SGP;Asia;Sudeste Asiatico;2010_2012;0.0102
+1049;Singapur;SG;SGP;Asia;Sudeste Asiatico;2013_2015;0.0094
+1050;Singapur;SG;SGP;Asia;Sudeste Asiatico;2016_2018;0.0095
+1063;Sri Lanka;LK;LKA;Asia;Asia del Sur;2010_2012;0.0132
+1064;Sri Lanka;LK;LKA;Asia;Asia del Sur;2013_2015;0.0104
+1065;Sri Lanka;LK;LKA;Asia;Asia del Sur;2016_2018;0.0186
+1066;Sudáfrica;ZA;ZAF;Africa;Africa Austral;2004_2006;0.0117
+1067;Sudáfrica;ZA;ZAF;Africa;Africa Austral;2007_2009;0.0171
+1068;Sudáfrica;ZA;ZAF;Africa;Africa Austral;2010_2012;0.0147
+1069;Sudáfrica;ZA;ZAF;Africa;Africa Austral;2013_2015;0.0162
+1070;Sudáfrica;ZA;ZAF;Africa;Africa Austral;2016_2018;0.0201
+1076;Suecia;SE;SWE;Europa;Europa del Norte;2004_2006;0.0186
+1077;Suecia;SE;SWE;Europa;Europa del Norte;2007_2009;0.0176
+1078;Suecia;SE;SWE;Europa;Europa del Norte;2010_2012;0.025
+1079;Suecia;SE;SWE;Europa;Europa del Norte;2013_2015;0.0252
+1080;Suecia;SE;SWE;Europa;Europa del Norte;2016_2018;0.0269
+1081;Suiza;CH;CHE;Europa;Europa Occidental;2004_2006;0.0092
+1082;Suiza;CH;CHE;Europa;Europa Occidental;2007_2009;0.0089
+1083;Suiza;CH;CHE;Europa;Europa Occidental;2010_2012;0.0078
+1084;Suiza;CH;CHE;Europa;Europa Occidental;2013_2015;0.0111
+1085;Suiza;CH;CHE;Europa;Europa Occidental;2016_2018;0.0109
+1097;Túnez;TN;TUN;Africa;Africa del Norte;2007_2009;0.0067
+1098;Túnez;TN;TUN;Africa;Africa del Norte;2010_2012;0.0024
+1099;Túnez;TN;TUN;Africa;Africa del Norte;2013_2015;0.0043
+1100;Túnez;TN;TUN;Africa;Africa del Norte;2016_2018;0.0093
+1101;Tailandia;TH;THA;Asia;Sudeste Asiatico;2004_2006;0.0122
+1102;Tailandia;TH;THA;Asia;Sudeste Asiatico;2007_2009;0.0048
+1103;Tailandia;TH;THA;Asia;Sudeste Asiatico;2010_2012;0.0102
+1104;Tailandia;TH;THA;Asia;Sudeste Asiatico;2013_2015;0.0111
+1105;Tailandia;TH;THA;Asia;Sudeste Asiatico;2016_2018;0.0116
+1113;Tanzania;TZ;TZA;Africa;Africa Oriental;2010_2012;0.0162
+1114;Tanzania;TZ;TZA;Africa;Africa Oriental;2013_2015;0.0216
+1115;Tanzania;TZ;TZA;Africa;Africa Oriental;2016_2018;0.0357
+1156;Turquía;TR;TUR;Asia;Asia Occidental;2004_2006;0.0125
+1157;Turquía;TR;TUR;Asia;Asia Occidental;2007_2009;0.0139
+1158;Turquía;TR;TUR;Asia;Asia Occidental;2010_2012;0.0149
+1159;Turquía;TR;TUR;Asia;Asia Occidental;2013_2015;0.0137
+1160;Turquía;TR;TUR;Asia;Asia Occidental;2016_2018;0.0148
+1166;Ucrania;UA;UKR;Europa;Europa Oriental;2004_2006;0.003
+1167;Ucrania;UA;UKR;Europa;Europa Oriental;2007_2009;0.0029
+1168;Ucrania;UA;UKR;Europa;Europa Oriental;2010_2012;0.0041
+1169;Ucrania;UA;UKR;Europa;Europa Oriental;2013_2015;0.0019
+1170;Ucrania;UA;UKR;Europa;Europa Oriental;2016_2018;0.0029
+1173;Uganda;UG;UGA;Africa;Africa Oriental;2010_2012;0.0289
+1174;Uganda;UG;UGA;Africa;Africa Oriental;2013_2015;0.0308
+1175;Uganda;UG;UGA;Africa;Africa Oriental;2016_2018;0.0239
+1189;Uruguay;UY;URY;America;America del Sur;2013_2015;0.0181
+1190;Uruguay;UY;URY;America;America del Sur;2016_2018;0.0235
+1202;Venezuela;VE;VEN;America;America del Sur;2007_2009;0.0016
+1204;Venezuela;VE;VEN;America;America del Sur;2013_2015;0.0049
+1205;Venezuela;VE;VEN;America;America del Sur;2016_2018;0.0081
+1207;Vietnam;VN;VNM;Asia;Sudeste Asiatico;2007_2009;0.0092
+1208;Vietnam;VN;VNM;Asia;Sudeste Asiatico;2010_2012;0.0153
+1209;Vietnam;VN;VNM;Asia;Sudeste Asiatico;2013_2015;0.0133
+1210;Vietnam;VN;VNM;Asia;Sudeste Asiatico;2016_2018;0.0114
+1229;Zimbabwe;ZW;ZWE;Africa;Africa Oriental;2013_2015;0.0236
+1230;Zimbabwe;ZW;ZWE;Africa;Africa Oriental;2016_2018;0.0296
