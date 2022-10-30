@@ -1,0 +1,384 @@
+---
+title: "Analisis de Datos"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+
+
+```{r, warning=FALSE, include=FALSE, message = FALSE}
+#carga de librerias
+
+library(readr)
+library(ggplot2)
+library(scales)
+library(maps)
+library(countrycode)
+library(rworldmap)
+library(dplyr)
+library(tidyr)
+library(tidyverse)
+library(dunn.test)
+library(ggrepel)
+library(ggpubr)
+```
+
+
+```{r, warning=FALSE, include=FALSE, message = FALSE}
+
+#Colores a utilizar en los gráficos
+
+manualcolors<-c('Africa Austral'='forestgreen', 
+                'Africa Central'= 'red2', 
+                'Africa del Norte' ='orange',
+                'Africa Occidental'= 'cornflowerblue', 
+                'Africa Oriental' = 'gainsboro',
+                'America Central' = 'darkolivegreen4',
+                'America del Norte' = 'indianred1',
+                'America del Sur' = 'tan4', 
+                'Asia Central' = 'darkblue',
+                'Asia del Sur' = 'mediumorchid1',
+                'Asia Occidental' = 'seagreen',
+                'Asia Oriental' = 'yellowgreen', 
+                'Australia y Nueva Zelanda' = 'lightsalmon',
+                'Caribe' = 'tan3',
+                'Europa del Norte' = "tan1",
+                'Europa del Sur' = 'darkgray', 
+                'Europa Occidental' = 'wheat4',
+                'Europa Oriental' = 'chartreuse',  
+                'Sudeste Asiatico' = 'moccasin')
+
+continentcolors<-c('Africa'='gray11', 
+                   'America' = 'red2',
+                   'Asia' = 'yellow3',
+                   'Oceania' ='forestgreen',
+                   'Europa' = "cornflowerblue")
+
+
+
+variable_order <- c('T96',  'T21',  'T43',  'T52',  'T03',  
+                    'T08',  'T12',  'T84',  'T06',  'T41',  
+                    'T73',  'T92',  'T32',  'T62',  'T17',
+                    'T55',  'T72',  'T90',  'T09',  'T11',  
+                    'T30',  'T33',  'T16',  'T48',  'T59',  
+                    'T94',  'T97',  'T99',  'T36',  'T38')
+
+
+
+```
+
+
+```{r, warning=FALSE, include=FALSE, message = FALSE}
+
+#Carga de datos
+totales2 <- read_delim("C:/Users/Juan/Dropbox/POSGRADOS/Uba/99-Tesis/scripts/scripts/graficos/totales2.csv", ";", escape_double = FALSE, trim_ws = TRUE)
+
+
+```
+### Especialización en Estudios de Género
+
+```{r, warning=FALSE, message = FALSE}
+
+ggplot(totales2, aes(Ano, Especializacion)) +  geom_point() + geom_line() +
+  coord_cartesian(ylim = c(0.01, 0.018))  +
+  geom_smooth(method='loess', se = FALSE) +
+  scale_y_continuous(labels = percent)  +
+  scale_x_continuous(breaks = seq(2004, 2018, by = 1)) 
+
+```
+
+
+
+### Especialización en Estudios de Género por pais Mapa
+
+```{r, warning=FALSE, include=FALSE, message = FALSE}
+setwd("C:/Users/Juan/Dropbox/POSGRADOS/Uba/99-Tesis/scripts/scripts/Indices")
+
+library(readr)
+indices2 <- read_delim("indices2.txt", "\t", escape_double = FALSE, trim_ws = TRUE)
+indices2$especializacion_pct = indices2$especializacion*100
+
+
+
+```
+
+```{r, warning=FALSE, message = FALSE}
+##OPCION##
+mapped_data <- joinCountryData2Map(indices2, joinCode = "ISO2", nameJoinColumn = "ISO2")
+par(mai=c(0,0,0.2,0),xaxs="i",yaxs="i")
+mapParams <-mapCountryData(mapped_data, nameColumnToPlot="especializacion_pct", colourPalette="topo", 
+                           mapTitle = "", 
+                           missingCountryCol="white", oceanCol="lightblue", addLegend=FALSE
+)
+
+```
+
+### Especialización en Estudios de Género por pais Boxplot
+
+```{r, warning=FALSE, include=FALSE, message = FALSE}
+
+indice_gdi <- indices2 %>% select (country, ISO2, ISO3, continente, subcontinente, especializacion, Global_Index)
+
+
+indice_gathered_1 <- indice_gdi %>%
+  gather(key = Global_index, value = measurement, -c(country, ISO2, ISO3, continente, subcontinente, especializacion) )
+
+indice_gathered_1_head <- indice_gathered_1 %>% arrange(desc(especializacion))
+indice_gathered_1_head <- head(indice_gathered_1_head,92)
+
+```
+
+
+
+```{r, warning=FALSE, message = FALSE}
+
+###BOXPLOT ESPECIALIZACION###
+indice_gathered_1_head %>%
+  filter(continente %in%  c('Africa', 'Americas', 'Asia', 'Europe','Oceania')) %>%
+  ggplot(aes(x=continente, y=especializacion,  label=ISO2, fill=subcontinente)) +
+  geom_point(size=3) +
+  geom_boxplot(fill = "#4271AE", colour = "#1F3552", alpha = 0.7, outlier.colour = "red", outlier.shape = 20) +
+  coord_cartesian(ylim = c(0.00, 0.04))  +
+  geom_label_repel(size=2) +
+  # geom_jitter() +
+  #geom_point() +
+  #geom_jitter() +
+  # facet_wrap(~continente, scales = "free", ncol=3) +
+  theme(legend.title=element_blank(), axis.title.y = element_blank(), legend.position="bottom") 
+
+
+```
+
+
+### Aplicacion de Test Estadisticos NO Parametricos.
+
+
+```{r, warning=FALSE, include=FALSE, message = FALSE}
+setwd("C:/Users/Juan/Dropbox/POSGRADOS/Uba/99-Tesis/scripts/scripts/Indices")
+
+library(readr)
+indices2 <- read_delim("indices2.txt", "\t", escape_double = FALSE, trim_ws = TRUE)
+indices2$especializacion_pct = indices2$especializacion*100
+
+
+indice_gdi <- indices2 %>% select (country, ISO2, ISO3, continente, subcontinente, especializacion, Global_Index)
+
+indice_gathered_1 <- indice_gdi %>%
+  gather(key = Global_index, value = measurement, -c(country, ISO2, ISO3, continente, subcontinente, especializacion) )
+
+indice_gathered_1_head <- indice_gathered_1 %>% arrange(desc(especializacion))
+indice_gathered_1_head <- head(indice_gathered_1_head,92)
+
+
+sudeste_asiatico <- indice_gathered_1_head %>% filter(subcontinente =='Sudeste Asiatico') %>% select(country, subcontinente, especializacion)
+africa_oriental <- indice_gathered_1_head %>% filter(subcontinente =='Africa Oriental') %>% select(country, subcontinente, especializacion)
+europa_oriental <- indice_gathered_1_head %>% filter(subcontinente =='Europa Oriental') %>% select(country, subcontinente, especializacion)
+
+
+```
+#### Resumen de datos
+
+```{r, warning=FALSE, message = FALSE}
+indice_gathered_1_head %>% group_by(subcontinente) %>% summarise(count=n(), median=median(especializacion, na.rm=TRUE), IQR=IQR(especializacion, na.rm=TRUE))
+
+```
+
+#### Test de Kruskal Wallis
+
+```{r, warning=FALSE, include=FALSE, message = FALSE}
+indice_gathered_1_head_gathered <- 
+  indice_gathered_1_head %>%
+  filter(continente %in%  c('Africa', 'America', 'Asia', 'Europa')) %>%
+  filter(subcontinente %in%  c('Asia Occidental','Europa del Norte','Europa del Sur', 'America del Sur', 'Europa Oriental', 'Europa Occidental', 'Asia del Sur', 'Sudeste Asiatico', 'Africa Oriental')) %>%
+  select(subcontinente, especializacion)
+
+cantidades <- indice_gathered_1_head_gathered %>%
+  group_by(subcontinente) %>%
+  filter(subcontinente %in%  c('Asia Occidental','Europa del Norte','Europa del Sur', 'America del Sur', 'Europa Oriental', 'Europa Occidental', 'Asia del Sur', 'Sudeste Asiatico', 'Africa Oriental')) %>%
+  summarize(mean(especializacion), n())
+
+
+```
+```{r, warning=FALSE, message = FALSE}
+
+
+kruskal.test(indice_gathered_1_head_gathered$especializacion~indice_gathered_1_head_gathered$subcontinente)
+```
+
+#### Test de Dunn
+
+```{r, warning=FALSE, message = FALSE}
+
+
+dunn.test(indice_gathered_1_head_gathered$especializacion, indice_gathered_1_head_gathered$subcontinente)
+
+```
+
+#### Aplicación de justes de Bonferroni y FDR
+
+```{r, warning=FALSE, message = FALSE, include = FALSE}
+
+dt <- dunn.test(indice_gathered_1_head_gathered$especializacion, indice_gathered_1_head_gathered$subcontinente)
+#options(scipen = 999)
+dunnTest2 <- as.data.frame(dt)
+p_valores <- dunnTest2$P
+
+
+bonferroni <- p.adjust(p_valores, method = "bonferroni", n = length(p_valores))
+fdr <- p.adjust(p_valores, method = "fdr", n = length(p_valores))
+
+
+```
+
+```{r, warning=FALSE, message = FALSE}
+
+
+as.data.frame(cbind(comparisons=dunnTest2$comparisons, pvalue_orig=round(dunnTest2$P,4), pvalue_fdr=round(fdr,4), pvalue_bonferroni=round(bonferroni,4)))
+
+
+
+```
+
+```{r, warning=FALSE, message = FALSE, include = FALSE}
+
+base_completa <- read_delim("C:/Users/Juan/Dropbox/POSGRADOS/Uba/99-Tesis/scripts/scripts/LDA/base_completa.csv",   "\t", escape_double = FALSE, col_types = cols(X1 = col_skip(), id_1 = col_skip()), trim_ws = TRUE)
+base_completa <- base_completa %>% rename('id'='id...2')
+
+paises_colaboracion <- read_delim("C:/Users/Juan/Dropbox/POSGRADOS/Uba/99-Tesis/scripts/scripts/LDA/paises_colaboracion.txt", "\t", escape_double = FALSE, trim_ws = TRUE)
+
+completo <-  base_completa %>% left_join(paises_colaboracion, c('id'='ut'))
+
+
+indicesmatch <- indices2 %>%
+  select(ISO2, especializacion_pct) %>%
+  mutate(especializacion_pct = especializacion_pct /100)
+
+#####LE SUMO GLOBAL GENDER GAP####
+completo <- completo %>% left_join(indicesmatch, by=c('ISO2'='ISO2'))
+completo$agrup <- 1
+
+
+```
+
+
+
+```{r, warning=FALSE, message = FALSE}
+
+
+
+topicos_relevantes <- completo %>%
+  select(-Titulo) %>%
+  select(id, Año, ISO2, continente, subcontinente, starts_with("Topic"), especializacion_pct= especializacion_pct)  %>%
+  filter(continente %in%  c('Europa','Asia', 'America', 'Africa', 'Oceania')) %>%
+  #### REEMPLAZO LOS VALORES MENORES a 0.001 por MISSING####  
+#mutate_all(funs(replace(., . <= 0.001, NA))) %>%
+filter(especializacion_pct > 0 ) %>%
+  filter(Año == 2016 | Año == 2017 | Año == 2018) %>%
+  gather(key = "topico", value = "participacion", -c(id, Año, ISO2, continente, subcontinente,especializacion_pct)) %>%
+  mutate(importancia_topico=(participacion * especializacion_pct)) %>%
+  group_by(ISO2, topico,continente,subcontinente) %>%
+  summarize(importancia_topico=mean(importancia_topico, na.rm=TRUE)*100, participacion=mean(participacion, na.rm=TRUE)*100, especializacion_pct=mean(especializacion_pct, na.rm=TRUE)*100, cantidad=n_distinct(id))  %>%
+  group_by(continente, subcontinente, ISO2, topico) %>%
+  summarize(importancia_topico=mean(importancia_topico, na.rm=TRUE), participacion=mean(participacion, na.rm=TRUE)/100, especializacion_pct=mean(especializacion_pct, na.rm=TRUE)/100, cantidad=cantidad)  %>%
+  filter (topico %in% c('Topic03',  'Topic06',  'Topic08',  'Topic09',   'Topic11',  'Topic12',  'Topic16',  
+                        'Topic17',  'Topic21',  'Topic30',  'Topic32',   'Topic33',  'Topic36',  'Topic38',  
+                        'Topic41',  'Topic43',  'Topic48',  'Topic52',   'Topic55',  'Topic59',  'Topic62',  
+                        'Topic72',  'Topic73',  'Topic84',  'Topic90',  'Topic92',  'Topic94',  'Topic96',  'Topic97',  'Topic99'))
+
+topicos_relevantes
+
+
+```
+
+
+
+
+
+
+
+
+### Global Gender Gap y Especialización en Estudios de Género
+
+
+```{r, warning=FALSE, message = FALSE}
+
+indices2 %>%
+  filter(ISO2 != c('VA')) %>%
+  filter(ISO2 != c('VU')) %>%
+  filter(ISO2 != c('WS')) %>%
+  #filter(continente.x %in%  c('Africa', 'America', 'Asia', 'Europa')) %>%
+  #filter(continente.x %in%  c('Africa')) %>%
+  ggplot(aes(x=Global_Index, y=especializacion, label=ISO2, color=continente)) +
+  #geom_point(size=5, shape=15, alpha=0.1) +
+  #  coord_cartesian(ylim = c(0.00, 0.04))  +
+  #  coord_cartesian(xlim = c(0.5, 0.9))  +
+  scale_color_manual(values = continentcolors) +
+  #geom_text(size=5, fontface = "bold") +
+  scale_y_continuous(labels = percent) +
+  #facet_wrap(~continente.x, scales = "fixed", ncol=2) +
+  theme(legend.title=element_blank(), legend.position="bottom") + 
+  labs (x="Global Gender Gap", y='Especialización en Estudios de Género') + geom_text(size=6) 
+
+
+
+```
+
+
+```{r, warning=FALSE, message = FALSE, include =FALSE}
+
+indices3 <- indices2 %>% 
+filter(ISO2 != c('VA')) %>%
+  filter(ISO2 != c('WS')) %>%
+  filter(ISO2 != c('VU'))%>% filter(!is.na(especializacion)) %>% mutate(especializacion=especializacion*100)
+
+
+
+
+```
+
+
+### Subindices de Global Gender Gap y Especialización en Estudios de Género
+
+```{r, warning=FALSE, message = FALSE}
+
+ggscatterhist(
+  indices3, x = "Economic_participation_and_opportunity", y = "especializacion", color = "continente", fill='continente', size = 6, alpha = 0.8, legend = "bottom",palette = continentcolors, margin.plot = "boxplot",  xlab = "Subindice GGG - Participación Económica y Oportunidades", ylab = 'Especialización en Estudios de Género',
+  ggtheme = theme(legend.title=element_blank(), legend.position="bottom") 
+)
+
+
+```
+
+#### Calculo de Correlaciones
+
+```{r, warning=FALSE, message = FALSE, include =FALSE}
+###CORRELACIONES#### - ARMADO DE BASE
+comparar <- indices2 %>%
+  select (country, ISO2, ISO3, continente, subcontinente, especializacion_pct, Global_Index, 
+          Economic_participation_and_opportunity, 
+          Educational_attainment, 
+          Health_and_survival, 
+          Political_Empowerment)
+
+
+```
+
+
+
+
+```{r, warning=FALSE, message = FALSE}
+
+
+  comparar %>% 
+  filter (!is.na(especializacion_pct) & !is.na(Global_Index)) %>% 
+  summarise(COR=cor(especializacion_pct,Global_Index), P_VALUE=cor.test(especializacion_pct, Global_Index)$p.value, count=n()) 
+
+
+```
+
+
+
+
+
