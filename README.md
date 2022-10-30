@@ -29,3 +29,8 @@ lda_model = pickle.load(open("./lda_model.pkl", "rb"))
 
 #### Se disponibiliza una app donde se pueden recorrer y analizar de manera dinamica los resultados encontrados
 https://juanpablosokil.shinyapps.io/Reporte_Tesis/
+
+
+
+#### El dia 14 de octubre se defendió la tesis
+https://www.youtube.com/watch?v=uUht_2R4Jhk&t=20s
